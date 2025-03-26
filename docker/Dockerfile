@@ -2,7 +2,6 @@ FROM osrf/ros:jazzy-desktop-full
 
 RUN apt update && apt upgrade -y
 RUN apt install ros-jazzy-joy ros-jazzy-teleop-twist-joy
-RUN apt install libaria3-utils
 WORKDIR /workspace
 ENV SHELL /bin/[bash]
 ENV ROS_DOMAIN_ID=2
