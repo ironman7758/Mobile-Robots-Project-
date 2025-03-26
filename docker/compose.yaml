@@ -1,0 +1,30 @@
+services:
+  joy:
+    image: mobrobproject:v1 # These variables come from a .env file in the same directory
+    container_name: joy
+    network_mode: host
+    #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
+    #build:
+    #  context: .
+    #  ssh: [ "default=$HOME/.ssh/id_rsa" ]
+    #  target: staging #pull from the current folder
+    tty: True
+    stdin_open: True
+#    command: ros2 launch master lowlevel.launch.py params_file:=/lowlevel_config
+    command: ros2 run joy joy_node
+    #configs:
+      # - lowlevel_config
+      #joy config here
+    volumes:
+#    - type: bind
+#      source: /dev/shm
+#      target: /dev/shm
+    - type: bind
+      source: /dev
+      target: /dev
+    - type: bind
+      source: ./ros_ws
+      target: /workspace/ros_ws
+    device_cgroup_rules: #alternative to devices
+    - 'c 188:* rmw'
+    - 'c 189:* rmw'

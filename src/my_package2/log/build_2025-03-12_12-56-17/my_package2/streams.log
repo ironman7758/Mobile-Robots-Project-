@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/lachlan/mobile/src/my_package2/build/my_package2': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lachlan/mobile/src/my_package2 -DCMAKE_INSTALL_PREFIX=/home/lachlan/mobile/src/my_package2/install/my_package2
+[0.178s] -- The C compiler identification is GNU 13.3.0
+[0.552s] -- The CXX compiler identification is GNU 13.3.0
+[0.987s] -- Detecting C compiler ABI info
+[1.145s] -- Detecting C compiler ABI info - done
+[1.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.152s] -- Detecting C compile features
+[1.153s] -- Detecting C compile features - done
+[1.196s] -- Detecting CXX compiler ABI info
+[1.321s] -- Detecting CXX compiler ABI info - done
+[1.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.327s] -- Detecting CXX compile features
+[1.328s] -- Detecting CXX compile features - done
+[1.334s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.429s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.522s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.522s]   ament_target_dependencies() the first argument must be a valid target name
+[1.522s] Call Stack (most recent call first):
+[1.522s]   CMakeLists.txt:15 (ament_target_dependencies)
+[1.522s] 
+[1.522s] [0m
+[1.522s] -- Configuring incomplete, errors occurred!
+[1.526s] Invoked command in '/home/lachlan/mobile/src/my_package2/build/my_package2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lachlan/mobile/src/my_package2 -DCMAKE_INSTALL_PREFIX=/home/lachlan/mobile/src/my_package2/install/my_package2

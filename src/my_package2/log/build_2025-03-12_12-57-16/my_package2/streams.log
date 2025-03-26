@@ -1,0 +1,27 @@
+[0.022s] Invoking command in '/home/lachlan/mobile/src/my_package2/build/my_package2': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lachlan/mobile/src/my_package2 -DCMAKE_INSTALL_PREFIX=/home/lachlan/mobile/src/my_package2/install/my_package2
+[0.110s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.401s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.615s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.616s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lachlan/mobile/src/my_package2/include>
+[0.616s] -- Configured cppcheck exclude dirs and/or files: 
+[0.619s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.619s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.622s] -- Added test 'lint_cmake' to check CMake code style
+[0.624s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.631s] -- Added test 'uncrustify' to check C / C++ code style
+[0.631s] -- Configured uncrustify additional arguments: 
+[0.633s] -- Added test 'xmllint' to check XML markup files
+[0.643s] -- Configuring done (0.6s)
+[0.657s] -- Generating done (0.0s)
+[0.661s] -- Build files have been written to: /home/lachlan/mobile/src/my_package2/build/my_package2
+[0.672s] Invoked command in '/home/lachlan/mobile/src/my_package2/build/my_package2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lachlan/mobile/src/my_package2 -DCMAKE_INSTALL_PREFIX=/home/lachlan/mobile/src/my_package2/install/my_package2
+[0.675s] Invoking command in '/home/lachlan/mobile/src/my_package2/build/my_package2': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lachlan/mobile/src/my_package2/build/my_package2 -- -j12 -l12
+[0.730s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node2.dir/src/my_node2.cpp.o[0m
+[0.796s] [01m[K/home/lachlan/mobile/src/my_package2/src/my_node2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.796s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.797s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.797s] compilation terminated.
+[0.799s] gmake[2]: *** [CMakeFiles/my_node2.dir/build.make:76: CMakeFiles/my_node2.dir/src/my_node2.cpp.o] Error 1
+[0.799s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node2.dir/all] Error 2
+[0.800s] gmake: *** [Makefile:146: all] Error 2
+[0.802s] Invoked command in '/home/lachlan/mobile/src/my_package2/build/my_package2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/lachlan/mobile/src/my_package2/build/my_package2 -- -j12 -l12
