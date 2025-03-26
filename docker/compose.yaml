@@ -11,7 +11,7 @@ services:
     tty: True
     stdin_open: True
 #    command: ros2 launch master lowlevel.launch.py params_file:=/lowlevel_config
-    command: ros2 run joy joy_node
+    command: ros2 run joy joy_node && ros2 run teleop_twist_joy teleop_node
     #configs:
       # - lowlevel_config
       #joy config here
@@ -25,6 +25,10 @@ services:
     - type: bind
       source: ./ros_ws
       target: /workspace/ros_ws
+    - type: bind
+      source: ../../../AriaCoda/
+      target: /workspace/AriaCoda
     device_cgroup_rules: #alternative to devices
     - 'c 188:* rmw'
     - 'c 189:* rmw'
+    - 'c 13:* rmw'
