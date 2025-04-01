@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/xmllint.xunit.xml
+
+File 'package.xml' is invalid:
+/workspace/ros_ws/src/ariaNode/package.xml:4: element name: Schemas validity error : Element 'name': [facet 'pattern'] The value 'ariaNode' is not accepted by the pattern '[a-z](_?[a-z0-9]+)*'.
+/workspace/ros_ws/src/ariaNode/package.xml fails to validate
+
+File 'install/ariaNode/share/ariaNode/package.xml' is invalid:
+/workspace/ros_ws/src/ariaNode/install/ariaNode/share/ariaNode/package.xml:4: element name: Schemas validity error : Element 'name': [facet 'pattern'] The value 'ariaNode' is not accepted by the pattern '[a-z](_?[a-z0-9]+)*'.
+/workspace/ros_ws/src/ariaNode/install/ariaNode/share/ariaNode/package.xml fails to validate
+
+2 files are invalid
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/xmllint.xunit.xml'

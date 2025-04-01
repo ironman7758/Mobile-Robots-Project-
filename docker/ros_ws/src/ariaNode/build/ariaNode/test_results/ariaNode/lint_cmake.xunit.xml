@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ariaNode.lint_cmake"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.002"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="ariaNode.lint_cmake"/>
+  <testcase
+    name="install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake"
+    classname="ariaNode.lint_cmake"/>
+  <testcase
+    name="install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake"
+    classname="ariaNode.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+* install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake</system-out>
+</testsuite>

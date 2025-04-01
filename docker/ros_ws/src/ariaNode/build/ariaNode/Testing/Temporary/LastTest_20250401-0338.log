@@ -1,0 +1,323 @@
+Start testing: Apr 01 03:38 UTC
+----------------------------------------------------------
+1/6 Testing: cppcheck
+1/6 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/cppcheck.xunit.xml" "--package-name" "ariaNode" "--output-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/cppcheck.xunit.xml"
+Directory: /workspace/ros_ws/src/ariaNode
+"cppcheck" start time: Apr 01 03:38 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/cppcheck.xunit.xml
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Apr 01 03:38 UTC
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: flake8
+2/6 Test: flake8
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/flake8.xunit.xml" "--package-name" "ariaNode" "--output-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/flake8.xunit.xml"
+Directory: /workspace/ros_ws/src/ariaNode
+"flake8" start time: Apr 01 03:38 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/flake8.xunit.xml
+
+2 files checked
+No problems found
+
+Checked files:
+
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/flake8.xunit.xml'
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"flake8" end time: Apr 01 03:38 UTC
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: lint_cmake
+3/6 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/lint_cmake.xunit.xml" "--package-name" "ariaNode" "--output-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/lint_cmake.xunit.xml"
+Directory: /workspace/ros_ws/src/ariaNode
+"lint_cmake" start time: Apr 01 03:38 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Apr 01 03:38 UTC
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: pep257
+4/6 Test: pep257
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/pep257.xunit.xml" "--package-name" "ariaNode" "--output-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/pep257.xunit.xml"
+Directory: /workspace/ros_ws/src/ariaNode
+"pep257" start time: Apr 01 03:38 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/pep257.xunit.xml
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/pep257.xunit.xml'
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Apr 01 03:38 UTC
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: uncrustify
+5/6 Test: uncrustify
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/uncrustify.xunit.xml" "--package-name" "ariaNode" "--output-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/uncrustify.xunit.xml"
+Directory: /workspace/ros_ws/src/ariaNode
+"uncrustify" start time: Apr 01 03:38 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/uncrustify.xunit.xml
+Code style divergence in file 'src/ariaNode.cpp':
+
+--- src/ariaNode.cpp
++++ src/ariaNode.cpp.uncrustify
+@@ -1 +1 @@
+-/*  
++/*
+@@ -32,4 +32,6 @@
+-    public:
+-        ariaNode(float* forwardSpeed, float* rotationSpeed) : Node("Aria_node") {
+-            currentForwardSpeed = forwardSpeed;
+-            currentRotationSpeed = rotationSpeed;
++public:
++  ariaNode(float * forwardSpeed, float * rotationSpeed)
++  : Node("Aria_node")
++  {
++    currentForwardSpeed = forwardSpeed;
++    currentRotationSpeed = rotationSpeed;
+@@ -37 +39 @@
+-            cmdVelSub = create_subscription<geometry_msgs::msg::Twist> (
++    cmdVelSub = create_subscription<geometry_msgs::msg::Twist>(
+@@ -39,2 +41,2 @@
+-            );    
+-        }
++    );
++  }
+@@ -42,5 +44,3 @@
+-    private:
+-        void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg) {
+-            
+-            double linearSpeed = msg->linear.x;
+-            double angularSpeed = msg->angular.z;
++private:
++  void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
++  {
+@@ -48,2 +48,2 @@
+-            *currentForwardSpeed = linearSpeed;
+-            *currentRotationSpeed = angularSpeed;
++    double linearSpeed = msg->linear.x;
++    double angularSpeed = msg->angular.z;
+@@ -51 +51,2 @@
+-            RCLCPP_DEBUG(this->get_logger(), "message received.");
++    *currentForwardSpeed = linearSpeed;
++    *currentRotationSpeed = angularSpeed;
+@@ -53 +54 @@
+-        }
++    RCLCPP_DEBUG(this->get_logger(), "message received.");
+@@ -55,4 +56,6 @@
+-        rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
+-        float* currentForwardSpeed;
+-        float* currentRotationSpeed;
+-    
++  }
++
++  rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
++  float * currentForwardSpeed;
++  float * currentRotationSpeed;
++
+@@ -62,3 +65,4 @@
+-void my_handler(int s){
+-           printf("Caught signal %d\n",s);
+-           stopRunning = true;
++void my_handler(int s)
++{
++  printf("Caught signal %d\n", s);
++  stopRunning = true;
+@@ -67,2 +71,3 @@
+-int main(int argc, char** argv) {
+-    rclcpp::init(argc, argv);
++int main(int argc, char ** argv)
++{
++  rclcpp::init(argc, argv);
+@@ -70,5 +75,5 @@
+-    Aria::init();
+-    ArArgumentParser parser(&argc, argv);
+-    parser.loadDefaultArguments();
+-    ArRobot* robot;
+-    robot = new ArRobot();
++  Aria::init();
++  ArArgumentParser parser(&argc, argv);
++  parser.loadDefaultArguments();
++  ArRobot * robot;
++  robot = new ArRobot();
+@@ -76,2 +81,2 @@
+-    signal(SIGINT, my_handler);
+-    
++  signal(SIGINT, my_handler);
++
+@@ -79,7 +84,6 @@
+-    ArRobotConnector robotConnector(&parser, robot);
+-    if(!robotConnector.connectRobot()) {
+-        ArLog::log(ArLog::Terse, "simpleConnect: Could not connect to the robot.");
+-        if(parser.checkHelpAndWarnUnparsed()) {
+-            Aria::logOptions();
+-            Aria::exit(1);
+-        }
++  ArRobotConnector robotConnector(&parser, robot);
++  if(!robotConnector.connectRobot()) {
++    ArLog::log(ArLog::Terse, "simpleConnect: Could not connect to the robot.");
++    if(parser.checkHelpAndWarnUnparsed()) {
++      Aria::logOptions();
++      Aria::exit(1);
+@@ -86,0 +91 @@
++  }
+@@ -88 +93 @@
+-    robot->setAbsoluteMaxTransVel(400);
++  robot->setAbsoluteMaxTransVel(400);
+@@ -90,4 +95,4 @@
+-    float forwardSpeed = 0.0;
+-    float rotationSpeed = 0.0;
+-    
+-    
++  float forwardSpeed = 0.0;
++  float rotationSpeed = 0.0;
++
++
+@@ -95 +100 @@
+-    robot->runAsync(true);
++  robot->runAsync(true);
+@@ -97 +102 @@
+-    robot->enableMotors();
++  robot->enableMotors();
+@@ -99,2 +104,2 @@
+-    auto aNode = std::make_shared<ariaNode>(&forwardSpeed, &rotationSpeed);
+-    RCLCPP_DEBUG(aNode->get_logger(),"Before Spin!...");
++  auto aNode = std::make_shared<ariaNode>(&forwardSpeed, &rotationSpeed);
++  RCLCPP_DEBUG(aNode->get_logger(), "Before Spin!...");
+@@ -104 +109 @@
+-     *   that continuously spins the node to update velocities which are 
++     *   that continuously spins the node to update velocities which are
+@@ -107,2 +112,2 @@
+-    while (!stopRunning) {
+-        rclcpp::spin_some(aNode);
++  while (!stopRunning) {
++    rclcpp::spin_some(aNode);
+@@ -110,4 +115,4 @@
+-            robot->lock();
+-            robot->setVel(forwardSpeed * 500);
+-            robot->setRotVel(rotationSpeed * 50);
+-            robot->unlock();
++    robot->lock();
++    robot->setVel(forwardSpeed * 500);
++    robot->setRotVel(rotationSpeed * 50);
++    robot->unlock();
+@@ -117,2 +122,2 @@
+-    }
+-    RCLCPP_DEBUG(aNode->get_logger(), "After Spin");
++  }
++  RCLCPP_DEBUG(aNode->get_logger(), "After Spin");
+@@ -120,2 +125,2 @@
+-    robot->disableMotors();
+-    robot->stopRunning();
++  robot->disableMotors();
++  robot->stopRunning();
+@@ -123 +128 @@
+-    robot->waitForRunExit();
++  robot->waitForRunExit();
+@@ -126,4 +131,4 @@
+-    RCLCPP_DEBUG(aNode->get_logger(), "ending Aria node");
+-    Aria::exit(0);
+-    return 0;
+-}
++  RCLCPP_DEBUG(aNode->get_logger(), "ending Aria node");
++  Aria::exit(0);
++  return 0;
++}
+
+1 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"uncrustify" end time: Apr 01 03:38 UTC
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: xmllint
+6/6 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/xmllint.xunit.xml" "--package-name" "ariaNode" "--output-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/xmllint.xunit.xml"
+Directory: /workspace/ros_ws/src/ariaNode
+"xmllint" start time: Apr 01 03:38 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/xmllint.xunit.xml
+File 'package.xml' is invalid:
+/workspace/ros_ws/src/ariaNode/package.xml:4: element name: Schemas validity error : Element 'name': [facet 'pattern'] The value 'ariaNode' is not accepted by the pattern '[a-z](_?[a-z0-9]+)*'.
+/workspace/ros_ws/src/ariaNode/package.xml fails to validate
+
+File 'install/ariaNode/share/ariaNode/package.xml' is invalid:
+/workspace/ros_ws/src/ariaNode/install/ariaNode/share/ariaNode/package.xml:4: element name: Schemas validity error : Element 'name': [facet 'pattern'] The value 'ariaNode' is not accepted by the pattern '[a-z](_?[a-z0-9]+)*'.
+/workspace/ros_ws/src/ariaNode/install/ariaNode/share/ariaNode/package.xml fails to validate
+
+2 files are invalid
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/xmllint.xunit.xml'
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Failed.
+"xmllint" end time: Apr 01 03:38 UTC
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Apr 01 03:38 UTC
+
+cppcheck =   0.16 sec*proc
+
+flake8 =   0.42 sec*proc
+
+lint_cmake =   0.13 sec*proc
+
+linter =   2.71 sec*proc
+
+pep257 =   0.21 sec*proc
+
+uncrustify =   0.16 sec*proc
+
+xmllint =   1.62 sec*proc
+

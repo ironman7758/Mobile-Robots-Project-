@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/ariaNode/build/ariaNode/ament_cmake_core/ariaNodeConfig-version.cmake

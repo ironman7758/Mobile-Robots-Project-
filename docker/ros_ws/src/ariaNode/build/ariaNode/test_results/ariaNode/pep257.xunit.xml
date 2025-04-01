@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ariaNode.pep257"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.050"
+>
+  <testcase
+    name="./install/_local_setup_util_ps1.py"
+    classname="ariaNode.pep257"/>
+  <testcase
+    name="./install/_local_setup_util_sh.py"
+    classname="ariaNode.pep257"/>
+  <system-out>Checked files:
+* ./install/_local_setup_util_ps1.py
+* ./install/_local_setup_util_sh.py</system-out>
+</testsuite>

@@ -1,6 +1,6 @@
 services:
   joy:
-    image: mobrobproject:v1 # These variables come from a .env file in the same directory
+    image: mobrobproject:v2 # These variables come from a .env file in the same directory
     container_name: joy
     network_mode: host
     #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
