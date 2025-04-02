@@ -1,8 +1,11 @@
 -- build container
 docker build -t <name> .
+docker compose build
+docker compose up
 
 --run and attach on terminal
-docker run -it <name> bash
+docker exec -it <name> /bin/bash
 
 -- source ros if lost
 source /opt/ros/jazzy/setup.bash
+
