@@ -25,9 +25,6 @@ services:
     - type: bind
       source: ./ros_ws
       target: /workspace/ros_ws
-    - type: bind
-      source: ../../../AriaCoda/
-      target: /workspace/AriaCoda
     device_cgroup_rules: #alternative to devices
     - 'c 188:* rmw'
     - 'c 189:* rmw'

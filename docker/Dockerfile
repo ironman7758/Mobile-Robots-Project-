@@ -6,6 +6,9 @@ RUN git clone https://github.com/reedhedges/AriaCoda.git /workspace/AriaCoda
 WORKDIR /workspace/AriaCoda
 RUN sudo make && sudo make install-default 
 RUN export LD_LIBRARY_PATH=`pwd`/lib
+ADD ariaNode /workspace/ariaNode
+WORKDIR /workspace/ariaNode
+RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash; colcon build --symlink-install"
 WORKDIR /workspace
 ENV SHELL=/bin/[bash]
 ENV ROS_DOMAIN_ID=2

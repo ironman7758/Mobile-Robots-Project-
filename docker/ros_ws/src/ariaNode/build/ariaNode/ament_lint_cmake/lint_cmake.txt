@@ -1,9 +1,0 @@
--- run_test.py: invoking following command in '/workspace/ros_ws/src/ariaNode':
- - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/lint_cmake.xunit.xml
-
-
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/workspace/ros_ws/src/ariaNode/build/ariaNode/test_results/ariaNode/lint_cmake.xunit.xml'
