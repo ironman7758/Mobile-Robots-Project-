@@ -15,3 +15,7 @@ ENV ROS_DOMAIN_ID=2
 # ********************************************************
 # * Anything else you want to do like clean up goes here *
 # ********************************************************
+
+
+#adding package config files
+ADD configs/ps4.config.yaml /opt/ros/jazzy/share/teleop_twist_joy/config/

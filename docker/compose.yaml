@@ -18,7 +18,7 @@ services:
     volumes:
 #    - type: bind
 #      source: /dev/shm
-#      target: /dev/shm
+#      target: dev/shm
     - type: bind
       source: /dev
       target: /dev
@@ -29,4 +29,4 @@ services:
     - 'c 188:* rmw'
     - 'c 189:* rmw'
     - 'c 13:* rmw'
-    - 'c 4:* rmw'
+    #- 'c 4:* rmw'
