@@ -1,0 +1,40 @@
+[0.026s] Invoking command in '/workspace/ros_ws/src/build/my_package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/my_package2 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/my_package2
+[0.077s] -- The C compiler identification is GNU 13.3.0
+[0.127s] -- The CXX compiler identification is GNU 13.3.0
+[0.142s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.361s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.367s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.521s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.662s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.771s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.771s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/ros_ws/src/my_package2/include>
+[0.772s] -- Configured cppcheck exclude dirs and/or files: 
+[0.773s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.773s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.774s] -- Added test 'lint_cmake' to check CMake code style
+[0.775s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.781s] -- Added test 'uncrustify' to check C / C++ code style
+[0.781s] -- Configured uncrustify additional arguments: 
+[0.782s] -- Added test 'xmllint' to check XML markup files
+[0.784s] -- Configuring done (0.7s)
+[0.788s] -- Generating done (0.0s)
+[0.792s] -- Build files have been written to: /workspace/ros_ws/src/build/my_package2
+[0.802s] Invoked command in '/workspace/ros_ws/src/build/my_package2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/my_package2 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/my_package2
+[0.804s] Invoking command in '/workspace/ros_ws/src/build/my_package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/my_package2 -- -j12 -l12
+[0.854s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node2.dir/src/my_node2.cpp.o[0m
+[0.866s] [01m[K/workspace/ros_ws/src/my_package2/src/my_node2.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.866s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.867s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.867s] compilation terminated.
+[0.867s] gmake[2]: *** [CMakeFiles/my_node2.dir/build.make:76: CMakeFiles/my_node2.dir/src/my_node2.cpp.o] Error 1
+[0.867s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_node2.dir/all] Error 2
+[0.867s] gmake: *** [Makefile:146: all] Error 2
+[0.875s] Invoked command in '/workspace/ros_ws/src/build/my_package2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/my_package2 -- -j12 -l12

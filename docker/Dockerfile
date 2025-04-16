@@ -16,6 +16,7 @@ RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash; colcon build --symlink-insta
 
 #Install Sick lidar packages
 RUN apt update && apt install ros-jazzy-sick-scan-xd -y
+RUN apt update && apt install ros-jazzy-gps-msgs ros-jazzy-gps-tools
 
 ##Final setup
 WORKDIR /workspace
