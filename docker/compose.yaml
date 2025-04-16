@@ -1,7 +1,8 @@
 services:
+#Name of the container:
   joy:
-    image: mobrobproject:v2 # These variables come from a .env file in the same directory
-    container_name: joy
+    image: mobrobproject:v2 #Name of the image
+    container_name: joy #Name of the container
     network_mode: host
     #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
     #build:
@@ -10,11 +11,14 @@ services:
     #  target: staging #pull from the current folder
     tty: True
     stdin_open: True
-#    command: ros2 launch master lowlevel.launch.py params_file:=/lowlevel_config
+    #command: ros2 launch master lowlevel.launch.py params_file:=/lowlevel_config
+    #This container open to run this node
     command: ros2 run joy joy_node #&& ros2 run teleop_twist_joy teleop_node
     #configs:
       # - lowlevel_config
       #joy config here
+
+    #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
 #    - type: bind
 #      source: /dev/shm
@@ -25,7 +29,9 @@ services:
     - type: bind
       source: ./ros_ws
       target: /workspace/ros_ws
-    device_cgroup_rules: #alternative to devices
+
+    #cgroup rules allow devices to be passed into the container
+    device_cgroup_rules:
     - 'c 188:* rmw'
     - 'c 189:* rmw'
     - 'c 13:* rmw'
