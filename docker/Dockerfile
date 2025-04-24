@@ -34,3 +34,14 @@ ENV ROS_DOMAIN_ID=2
 #########Package config files#######
 #This is a specific config for the ps4 controller so joy can read it
 ADD configs/ps4.config.yaml /opt/ros/jazzy/share/teleop_twist_joy/config/
+#########Nav configs################
+#launch files
+ADD configs/localization_launch.py /opt/ros/jazzy/share/robot_localization/launch/
+ADD configs/navigation_launch.py /opt/ros/jazzy/share/nav2_bringup/launch/
+ADD configs/navsat_transform.launch.py /opt/ros/jazzy/share/robot_localization/launch/
+#configs
+ADD configs/nav2_params.yaml /opt/ros/jazzy/share/nav2_bringup/params/
+ADD configs/navsat_transform.yaml /opt/ros/jazzy/share/robot_localization/params/
+##########W#A#Y#P#O#I#N#T#######################
+ADD configs/waypoints.yaml /opt/ros/jazzy/share/
+#################################################

@@ -1,23 +1,14 @@
 services:
 #Name of the container:
-  joy:
-    image: mobrobproject:v2 #Name of the image
-    container_name: joy #Name of the container
+  joycon:
+    image: mobrobproject:v3 #Name of the image
+    container_name: joycon #Name of the container
     network_mode: host
     #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
-    #build:
-    #  context: .
-    #  ssh: [ "default=$HOME/.ssh/id_rsa" ]
-    #  target: staging #pull from the current folder
     tty: True
     stdin_open: True
-    #command: ros2 launch master lowlevel.launch.py params_file:=/lowlevel_config
     #This container open to run this node
     command: ros2 run joy joy_node #&& ros2 run teleop_twist_joy teleop_node
-    #configs:
-      # - lowlevel_config
-      #joy config here
-
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
 #    - type: bind
@@ -29,7 +20,130 @@ services:
     - type: bind
       source: ./ros_ws
       target: /workspace/ros_ws
+    - type: bind
+      source: ./configs
+      target: /workspace/configs
+    #cgroup rules allow devices to be passed into the container
+    device_cgroup_rules:
+    - 'c 188:* rmw'
+    - 'c 189:* rmw'
+    - 'c 13:* rmw'
+    #- 'c 4:* rmw'
 
+  Twister:
+    image: mobrobproject:v3 #Name of the image
+    container_name: twist #Name of the container
+    network_mode: host
+    #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
+    tty: True
+    stdin_open: True
+    #This container open to run this node
+    command: ros2 run teleop_twist_joy teleop_node
+    #The volumes here (Specifically 'bind') mount existing folders to the container
+    volumes:
+#    - type: bind
+#      source: /dev/shm
+#      target: dev/shm
+    - type: bind
+      source: /dev
+      target: /dev
+    - type: bind
+      source: ./ros_ws
+      target: /workspace/ros_ws
+    - type: bind
+      source: ./configs
+      target: /workspace/configs
+    #cgroup rules allow devices to be passed into the container
+    device_cgroup_rules:
+    - 'c 188:* rmw'
+    - 'c 189:* rmw'
+    - 'c 13:* rmw'
+    #- 'c 4:* rmw'
+
+  rlocal:
+    image: mobrobproject:v3 #Name of the image
+    container_name: rlocal #Name of the container
+    network_mode: host
+    #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
+    tty: True
+    stdin_open: True
+    #This container open to run this node
+    command: ros2 launch robot_localization navsat_transform.launch.py #&& ros2 run teleop_twist_joy teleop_node
+    #The volumes here (Specifically 'bind') mount existing folders to the container
+    volumes:
+#    - type: bind
+#      source: /dev/shm
+#      target: dev/shm
+    - type: bind
+      source: /dev
+      target: /dev
+    - type: bind
+      source: ./ros_ws
+      target: /workspace/ros_ws
+    - type: bind
+      source: ./configs
+      target: /workspace/configs
+    #cgroup rules allow devices to be passed into the container
+    device_cgroup_rules:
+    - 'c 188:* rmw'
+    - 'c 189:* rmw'
+    - 'c 13:* rmw'
+    #- 'c 4:* rmw'
+
+  Nav2:
+    image: mobrobproject:v3 #Name of the image
+    container_name: nav2 #Name of the container
+    network_mode: host
+    #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
+    tty: True
+    stdin_open: True
+    #This container open to run this node
+    command: ros2 launch nav2_bringup localization_launch.py  #&& ros2 run teleop_twist_joy teleop_node
+    #The volumes here (Specifically 'bind') mount existing folders to the container
+    volumes:
+#    - type: bind
+#      source: /dev/shm
+#      target: dev/shm
+    - type: bind
+      source: /dev
+      target: /dev
+    - type: bind
+      source: ./ros_ws
+      target: /workspace/ros_ws
+    - type: bind
+      source: ./configs
+      target: /workspace/configs
+    #cgroup rules allow devices to be passed into the container
+    device_cgroup_rules:
+    - 'c 188:* rmw'
+    - 'c 189:* rmw'
+    - 'c 13:* rmw'
+    #- 'c 4:* rmw'
+
+
+  Aria:
+    image: mobrobproject:v3 #Name of the image
+    container_name: Aria #Name of the container
+    network_mode: host
+    #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
+    tty: True
+    stdin_open: True
+    #This container open to run this node
+    #command: /bin/bash #source ariaNode/install/setup.bash && ros2 run ariaNode ariaNode -rp /dev/ttyUSB0
+    #The volumes here (Specifically 'bind') mount existing folders to the container
+    volumes:
+#    - type: bind
+#      source: /dev/shm
+#      target: dev/shm
+    - type: bind
+      source: /dev
+      target: /dev
+    - type: bind
+      source: ./ros_ws
+      target: /workspace/ros_ws
+    - type: bind
+      source: ./configs
+      target: /workspace/configs
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'
