@@ -1,0 +1,16 @@
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_c: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_cpp: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_c: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_cpp: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_py: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs_library: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_py: No such file or directory
+/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs_library: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:191: master_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

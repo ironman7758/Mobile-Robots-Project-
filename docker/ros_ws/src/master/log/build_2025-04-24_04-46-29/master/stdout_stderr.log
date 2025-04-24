@@ -1,0 +1,33 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreTwist::[01;32m[KreTwist[m[K(bool*, float*, float*)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   45 |     [01;31m[Ka[m[K = active;
+      |     [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+   46 |     [01;31m[Kf[m[K = fspeed;
+      |     [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ was not declared in this scope
+   47 |     [01;31m[Kr[m[K = rspeed;
+      |     [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:53:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ is not captured
+   53 |         message.linear.x = [01;31m[Kf[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   50 |       [this[01;36m[K][m[K() -> void
+      |            [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:46:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>f[m[K’ declared here
+   46 |     [01;36m[Kf[m[K = fspeed;
+      |     [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:54:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ is not captured
+   54 |         message.angular.z = [01;31m[Kr[m[K;
+      |                             [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   50 |       [this[01;36m[K][m[K() -> void
+      |            [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:47:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>r[m[K’ declared here
+   47 |     [01;36m[Kr[m[K = rspeed;
+      |     [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,35 @@
+[33mCMake Warning at CMakeLists.txt:15 (find_package):
+  By not providing "Findros.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "ros", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "ros" with any of
+  the following names:
+
+    rosConfig.cmake
+    ros-config.cmake
+
+  Add the installation prefix of "ros" to CMAKE_PREFIX_PATH or set "ros_DIR"
+  to a directory containing one of the above files.  If "ros" provides a
+  separate development package or SDK, be sure it has been installed.
+
+[0m
+[31mCMake Error at /opt/ros/jazzy/share/teleop_twist_joy/cmake/export_teleop_twist_joyExport.cmake:61 (set_target_properties):
+  The link interface of target "teleop_twist_joy::teleop_twist_joy" contains:
+
+    sensor_msgs::sensor_msgs__rosidl_generator_c
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+Call Stack (most recent call first):
+  /opt/ros/jazzy/share/teleop_twist_joy/cmake/ament_cmake_export_targets-extras.cmake:9 (include)
+  /opt/ros/jazzy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[1.960s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreTwist::[01;32m[KreTwist[m[K(bool*, float*, float*)[m[K’:
+[1.960s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+[1.960s]    45 |     [01;31m[Ka[m[K = active;
+[1.960s]       |     [01;31m[K^[m[K
+[1.964s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+[1.964s]    46 |     [01;31m[Kf[m[K = fspeed;
+[1.964s]       |     [01;31m[K^[m[K
+[1.968s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ was not declared in this scope
+[1.968s]    47 |     [01;31m[Kr[m[K = rspeed;
+[1.968s]       |     [01;31m[K^[m[K
+[1.969s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[1.969s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:53:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ is not captured
+[1.969s]    53 |         message.linear.x = [01;31m[Kf[m[K;
+[1.969s]       |                            [01;31m[K^[m[K
+[1.969s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.969s]    50 |       [this[01;36m[K][m[K() -> void
+[1.970s]       |            [01;36m[K^[m[K
+[1.970s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:46:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>f[m[K’ declared here
+[1.970s]    46 |     [01;36m[Kf[m[K = fspeed;
+[1.970s]       |     [01;36m[K^[m[K
+[1.970s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:54:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ is not captured
+[1.970s]    54 |         message.angular.z = [01;31m[Kr[m[K;
+[1.970s]       |                             [01;31m[K^[m[K
+[1.971s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:12:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.971s]    50 |       [this[01;36m[K][m[K() -> void
+[1.971s]       |            [01;36m[K^[m[K
+[1.971s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:47:5:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>r[m[K’ declared here
+[1.971s]    47 |     [01;36m[Kr[m[K = rspeed;
+[1.971s]       |     [01;36m[K^[m[K
+[4.024s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+[4.024s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[4.025s] gmake: *** [Makefile:146: all] Error 2
+[4.027s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12

@@ -7,9 +7,15 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
+find_package(rclcpp_components REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(teleop_twist_joy REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -22,5 +28,18 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
+add_executable(master_node src/theMaster.cpp)
+ament_target_dependencies(master_node 
+"rclcpp_components" 
+"rclcpp" 
+"std_msgs"
+"geometry_msgs"
+"teleop_twist_joy"
+)
+
+install(TARGETS
+  master_node
+  DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

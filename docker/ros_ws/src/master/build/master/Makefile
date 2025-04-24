@@ -197,6 +197,43 @@ master_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_uninstall.dir/build.make CMakeFiles/master_uninstall.dir/build
 .PHONY : master_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named master_node
+
+# Build rule for target.
+master_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 master_node
+.PHONY : master_node
+
+# fast build rule for target.
+master_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/build
+.PHONY : master_node/fast
+
+src/theMaster.o: src/theMaster.cpp.o
+.PHONY : src/theMaster.o
+
+# target to build an object file
+src/theMaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/theMaster.cpp.o
+.PHONY : src/theMaster.cpp.o
+
+src/theMaster.i: src/theMaster.cpp.i
+.PHONY : src/theMaster.i
+
+# target to preprocess a source file
+src/theMaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/theMaster.cpp.i
+.PHONY : src/theMaster.cpp.i
+
+src/theMaster.s: src/theMaster.cpp.s
+.PHONY : src/theMaster.s
+
+# target to generate assembly for a file
+src/theMaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/master_node.dir/build.make CMakeFiles/master_node.dir/src/theMaster.cpp.s
+.PHONY : src/theMaster.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... master_uninstall"
 	@echo "... uninstall"
+	@echo "... master_node"
+	@echo "... src/theMaster.o"
+	@echo "... src/theMaster.i"
+	@echo "... src/theMaster.s"
 .PHONY : help
 
 

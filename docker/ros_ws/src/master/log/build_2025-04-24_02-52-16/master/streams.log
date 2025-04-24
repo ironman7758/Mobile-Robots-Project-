@@ -1,0 +1,164 @@
+[0.015s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.052s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.390s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.440s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.451s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.620s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.721s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.813s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.838s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.862s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.059s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.059s] -- Configured cppcheck include dirs: 
+[1.059s] -- Configured cppcheck exclude dirs and/or files: 
+[1.061s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.061s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.062s] -- Added test 'lint_cmake' to check CMake code style
+[1.066s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.078s] -- Added test 'uncrustify' to check C / C++ code style
+[1.079s] -- Configured uncrustify additional arguments: 
+[1.081s] -- Added test 'xmllint' to check XML markup files
+[1.082s] -- Configuring done (1.0s)
+[1.094s] -- Generating done (0.0s)
+[1.101s] -- Build files have been written to: /workspace/ros_ws/src/master/build/master
+[1.156s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[4.405s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:26:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+[4.405s]    26 |           void cmdVelCallback(const [01;31m[Kgeometry_msgs[m[K:msg::Twist::SharedPtr msg)
+[4.405s]       |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[4.406s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:26:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K:[m[K’ token
+[4.406s]    26 |           void cmdVelCallback(const geometry_msgs[01;31m[K:[m[Kmsg::Twist::SharedPtr msg)
+[4.406s]       |                                                  [01;31m[K^[m[K
+[4.408s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:35:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[4.408s]    35 |           [01;31m[Krclcpp[m[K:Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
+[4.408s]       |           [01;31m[K^~~~~~[m[K
+[4.409s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:38:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[4.409s]    38 |   }
+[4.409s]       |    [01;31m[K^[m[K
+[4.409s]       |    [32m[K;[m[K
+[4.418s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[Kmnodes::vMaster::[01;32m[KvMaster[m[K(float*, float*)[m[K’:
+[4.418s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[KcmdVelSub[m[K’ was not declared in this scope
+[4.418s]    21 |             [01;31m[KcmdVelSub[m[K = create_subscription<geometry_msgs::msg::Twist> (
+[4.418s]       |             [01;31m[K^~~~~~~~~[m[K
+[4.418s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KtheMaster[m[K’ has not been declared
+[4.418s]    22 |               "cmd_vel", 10, std::bind(&[01;31m[KtheMaster[m[K::cmdVelCallback, this, std::placeholders::_1)
+[4.418s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[4.419s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In member function ‘[01m[Kvoid mnodes::vMaster::[01;32m[KcmdVelCallback[m[K(int)[m[K’:
+[4.419s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[4.419s]    28 |             double linearSpeed = [01;31m[Kmsg[m[K->linear.x;
+[4.420s]       |                                  [01;31m[K^~~[m[K
+[4.420s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:28:34:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.420s] In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+[4.420s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+[4.420s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+[4.420s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.420s]                  from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:8[m[K:
+[4.421s] [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[4.421s]    30 | namespace [01;36m[Kmsg[m[K
+[4.421s]       |           [01;36m[K^~~[m[K
+[4.421s] In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+[4.421s]                  from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[4.421s] [01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[4.421s]    30 | namespace [01;36m[Kmsg[m[K
+[4.421s]       |           [01;36m[K^~~[m[K
+[4.422s] [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+[4.422s]    34 | namespace [01;36m[Kmsg[m[K
+[4.422s]       |           [01;36m[K^~~[m[K
+[4.422s] In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+[4.422s]                  from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[4.422s]                  from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[4.422s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[4.422s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.423s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[4.424s] [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[4.424s]    30 | namespace [01;36m[Kmsg[m[K
+[4.424s]       |           [01;36m[K^~~[m[K
+[4.424s] In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24[m[K,
+[4.424s]                  from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[4.424s]                  from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:9[m[K:
+[4.425s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[4.425s]    30 | namespace [01;36m[Kmsg[m[K
+[4.425s]       |           [01;36m[K^~~[m[K
+[4.425s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kvoid mnodes::[01;32m[Kmy_handler[m[K(int)[m[K’:
+[4.425s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[KstopRunning[m[K’ was not declared in this scope
+[4.425s]    43 |     [01;31m[KstopRunning[m[K = true;
+[4.426s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[4.439s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kint mnodes::[01;32m[Kmain[m[K(int, char**)[m[K’:
+[4.439s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:51:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&)[m[K’
+[4.439s]    51 |     [01;31m[Krclcpp::spin(vel_out)[m[K;
+[4.439s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[4.440s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[4.440s]    58 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[4.440s]       | [01;36m[K^~~~[m[K
+[4.440s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[4.440s]    58 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[4.440s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.441s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(Node::SharedPtr)[m[K’
+[4.441s]    62 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[4.441s]       | [01;36m[K^~~~[m[K
+[4.441s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[4.441s]    62 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[4.441s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.445s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[4.445s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:18:[m[K [01;31m[Kerror: [m[K‘[01m[KaNode[m[K’ was not declared in this scope; did you mean ‘[01m[KVNode[m[K’?
+[4.445s]    57 |     RCLCPP_DEBUG([01;31m[KaNode[m[K->get_logger(),"Before Spin!...");
+[4.445s]       |                  [01;31m[K^~~~~[m[K
+[4.446s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.446s]    57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+[4.446s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.446s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.446s]    57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+[4.446s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[4.447s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.447s]    57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+[4.447s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.185s] In file included from [01m[K/usr/include/c++/13/bits/alloc_traits.h:33[m[K,
+[5.185s]                  from [01m[K/usr/include/c++/13/ext/alloc_traits.h:34[m[K,
+[5.185s]                  from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:39[m[K,
+[5.185s]                  from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+[5.185s]                  from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+[5.185s]                  from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+[5.185s]                  from [01m[K/usr/include/c++/13/functional:63[m[K,
+[5.186s]                  from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:3[m[K:
+[5.186s] /usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = geometry_msgs::msg::Twist_<allocator<void> >; _Args = {const char (&)[11]}][m[K[m[K’:
+[5.186s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = geometry_msgs::msg::Twist_<std::allocator<void> >; _Args = {const char (&)[11]}; allocator_type = std::allocator<void>][m[K[m[K’
+[5.186s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[5.186s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[5.186s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[5.186s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >][m[K[m[K’
+[5.186s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = geometry_msgs::msg::Twist_<allocator<void> >; _Args = {const char (&)[11]}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = geometry_msgs::msg::Twist_<allocator<void> >][m[K[m[K’
+[5.186s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:63:[m[K   required from here
+[5.186s] [01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::Twist_(const char [11])[m[K’
+[5.186s]   119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+[5.186s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.186s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:51:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Twist_<ContainerAllocator>::[01;32m[KTwist_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[5.186s]    51 |   explicit [01;36m[KTwist_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[5.187s]       |            [01;36m[K^~~~~~[m[K
+[5.187s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:51:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+[5.187s]    51 |   explicit Twist_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[5.187s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.187s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:44:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Twist_<ContainerAllocator>::[01;32m[KTwist_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+[5.187s]    44 |   explicit [01;36m[KTwist_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[5.187s]       |            [01;36m[K^~~~~~[m[K
+[5.187s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:44:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+[5.187s]    44 |   explicit Twist_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+[5.187s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.187s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Twist_<std::allocator<void> >::[01;32m[KTwist_[m[K(const geometry_msgs::msg::Twist_<std::allocator<void> >&)[m[K’
+[5.187s]    40 | struct [01;36m[KTwist_[m[K
+[5.187s]       |        [01;36m[K^~~~~~[m[K
+[5.187s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’
+[5.187s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Twist_<std::allocator<void> >::[01;32m[KTwist_[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >&&)[m[K’
+[5.188s] [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >&&[m[K’
+[5.311s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+[5.312s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[5.312s] gmake: *** [Makefile:146: all] Error 2
+[5.314s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
