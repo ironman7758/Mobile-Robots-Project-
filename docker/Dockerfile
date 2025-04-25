@@ -30,6 +30,7 @@ RUN apt update && apt install ros-jazzy-gps-msgs ros-jazzy-gps-tools -y
 WORKDIR /workspace
 ENV SHELL=/bin/[bash]
 ENV ROS_DOMAIN_ID=2
+RUN echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 # ********************************************************
 # * Anything else you want to do like clean up goes here *
 # ********************************************************
@@ -47,5 +48,5 @@ ADD configs/navsat_transform.launch.py /opt/ros/jazzy/share/robot_localization/l
 ADD configs/nav2_params.yaml /opt/ros/jazzy/share/nav2_bringup/params/
 ADD configs/navsat_transform.yaml /opt/ros/jazzy/share/robot_localization/params/
 ##########W#A#Y#P#O#I#N#T#######################
-ADD configs/waypoints.yaml /opt/ros/jazzy/share/
+#ADD configs/waypoints.yaml /opt/ros/jazzy/share/
 #################################################

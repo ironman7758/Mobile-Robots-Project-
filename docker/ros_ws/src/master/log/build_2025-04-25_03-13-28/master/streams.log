@@ -1,0 +1,11 @@
+[0.017s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[3.329s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K my_handler[m[K(int)[m[K’:
+[3.329s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:83:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kfallse[m[K’ was not declared in this scope; did you mean ‘[01m[Kfclose[m[K’?
+[3.330s]    83 |   active = [01;31m[Kfallse[m[K;
+[3.330s]       |            [01;31m[K^~~~~~[m[K
+[3.330s]       |            [32m[Kfclose[m[K
+[6.340s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+[6.342s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[6.342s] gmake: *** [Makefile:146: all] Error 2
+[6.345s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12

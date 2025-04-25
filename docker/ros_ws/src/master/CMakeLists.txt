@@ -12,6 +12,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(teleop_twist_joy REQUIRED)
+find_package(sensor_msgs REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -36,6 +37,7 @@ ament_target_dependencies(master_node
 "std_msgs"
 "geometry_msgs"
 "teleop_twist_joy"
+"sensor_msgs"
 )
 
 install(TARGETS

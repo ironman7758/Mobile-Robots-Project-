@@ -7,44 +7,43 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include <geometry_msgs/msg/twist.hpp>
+#include <sensor_msgs/Joy.h>
+//#include <sensor_msgs>
 using namespace std::chrono_literals;
 
+bool active = true;
 
-class vMaster : public rclcpp::Node
+class joyreader : public rclcpp::Node
 {
     public:
-    vMaster(float* fSpeed, float* rSpeed) : Node("vMaster")
+    vMaster(bool* manualbutt , bool* autobutt, bool* deadswitch) : Node("vMaster")
         {
-          currentFspeed = fSpeed;
-          currentRspeed = rSpeed;
+          mbutt = manualbutt;
+          abutt = autobutt;
+          dswch = deadswitch;
 
-          cmdVelSub = create_subscription<geometry_msgs::msg::Twist> (
-            "joy_vel", 10, std::bind(&vMaster::cmdVelCallback, this, std::placeholders::_1)
-          );
+          
         }
     private:
-        void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
-        {
-          double linearSpeed = msg->linear.x;
-          double angularSpeed = msg->angular.z;
-
-          *currentFspeed = linearSpeed;
-          *currentRspeed = angularSpeed;
-        }
 
         rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
-        float* currentFspeed;
-        float* currentRspeed;
+        bool* mbutt;
+        bool* abutt;
+        bool* dswch; 
 };
 
 class reTwist : public rclcpp::Node
 {
   public:
-  reTwist(bool* active, float* fspeed, float* rspeed): Node("reTwist"), count_(0)
+  reTwist(float* fspeed, float* rspeed): Node("reTwist"), count_(0)
   {
-    a = active;
     f = fspeed;
     r = rspeed;
+
+    cmdVelSub = create_subscription<geometry_msgs::msg::Twist> (
+      "joy_vel", 10, std::bind(&reTwist::cmdVelCallback, this, std::placeholders::_1)
+    );
+
     publisher_  = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
     auto timer_callback = 
       [this]() -> void 
@@ -57,37 +56,59 @@ class reTwist : public rclcpp::Node
     timer_ = this->create_wall_timer(500ms, timer_callback);
   }
   private:
+  void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
+  {
+    double linearSpeed = msg->linear.x;
+    double angularSpeed = msg->angular.z;
+    
+    *f = linearSpeed;
+    *r = angularSpeed;
+  }
+
+  rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
+
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_ ;
   size_t count_;
 
 
-  bool* a;
   float* f;
   float* r;
 };
 
-// Deals with ctl+c handling to stop the motors correctly.
-// void my_handler(int s){
-//   printf("Caught signal %d\n",s);
-//   stopRunning = true;
-// } //maybe need this
+//Deals with ctl+c handling to stop the motors correctly.
+void my_handler(int s)
+{
+  printf("Caught signal %d\n",s);
+  active = false;
+} //maybe need this
 
 int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
   
-  bool activebutton = true;
+  bool manualmode = true;
 
   float fS = 0.0;
   float rS = 0.0;
 
-  auto VNode = std::make_shared<vMaster>(&fS, &rS);
-  RCLCPP_DEBUG(VNode->get_logger(),"Before Spin!...");
-  rclcpp::spin(VNode);
+  // auto VNode = std::make_shared<vMaster>(&fS, &rS);
+  // printf("Vmaster is up\n");
+  // RCLCPP_DEBUG(VNode->get_logger(),"Before Spin!...");
+  
 
-  auto moveNode = std::make_shared<reTwist>(&activebutton, &fS, &rS);
-  //rclcpp::spin(moveNode);
+  auto moveNode = std::make_shared<reTwist>(&fS, &rS);
+  printf("reTwist is up\n");
+
+  //rclcpp::spin(VNode);
+  while(active)
+  {
+    if (manualmode)
+    {
+      rclcpp::spin_some(moveNode);
+    }
+  }
+
 
   rclcpp::shutdown();
   printf("hello world theMaster is DOWN!\n");

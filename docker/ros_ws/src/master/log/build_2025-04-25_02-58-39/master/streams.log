@@ -1,0 +1,10 @@
+[0.022s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.117s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[3.854s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreTwist::[01;32m[KreTwist[m[K(bool*, float*, float*)[m[K’:
+[3.854s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcmdVelSub[m[K’ was not declared in this scope
+[3.854s]    41 |     [01;31m[KcmdVelSub[m[K = create_subscription<geometry_msgs::msg::Twist> (
+[3.854s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.982s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+[6.983s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[6.983s] gmake: *** [Makefile:146: all] Error 2
+[6.985s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
