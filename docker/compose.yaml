@@ -1,5 +1,4 @@
 services:
-#Name of the container:
   joycon:
     image: mobrobproject:v3 #Name of the image
     container_name: joycon #Name of the container
@@ -11,9 +10,6 @@ services:
     command: ros2 run joy joy_node #&& ros2 run teleop_twist_joy teleop_node
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
-#    - type: bind
-#      source: /dev/shm
-#      target: dev/shm
     - type: bind
       source: /dev
       target: /dev
@@ -41,9 +37,6 @@ services:
     command: ros2 run teleop_twist_joy teleop_node
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
-#    - type: bind
-#      source: /dev/shm
-#      target: dev/shm
     - type: bind
       source: /dev
       target: /dev
@@ -71,9 +64,6 @@ services:
     command: ros2 launch robot_localization navsat_transform.launch.py #&& ros2 run teleop_twist_joy teleop_node
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
-#    - type: bind
-#      source: /dev/shm
-#      target: dev/shm
     - type: bind
       source: /dev
       target: /dev
@@ -101,9 +91,6 @@ services:
     command: ros2 launch nav2_bringup localization_launch.py  #&& ros2 run teleop_twist_joy teleop_node
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
-#    - type: bind
-#      source: /dev/shm
-#      target: dev/shm
     - type: bind
       source: /dev
       target: /dev
@@ -120,7 +107,6 @@ services:
     - 'c 13:* rmw'
     #- 'c 4:* rmw'
 
-
   Aria:
     image: mobrobproject:v3 #Name of the image
     container_name: Aria #Name of the container
@@ -132,9 +118,6 @@ services:
     #command: /bin/bash #source ariaNode/install/setup.bash && ros2 run ariaNode ariaNode -rp /dev/ttyUSB0
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
-#    - type: bind
-#      source: /dev/shm
-#      target: dev/shm
     - type: bind
       source: /dev
       target: /dev
