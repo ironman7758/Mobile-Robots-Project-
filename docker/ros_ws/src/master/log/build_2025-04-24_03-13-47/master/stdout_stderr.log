@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:11[m[K:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kint mnodes::[01;32m[Kmain[m[K(int, char**)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:18:[m[K [01;31m[Kerror: [m[K‘[01m[KaNode[m[K’ was not declared in this scope; did you mean ‘[01m[KVNode[m[K’?
+   57 |     RCLCPP_DEBUG([01;31m[KaNode[m[K->get_logger(),"Before Spin!...");
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

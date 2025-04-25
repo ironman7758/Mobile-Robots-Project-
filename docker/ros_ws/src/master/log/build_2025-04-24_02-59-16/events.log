@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.001107] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.001178] (master) JobStarted: {'identifier': 'master'}
+[0.013453] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.014687] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.016256] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros_ws/src/master/build/master', '--', '-j12', '-l12'], 'cwd': '/workspace/ros_ws/src/master/build/master', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-1ab0c2f6-853e-4563-a62c-ae18b711b68c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/src/master/install:/workspace/ros_ws/src/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-19ba4f69-e535-465d-974e-e93e6687cc00.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':3', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-4be7db91f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/src/master/install/master:/workspace/ros_ws/src/install/my_package2:/workspace/ros_ws/src/install/master:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/[bash]', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/ros_ws/src/master/build/master', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros_ws/src/master/install/master:/workspace/ros_ws/src/install/my_package2:/workspace/ros_ws/src/install/master:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.092163] (master) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o\x1b[0m\n'}
+[0.099928] (-) TimerEvent: {}
+[0.200529] (-) TimerEvent: {}
+[0.301094] (-) TimerEvent: {}
+[0.401585] (-) TimerEvent: {}
+[0.501994] (-) TimerEvent: {}
+[0.602563] (-) TimerEvent: {}
+[0.703120] (-) TimerEvent: {}
+[0.803574] (-) TimerEvent: {}
+[0.904227] (-) TimerEvent: {}
+[1.004643] (-) TimerEvent: {}
+[1.105062] (-) TimerEvent: {}
+[1.205564] (-) TimerEvent: {}
+[1.306130] (-) TimerEvent: {}
+[1.406688] (-) TimerEvent: {}
+[1.507161] (-) TimerEvent: {}
+[1.607662] (-) TimerEvent: {}
+[1.708084] (-) TimerEvent: {}
+[1.808555] (-) TimerEvent: {}
+[1.909028] (-) TimerEvent: {}
+[2.009515] (-) TimerEvent: {}
+[2.109968] (-) TimerEvent: {}
+[2.210320] (-) TimerEvent: {}
+[2.310798] (-) TimerEvent: {}
+[2.411246] (-) TimerEvent: {}
+[2.511731] (-) TimerEvent: {}
+[2.612256] (-) TimerEvent: {}
+[2.712773] (-) TimerEvent: {}
+[2.813222] (-) TimerEvent: {}
+[2.913706] (-) TimerEvent: {}
+[3.014233] (-) TimerEvent: {}
+[3.115185] (-) TimerEvent: {}
+[3.187540] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:38:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[3.188053] (master) StderrLine: {'line': b'   38 |   }\n'}
+[3.188363] (master) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.188700] (master) StderrLine: {'line': b'      |    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.189309] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kmnodes::vMaster::\x1b[01;32m\x1b[KvMaster\x1b[m\x1b[K(float*, float*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.189574] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:22:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtheMaster\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.189695] (master) StderrLine: {'line': b'   22 |               "cmd_vel", 10, std::bind(&\x1b[01;31m\x1b[KtheMaster\x1b[m\x1b[K::cmdVelCallback, this, std::placeholders::_1)\n'}
+[3.189780] (master) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.201090] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid mnodes::\x1b[01;32m\x1b[Kmy_handler\x1b[m\x1b[K(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.201477] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:43:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KstopRunning\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.201631] (master) StderrLine: {'line': b'   43 |     \x1b[01;31m\x1b[KstopRunning\x1b[m\x1b[K = true;\n'}
+[3.201762] (master) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.203685] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint mnodes::\x1b[01;32m\x1b[Kmain\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.203958] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:51:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.204119] (master) StderrLine: {'line': b'   51 |     \x1b[01;31m\x1b[Krclcpp::spin(vel_out)\x1b[m\x1b[K;\n'}
+[3.204248] (master) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.204333] (master) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[3.204412] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:8\x1b[m\x1b[K:\n'}
+[3.204486] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::\x1b[01;32m\x1b[Kspin\x1b[m\x1b[K(node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.204563] (master) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[3.204640] (master) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.204780] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Kgeometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.204871] (master) StderrLine: {'line': b'   58 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.204951] (master) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.205028] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::\x1b[01;32m\x1b[Kspin\x1b[m\x1b[K(Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.205106] (master) StderrLine: {'line': b'   62 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[3.205182] (master) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.205268] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Kgeometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.205341] (master) StderrLine: {'line': b'   62 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[3.205414] (master) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.211554] (master) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[3.212338] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K:\n'}
+[3.212787] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KaNode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KVNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.213302] (master) StderrLine: {'line': b'   57 |     RCLCPP_DEBUG(\x1b[01;31m\x1b[KaNode\x1b[m\x1b[K->get_logger(),"Before Spin!...");\n'}
+[3.213707] (master) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.213927] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.214163] (master) StderrLine: {'line': b'   57 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(aNode->get_logger(),"Before Spin!...");\n'}
+[3.214366] (master) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.214599] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.214779] (master) StderrLine: {'line': b'   57 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(aNode->get_logger(),"Before Spin!...");\n'}
+[3.214937] (master) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.215098] (-) TimerEvent: {}
+[3.215757] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.216069] (master) StderrLine: {'line': b'   57 |     \x1b[01;31m\x1b[KRCLCPP_DEBUG\x1b[m\x1b[K(aNode->get_logger(),"Before Spin!...");\n'}
+[3.216212] (master) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.315311] (-) TimerEvent: {}
+[3.416480] (-) TimerEvent: {}
+[3.517580] (-) TimerEvent: {}
+[3.618267] (-) TimerEvent: {}
+[3.718700] (-) TimerEvent: {}
+[3.819203] (-) TimerEvent: {}
+[3.919707] (-) TimerEvent: {}
+[4.020411] (-) TimerEvent: {}
+[4.120831] (-) TimerEvent: {}
+[4.218250] (master) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/alloc_traits.h:33\x1b[m\x1b[K,\n'}
+[4.218566] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/ext/alloc_traits.h:34\x1b[m\x1b[K,\n'}
+[4.218652] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/hashtable_policy.h:39\x1b[m\x1b[K,\n'}
+[4.218723] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/hashtable.h:35\x1b[m\x1b[K,\n'}
+[4.218789] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/unordered_map.h:33\x1b[m\x1b[K,\n'}
+[4.218853] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/unordered_map:41\x1b[m\x1b[K,\n'}
+[4.218917] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/functional:63\x1b[m\x1b[K,\n'}
+[4.218990] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:3\x1b[m\x1b[K:\n'}
+[4.219056] (master) StderrLine: {'line': b'/usr/include/c++/13/bits/stl_construct.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::\x1b[01;32m\x1b[K_Construct\x1b[m\x1b[K(_Tp*, _Args&& ...) \x1b[35m\x1b[K[with _Tp = geometry_msgs::msg::Twist_<allocator<void> >; _Args = {const char (&)[11]}]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.219124] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/alloc_traits.h:661:19:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<void> >::\x1b[01;32m\x1b[Kconstruct\x1b[m\x1b[K(allocator_type&, _Up*, _Args&& ...) \x1b[35m\x1b[K[with _Up = geometry_msgs::msg::Twist_<std::allocator<void> >; _Args = {const char (&)[11]}; allocator_type = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219190] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::\x1b[01;32m\x1b[K_Sp_counted_ptr_inplace\x1b[m\x1b[K(_Alloc, _Args&& ...) \x1b[35m\x1b[K[with _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219258] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::\x1b[01;32m\x1b[K__shared_count\x1b[m\x1b[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) \x1b[35m\x1b[K[with _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219364] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::\x1b[01;32m\x1b[K__shared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219443] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:464:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219514] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Tp = geometry_msgs::msg::Twist_<allocator<void> >; _Args = {const char (&)[11]}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = geometry_msgs::msg::Twist_<allocator<void> >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219587] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:63:\x1b[m\x1b[K   required from here\n'}
+[4.219653] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_construct.h:119:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::Twist_(const char [11])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.219719] (master) StderrLine: {'line': b'  119 |       \x1b[01;31m\x1b[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)\x1b[m\x1b[K;\n'}
+[4.219789] (master) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.219876] (master) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[4.219949] (master) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:9\x1b[m\x1b[K:\n'}
+[4.220015] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:51:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist_<ContainerAllocator>::\x1b[01;32m\x1b[KTwist_\x1b[m\x1b[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.220084] (master) StderrLine: {'line': b'   51 |   explicit \x1b[01;36m\x1b[KTwist_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[4.220150] (master) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.220212] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:51:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [11]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.220276] (master) StderrLine: {'line': b'   51 |   explicit Twist_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[4.220376] (master) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.220446] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:44:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist_<ContainerAllocator>::\x1b[01;32m\x1b[KTwist_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization) \x1b[35m\x1b[K[with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.220518] (master) StderrLine: {'line': b'   44 |   explicit \x1b[01;36m\x1b[KTwist_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[4.220586] (master) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.220651] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:44:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [11]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krosidl_runtime_cpp::MessageInitialization\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.220717] (master) StderrLine: {'line': b'   44 |   explicit Twist_(\x1b[01;36m\x1b[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL\x1b[m\x1b[K)\n'}
+[4.220779] (master) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.220842] (-) TimerEvent: {}
+[4.220961] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Twist_<std::allocator<void> >::\x1b[01;32m\x1b[KTwist_\x1b[m\x1b[K(const geometry_msgs::msg::Twist_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.221061] (master) StderrLine: {'line': b'   40 | struct \x1b[01;36m\x1b[KTwist_\x1b[m\x1b[K\n'}
+[4.221134] (master) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.221202] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [11]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.221272] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Twist_<std::allocator<void> >::\x1b[01;32m\x1b[KTwist_\x1b[m\x1b[K(geometry_msgs::msg::Twist_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.221373] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [11]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.321032] (-) TimerEvent: {}
+[4.366721] (master) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1\n'}
+[4.367102] (master) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2\n'}
+[4.367299] (master) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.371425] (master) CommandEnded: {'returncode': 2}
+[4.391578] (master) JobEnded: {'identifier': 'master', 'rc': 2}
+[4.402513] (-) EventReactorShutdown: {}

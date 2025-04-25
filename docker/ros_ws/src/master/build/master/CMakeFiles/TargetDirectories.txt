@@ -1,0 +1,10 @@
+/workspace/ros_ws/src/master/build/master/CMakeFiles/uninstall.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/master_uninstall.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/master_node.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/test.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/edit_cache.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/rebuild_cache.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/list_install_components.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/install.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/install/local.dir
+/workspace/ros_ws/src/master/build/master/CMakeFiles/install/strip.dir

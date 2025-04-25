@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000530] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.000800] (master) JobStarted: {'identifier': 'master'}
+[0.009719] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.010264] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.011490] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros_ws/src/master/build/master', '--', '-j12', '-l12'], 'cwd': '/workspace/ros_ws/src/master/build/master', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-1ab0c2f6-853e-4563-a62c-ae18b711b68c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/src/master/install:/workspace/ros_ws/src/install', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-19ba4f69-e535-465d-974e-e93e6687cc00.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':3', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-4be7db91f3.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/src/master/install/master:/workspace/ros_ws/src/install/my_package2:/workspace/ros_ws/src/install/master:/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X3', 'SHELL': '/bin/[bash]', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/ros_ws/src/master/build/master', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros_ws/src/master/install/master:/workspace/ros_ws/src/install/my_package2:/workspace/ros_ws/src/install/master:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.061804] (master) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o\x1b[0m\n'}
+[0.099516] (-) TimerEvent: {}
+[0.199901] (-) TimerEvent: {}
+[0.300276] (-) TimerEvent: {}
+[0.400585] (-) TimerEvent: {}
+[0.501119] (-) TimerEvent: {}
+[0.601653] (-) TimerEvent: {}
+[0.702019] (-) TimerEvent: {}
+[0.802657] (-) TimerEvent: {}
+[0.903394] (-) TimerEvent: {}
+[1.004310] (-) TimerEvent: {}
+[1.104846] (-) TimerEvent: {}
+[1.205518] (-) TimerEvent: {}
+[1.306141] (-) TimerEvent: {}
+[1.406460] (-) TimerEvent: {}
+[1.506939] (-) TimerEvent: {}
+[1.607511] (-) TimerEvent: {}
+[1.707914] (-) TimerEvent: {}
+[1.808347] (-) TimerEvent: {}
+[1.908934] (-) TimerEvent: {}
+[2.009262] (-) TimerEvent: {}
+[2.109742] (-) TimerEvent: {}
+[2.210148] (-) TimerEvent: {}
+[2.310475] (-) TimerEvent: {}
+[2.410800] (-) TimerEvent: {}
+[2.511088] (-) TimerEvent: {}
+[2.611471] (-) TimerEvent: {}
+[2.711989] (-) TimerEvent: {}
+[2.812481] (-) TimerEvent: {}
+[2.913086] (-) TimerEvent: {}
+[3.013454] (-) TimerEvent: {}
+[3.113787] (-) TimerEvent: {}
+[3.214116] (-) TimerEvent: {}
+[3.314483] (-) TimerEvent: {}
+[3.415121] (-) TimerEvent: {}
+[3.515633] (-) TimerEvent: {}
+[3.616095] (-) TimerEvent: {}
+[3.716444] (-) TimerEvent: {}
+[3.816898] (-) TimerEvent: {}
+[3.917472] (-) TimerEvent: {}
+[4.017996] (-) TimerEvent: {}
+[4.118319] (-) TimerEvent: {}
+[4.218726] (-) TimerEvent: {}
+[4.319067] (-) TimerEvent: {}
+[4.419497] (-) TimerEvent: {}
+[4.520229] (-) TimerEvent: {}
+[4.620903] (-) TimerEvent: {}
+[4.721344] (-) TimerEvent: {}
+[4.821935] (-) TimerEvent: {}
+[4.922604] (-) TimerEvent: {}
+[5.023076] (-) TimerEvent: {}
+[5.123419] (-) TimerEvent: {}
+[5.223692] (-) TimerEvent: {}
+[5.324002] (-) TimerEvent: {}
+[5.424431] (-) TimerEvent: {}
+[5.524874] (-) TimerEvent: {}
+[5.625315] (-) TimerEvent: {}
+[5.725626] (-) TimerEvent: {}
+[5.826131] (-) TimerEvent: {}
+[5.926994] (-) TimerEvent: {}
+[6.027390] (-) TimerEvent: {}
+[6.127756] (-) TimerEvent: {}
+[6.228044] (-) TimerEvent: {}
+[6.328693] (-) TimerEvent: {}
+[6.429089] (-) TimerEvent: {}
+[6.529370] (-) TimerEvent: {}
+[6.629826] (-) TimerEvent: {}
+[6.730333] (-) TimerEvent: {}
+[6.830905] (-) TimerEvent: {}
+[6.903982] (master) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable master_node\x1b[0m\n'}
+[6.931023] (-) TimerEvent: {}
+[7.031365] (-) TimerEvent: {}
+[7.076901] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_c: No such file or directory\n'}
+[7.078066] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c: No such file or directory\n'}
+[7.078454] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_cpp: No such file or directory\n'}
+[7.078812] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp: No such file or directory\n'}
+[7.079180] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c: No such file or directory\n'}
+[7.079550] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_c: No such file or directory\n'}
+[7.079830] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp: No such file or directory\n'}
+[7.079966] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_cpp: No such file or directory\n'}
+[7.080027] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_py: No such file or directory\n'}
+[7.080133] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs_library: No such file or directory\n'}
+[7.080463] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_py: No such file or directory\n'}
+[7.080544] (master) StderrLine: {'line': b'/usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs_library: No such file or directory\n'}
+[7.105690] (master) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.107106] (master) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_node.dir/build.make:191: master_node] Error 1\n'}
+[7.107407] (master) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2\n'}
+[7.107754] (master) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.109201] (master) CommandEnded: {'returncode': 2}
+[7.118938] (master) JobEnded: {'identifier': 'master', 'rc': 2}
+[7.129434] (-) EventReactorShutdown: {}

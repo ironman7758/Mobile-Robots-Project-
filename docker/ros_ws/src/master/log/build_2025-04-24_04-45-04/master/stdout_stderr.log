@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:33:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfspeed[m[K’ in ‘[01m[Kthis[m[K’, which is of pointer type ‘[01m[KreTwist*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   50 |         message.linear.x = this.[01;31m[Kfspeed[m[K;
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:51:34:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krspeed[m[K’ in ‘[01m[Kthis[m[K’, which is of pointer type ‘[01m[KreTwist*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+   51 |         message.angular.z = this.[01;31m[Krspeed[m[K;
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreTwist::[01;32m[KreTwist[m[K(bool*, float*, float*)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:43:17:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kactive[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |   reTwist([01;35m[Kbool* active[m[K, float* fspeed, float* rspeed): Node("reTwist"), count_(0)
+      |           [01;35m[K~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:43:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |   reTwist(bool* active, [01;35m[Kfloat* fspeed[m[K, float* rspeed): Node("reTwist"), count_(0)
+      |                         [01;35m[K~~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:43:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |   reTwist(bool* active, float* fspeed, [01;35m[Kfloat* rspeed[m[K): Node("reTwist"), count_(0)
+      |                                        [01;35m[K~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

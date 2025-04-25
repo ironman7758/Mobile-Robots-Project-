@@ -1,0 +1,130 @@
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:26:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   26 |           void cmdVelCallback(const [01;31m[Kgeometry_msgs[m[K:msg::Twist::SharedPtr msg)
+      |                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:26:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K:[m[K’ token
+   26 |           void cmdVelCallback(const geometry_msgs[01;31m[K:[m[Kmsg::Twist::SharedPtr msg)
+      |                                                  [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:38:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   38 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[Kmnodes::vMaster::[01;32m[KvMaster[m[K(float*, float*)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:22:41:[m[K [01;31m[Kerror: [m[K‘[01m[KtheMaster[m[K’ has not been declared
+   22 |               "cmd_vel", 10, std::bind(&[01;31m[KtheMaster[m[K::cmdVelCallback, this, std::placeholders::_1)
+      |                                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In member function ‘[01m[Kvoid mnodes::vMaster::[01;32m[KcmdVelCallback[m[K(int)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   28 |             double linearSpeed = [01;31m[Kmsg[m[K->linear.x;
+      |                                  [01;31m[K^~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:28:34:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:8[m[K:
+[01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[01m[K/opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+   34 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+                 from [01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/jazzy/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:9[m[K:
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kvoid mnodes::[01;32m[Kmy_handler[m[K(int)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[KstopRunning[m[K’ was not declared in this scope
+   43 |     [01;31m[KstopRunning[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kint mnodes::[01;32m[Kmain[m[K(int, char**)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:51:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > >&)[m[K’
+   51 |     [01;31m[Krclcpp::spin(vel_out)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+   58 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:58:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+   58 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::[01;32m[Kspin[m[K(Node::SharedPtr)[m[K’
+   62 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:62:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+   62 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+      |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:18:[m[K [01;31m[Kerror: [m[K‘[01m[KaNode[m[K’ was not declared in this scope; did you mean ‘[01m[KVNode[m[K’?
+   57 |     RCLCPP_DEBUG([01;31m[KaNode[m[K->get_logger(),"Before Spin!...");
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   57 |     [01;31m[KRCLCPP_DEBUG[m[K(aNode->get_logger(),"Before Spin!...");
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/alloc_traits.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/ext/alloc_traits.h:34[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable_policy.h:39[m[K,
+                 from [01m[K/usr/include/c++/13/bits/hashtable.h:35[m[K,
+                 from [01m[K/usr/include/c++/13/bits/unordered_map.h:33[m[K,
+                 from [01m[K/usr/include/c++/13/unordered_map:41[m[K,
+                 from [01m[K/usr/include/c++/13/functional:63[m[K,
+                 from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:3[m[K:
+/usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = geometry_msgs::msg::Twist_<allocator<void> >; _Args = {const char (&)[11]}][m[K[m[K’:
+[01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = geometry_msgs::msg::Twist_<std::allocator<void> >; _Args = {const char (&)[11]}; allocator_type = std::allocator<void>][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {const char (&)[11]}; _Tp = geometry_msgs::msg::Twist_<std::allocator<void> >][m[K[m[K’
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = geometry_msgs::msg::Twist_<allocator<void> >; _Args = {const char (&)[11]}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = geometry_msgs::msg::Twist_<allocator<void> >][m[K[m[K’
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:50:63:[m[K   required from here
+[01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >::Twist_(const char [11])[m[K’
+  119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:51:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Twist_<ContainerAllocator>::[01;32m[KTwist_[m[K(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   51 |   explicit [01;36m[KTwist_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:51:46:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+   51 |   explicit Twist_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:44:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Twist_<ContainerAllocator>::[01;32m[KTwist_[m[K(rosidl_runtime_cpp::MessageInitialization) [35m[K[with ContainerAllocator = std::allocator<void>][m[K[m[K’
+   44 |   explicit [01;36m[KTwist_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+      |            [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:44:61:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+   44 |   explicit Twist_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+      |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Twist_<std::allocator<void> >::[01;32m[KTwist_[m[K(const geometry_msgs::msg::Twist_<std::allocator<void> >&)[m[K’
+   40 | struct [01;36m[KTwist_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst geometry_msgs::msg::Twist_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Twist_<std::allocator<void> >::[01;32m[KTwist_[m[K(geometry_msgs::msg::Twist_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:40:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

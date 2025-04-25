@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_node2.dir/src/my_node2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_node2[0m
+[100%] Built target my_node2
+-- Install configuration: ""
+-- Installing: /workspace/ros_ws/src/install/my_package2/lib/my_package2/my_node2
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/ament_index/resource_index/package_run_dependencies/my_package2
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/ament_index/resource_index/parent_prefix_path/my_package2
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/environment/ament_prefix_path.sh
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/environment/ament_prefix_path.dsv
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/environment/path.sh
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/environment/path.dsv
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/local_setup.bash
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/local_setup.sh
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/local_setup.zsh
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/local_setup.dsv
+-- Up-to-date: /workspace/ros_ws/src/install/my_package2/share/my_package2/package.dsv
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/ament_index/resource_index/packages/my_package2
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/cmake/my_package2Config.cmake
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/cmake/my_package2Config-version.cmake
+-- Installing: /workspace/ros_ws/src/install/my_package2/share/my_package2/package.xml

@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[11.543s] [100%] [32m[1mLinking CXX executable master_node[0m
+[11.842s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_c: No such file or directory
+[11.843s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c: No such file or directory
+[11.843s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_cpp: No such file or directory
+[11.843s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp: No such file or directory
+[11.844s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c: No such file or directory
+[11.845s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_c: No such file or directory
+[11.846s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp: No such file or directory
+[11.847s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_typesupport_cpp: No such file or directory
+[11.848s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_py: No such file or directory
+[11.848s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs_library: No such file or directory
+[11.849s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs__rosidl_generator_py: No such file or directory
+[11.850s] /usr/bin/ld: cannot find -lsensor_msgs::sensor_msgs_library: No such file or directory
+[11.895s] collect2: error: ld returned 1 exit status
+[11.902s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:191: master_node] Error 1
+[11.902s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[11.903s] gmake: *** [Makefile:146: all] Error 2
+[11.909s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
