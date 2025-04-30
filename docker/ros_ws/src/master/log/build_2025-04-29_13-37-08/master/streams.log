@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[4.263s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In member function ‘[01m[Kvoid joyreader::[01;32m[KjoyCallback[m[K(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.263s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:37:13:[m[K [01;35m[Kwarning: [m[Kstoring the address of local variable ‘[01m[Kxbutton[m[K’ in ‘[01m[K*this.joyreader::abutt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-pointer=-Wdangling-pointer=]8;;[m[K]
+[4.263s]    37 |       [01;35m[Kabutt = &xbutton[m[K;
+[4.263s]       |       [01;35m[K~~~~~~^~~~~~~~~~[m[K
+[4.264s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:34:12:[m[K [01;36m[Knote: [m[K‘[01m[Kxbutton[m[K’ declared here
+[4.264s]    34 |       bool [01;36m[Kxbutton[m[K = (bool) msg->buttons[2];
+[4.264s]       |            [01;36m[K^~~~~~~[m[K
+[4.264s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:31:64:[m[K [01;36m[Knote: [m[K‘[01m[Kthis[m[K’ declared here
+[4.264s]    31 |     void joyCallback(const sensor_msgs::msg::Joy::SharedPtr msg[01;36m[K)[m[K
+[4.264s]       |                                                                [01;36m[K^[m[K
+[8.141s] [100%] [32m[1mLinking CXX executable master_node[0m
+[8.527s] [100%] Built target master_node
+[8.535s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[8.543s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/master/build/master
+[8.550s] -- Install configuration: ""
+[8.563s] -- Installing: /workspace/ros_ws/src/master/install/master/lib/master/master_node
+[8.568s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/src/master/install/master/lib/master/master_node" to ""
+[8.568s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[8.568s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[8.568s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/ament_prefix_path.sh
+[8.568s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/ament_prefix_path.dsv
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/path.sh
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/path.dsv
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.bash
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.sh
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.zsh
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.dsv
+[8.569s] -- Installing: /workspace/ros_ws/src/master/install/master/share/master/package.dsv
+[8.569s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/packages/master
+[8.570s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/cmake/masterConfig.cmake
+[8.570s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/cmake/masterConfig-version.cmake
+[8.570s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/package.xml
+[8.572s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/master/build/master

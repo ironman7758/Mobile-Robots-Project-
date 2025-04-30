@@ -7,7 +7,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include <geometry_msgs/msg/twist.hpp>
-#include <sensor_msgs/Joy.h>
+#include <sensor_msgs/msg/joy.hpp>
 //#include <sensor_msgs>
 using namespace std::chrono_literals;
 
@@ -15,65 +15,77 @@ bool active = true;
 
 class joyreader : public rclcpp::Node
 {
-    public:
-    vMaster(bool* manualbutt , bool* autobutt, bool* deadswitch) : Node("vMaster")
-        {
-          mbutt = manualbutt;
-          abutt = autobutt;
-          dswch = deadswitch;
+  public:
+  joyreader(bool* manualbutt , bool* autobutt, bool* deadswitch) : Node("joyreader_node")
+      {
+        mbutt = manualbutt; //O button
+        abutt = autobutt; //X button
+        dswch = deadswitch; //A trigger button -- L1 bumper
 
-          
-        }
-    private:
+        joy_sub = create_subscription<sensor_msgs::msg::Joy> (
+          "joy", 10, std::bind(&joyreader::joyCallback, this, std::placeholders::_1)
+        );
+        
+      }
+  private:
+    void joyCallback(const sensor_msgs::msg::Joy::SharedPtr msg)
+    {
+      bool obutton = (bool) msg->buttons[1];
+      bool xbutton = (bool) msg->buttons[2];
 
-        rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
-        bool* mbutt;
-        bool* abutt;
-        bool* dswch; 
+      *mbutt = obutton;
+      *abutt = xbutton;
+    }
+
+
+    rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joy_sub;
+    bool* mbutt;
+    bool* abutt;
+    bool* dswch; 
 };
 
 class reTwist : public rclcpp::Node
 {
   public:
-  reTwist(float* fspeed, float* rspeed): Node("reTwist"), count_(0)
-  {
-    f = fspeed;
-    r = rspeed;
+    reTwist(float* fspeed, float* rspeed) : Node("reTwist"), count_(0)
+    {
+      f = fspeed;
+      r = rspeed;
 
-    cmdVelSub = create_subscription<geometry_msgs::msg::Twist> (
-      "joy_vel", 10, std::bind(&reTwist::cmdVelCallback, this, std::placeholders::_1)
-    );
+      cmdVelSub = create_subscription<geometry_msgs::msg::Twist> (
+        "joy_vel", 10, std::bind(&reTwist::cmdVelCallback, this, std::placeholders::_1)
+      );
 
-    publisher_  = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
-    auto timer_callback = 
-      [this]() -> void 
-      {
-        auto message = geometry_msgs::msg::Twist();
-        message.linear.x = *f;
-        message.angular.z = *r;
-        this->publisher_ ->publish(message);
-      };
-    timer_ = this->create_wall_timer(500ms, timer_callback);
-  }
+      publisher_  = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+      auto timer_callback = 
+        [this]() -> void 
+        {
+          auto message = geometry_msgs::msg::Twist();
+          message.linear.x = *f;
+          message.angular.z = *r;
+          this->publisher_ ->publish(message);
+        };
+      timer_ = this->create_wall_timer(500ms, timer_callback);
+    }
   private:
-  void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
-  {
-    double linearSpeed = msg->linear.x;
-    double angularSpeed = msg->angular.z;
-    
-    *f = linearSpeed;
-    *r = angularSpeed;
-  }
+    void cmdVelCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
+    {
+      double linearSpeed = msg->linear.x;
+      double angularSpeed = msg->angular.z;
+      
+      *f = linearSpeed;
+      *r = angularSpeed;
+    }
 
-  rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmdVelSub;
 
-  rclcpp::TimerBase::SharedPtr timer_;
-  rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_ ;
-  size_t count_;
+    rclcpp::TimerBase::SharedPtr timer_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_ ;
+    size_t count_;
 
 
-  float* f;
-  float* r;
+    float* f;
+    float* r;
 };
 
 //Deals with ctl+c handling to stop the motors correctly.
@@ -87,14 +99,33 @@ int main(int argc, char ** argv)
 {
   rclcpp::init(argc, argv);
   
-  bool manualmode = true;
+  bool manualbutton;
+  bool autobutton;
+
+  bool manualmode = false;
+  bool automode = false;
+  bool trigger;
 
   float fS = 0.0;
   float rS = 0.0;
 
-  // auto VNode = std::make_shared<vMaster>(&fS, &rS);
+  //rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr joy_sub;
+
+  auto jNode = std::make_shared<joyreader>(&manualbutton, &autobutton, &trigger);
   // printf("Vmaster is up\n");
   // RCLCPP_DEBUG(VNode->get_logger(),"Before Spin!...");
+  if (manualbutton && !manualmode)
+  {
+    manualmode = true;
+    automode = false;
+  }
+  else if (autobutton && !automode)
+  {
+    automode = true;
+    manualmode = false;
+  }
+
+  //Make sure auto doesn't turn off when button is not depressed
   
 
   auto moveNode = std::make_shared<reTwist>(&fS, &rS);
@@ -107,6 +138,18 @@ int main(int argc, char ** argv)
     {
       rclcpp::spin_some(moveNode);
     }
+    else if (automode)
+    {
+      //spin the node to pass automatic cmd_vels
+      //check if the trigger is active
+      //rclcpp::spin_some();
+    }
+    else
+    {
+      // Do Nothing
+    }
+    //check the buttons again
+    rclcpp::spin_some(jNode);
   }
 
 
