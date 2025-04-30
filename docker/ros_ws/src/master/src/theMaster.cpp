@@ -31,10 +31,12 @@ class joyreader : public rclcpp::Node
     void joyCallback(const sensor_msgs::msg::Joy::SharedPtr msg)
     {
       bool obutton = (bool) msg->buttons[1];
-      bool xbutton = (bool) msg->buttons[2];
+      bool xbutton = (bool) msg->buttons[0];
+      bool lbumper = (bool) msg->buttons[4];
 
       *mbutt = obutton;
       *abutt = xbutton;
+      *dswch = lbumper;
     }
 
 
@@ -114,16 +116,6 @@ int main(int argc, char ** argv)
   auto jNode = std::make_shared<joyreader>(&manualbutton, &autobutton, &trigger);
   // printf("Vmaster is up\n");
   // RCLCPP_DEBUG(VNode->get_logger(),"Before Spin!...");
-  if (manualbutton && !manualmode)
-  {
-    manualmode = true;
-    automode = false;
-  }
-  else if (autobutton && !automode)
-  {
-    automode = true;
-    manualmode = false;
-  }
 
   //Make sure auto doesn't turn off when button is not depressed
   
@@ -140,16 +132,32 @@ int main(int argc, char ** argv)
     }
     else if (automode)
     {
-      //spin the node to pass automatic cmd_vels
-      //check if the trigger is active
-      //rclcpp::spin_some();
+      if (trigger)
+      {
+        //spin the node to pass automatic cmd_vels
+        //check if the trigger is active
+        //rclcpp::spin_some();
+      }
     }
     else
     {
       // Do Nothing
     }
+
     //check the buttons again
     rclcpp::spin_some(jNode);
+    if (manualbutton && !manualmode)
+    {
+      manualmode = true;
+      automode = false;
+      printf("manual mode activated!!\n");
+    }
+    else if (autobutton && !automode)
+    {
+      automode = true;
+      manualmode = false;
+      printf("automatic mode activated!!\n");
+    }
   }
 
 
