@@ -2,7 +2,7 @@ FROM osrf/ros:jazzy-desktop-full
 ##Install any updates
 RUN apt update && apt upgrade -y
 ##Install Packages for basic functionality
-RUN apt install ros-jazzy-joy ros-jazzy-teleop-twist-joy python3-colcon-common-extensions 
+RUN apt install ros-jazzy-joy ros-jazzy-teleop-twist-joy python3-colcon-common-extensions xcb -y
 
 #Install AriaCoda
 RUN git clone https://github.com/reedhedges/AriaCoda.git /workspace/AriaCoda
@@ -31,6 +31,7 @@ WORKDIR /workspace
 ENV SHELL=/bin/[bash]
 ENV ROS_DOMAIN_ID=2
 RUN echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+VOLUME "$HOME/.Xauthority:/root/.Xauthority:rw"
 # ********************************************************
 # * Anything else you want to do like clean up goes here *
 # ********************************************************
