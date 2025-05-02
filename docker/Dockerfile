@@ -21,7 +21,11 @@ RUN apt update && apt install ros-jazzy-nmea-navsat-driver -y
 RUN apt update && apt install ros-jazzy-robot-localization -y
 RUN apt update && apt install ros-jazzy-mapviz ros-jazzy-mapviz-plugins ros-jazzy-tile-map -y
 RUN apt update && apt install ros-jazzy-navigation2 -y
+RUN apt update && apt install ros-jazzy-nav2-bringup -y
 RUN apt update && apt install ros-jazzy-nav2-bringup ros-jazzy-tf2-tools -y
+
+#Install camera
+RUN apt update && apt install ros-jazzy-depthai-ros -y
 
 #Install common gps modules
 RUN apt update && apt install ros-jazzy-gps-msgs ros-jazzy-gps-tools -y
