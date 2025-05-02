@@ -19,6 +19,12 @@ services:
     - type: bind
       source: ./configs
       target: /workspace/configs
+    - type: bind
+      source: /tmp/.X11-unix
+      target: /tmp/.X11-unix
+    - type: bind
+      source: /dev/dri
+      target: /dev/dri
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'
@@ -45,6 +51,12 @@ services:
     - type: bind
       source: ./configs
       target: /workspace/configs
+    - type: bind
+      source: /tmp/.X11-unix
+      target: /tmp/.X11-unix
+    - type: bind
+      source: /dev/dri
+      target: /dev/dri
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'
@@ -72,6 +84,12 @@ services:
     - type: bind
       source: ./configs
       target: /workspace/configs
+    - type: bind
+      source: /tmp/.X11-unix
+      target: /tmp/.X11-unix
+    - type: bind
+      source: /dev/dri
+      target: /dev/dri
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'
@@ -99,6 +117,12 @@ services:
     - type: bind
       source: ./configs
       target: /workspace/configs
+    - type: bind
+      source: /tmp/.X11-unix
+      target: /tmp/.X11-unix
+    - type: bind
+      source: /dev/dri
+      target: /dev/dri
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'
@@ -126,6 +150,12 @@ services:
     - type: bind
       source: ./configs
       target: /workspace/configs
+    - type: bind
+      source: /tmp/.X11-unix
+      target: /tmp/.X11-unix
+    - type: bind
+      source: /dev/dri
+      target: /dev/dri
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'
@@ -153,6 +183,12 @@ services:
     - type: bind
       source: ./configs
       target: /workspace/configs
+    - type: bind
+      source: /tmp/.X11-unix
+      target: /tmp/.X11-unix
+    - type: bind
+      source: /dev/dri
+      target: /dev/dri
     #cgroup rules allow devices to be passed into the container
     device_cgroup_rules:
     - 'c 188:* rmw'

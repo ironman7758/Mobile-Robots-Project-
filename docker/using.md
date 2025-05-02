@@ -19,3 +19,7 @@ ros2 run ariaNode ariaNode -rp /dev/ttyUSB0
 
 --launching phigets spatial
  ros2 launch phidgets_spatial spatial-launch.py
+
+
+ ---Extra to make sure display works!:
+ export DISPLAY=:0.0

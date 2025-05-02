@@ -19,6 +19,7 @@ RUN apt update && apt install ros-jazzy-sick-scan-xd -y
 #Install Navsat driver
 RUN apt update && apt install ros-jazzy-nmea-navsat-driver -y 
 RUN apt update && apt install ros-jazzy-robot-localization -y
+RUN apt update && apt install ros-jazzy-mapviz ros-jazzy-mapviz-plugins ros-jazzy-tile-map -y
 RUN apt update && apt install ros-jazzy-navigation2 -y
 RUN apt update && apt install ros-jazzy-nav2-bringup ros-jazzy-tf2-tools -y
 
@@ -33,7 +34,8 @@ WORKDIR /workspace
 ENV SHELL=/bin/[bash]
 ENV ROS_DOMAIN_ID=2
 RUN echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
-VOLUME "$HOME/.Xauthority:/root/.Xauthority:rw"
+RUN echo "export DISPLAY=:0.0" >> /etc/bash.bashrc
+#VOLUME "$HOME/.Xauthority:/root/.Xauthority:rw"
 # ********************************************************
 # * Anything else you want to do like clean up goes here *
 # ********************************************************
