@@ -1,0 +1,65 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:88:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kfspeed[m[K’ is not captured
+   88 |               [01;31m[Kfspeed[m[K = *empty;
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:79:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   79 |         [this[01;36m[K][m[K() -> void
+      |              [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:20:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat* fspeed[m[K’ declared here
+   57 |     reTwist([01;36m[Kfloat* fspeed[m[K, float* rspeed, int* mode) : Node("reTwist"), count_(0)
+      |             [01;36m[K~~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:88:24:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kfloat[m[K’)
+   88 |               fspeed = [01;31m[K*empty[m[K;
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:89:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krspeed[m[K’ is not captured
+   89 |               [01;31m[Krspeed[m[K = *empty;
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:79:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   79 |         [this[01;36m[K][m[K() -> void
+      |              [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:35:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat* rspeed[m[K’ declared here
+   57 |     reTwist(float* fspeed, [01;36m[Kfloat* rspeed[m[K, int* mode) : Node("reTwist"), count_(0)
+      |                            [01;36m[K~~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:89:24:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kfloat[m[K’)
+   89 |               rspeed = [01;31m[K*empty[m[K;
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:94:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kfspeed[m[K’ is not captured
+   94 |               [01;31m[Kfspeed[m[K = *twistf;
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:79:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   79 |         [this[01;36m[K][m[K() -> void
+      |              [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:20:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat* fspeed[m[K’ declared here
+   57 |     reTwist([01;36m[Kfloat* fspeed[m[K, float* rspeed, int* mode) : Node("reTwist"), count_(0)
+      |             [01;36m[K~~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:95:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krspeed[m[K’ is not captured
+   95 |               [01;31m[Krspeed[m[K = *twistr;
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:79:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   79 |         [this[01;36m[K][m[K() -> void
+      |              [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:35:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat* rspeed[m[K’ declared here
+   57 |     reTwist(float* fspeed, [01;36m[Kfloat* rspeed[m[K, int* mode) : Node("reTwist"), count_(0)
+      |                            [01;36m[K~~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:100:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kfspeed[m[K’ is not captured
+  100 |               [01;31m[Kfspeed[m[K = *navf;
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:79:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   79 |         [this[01;36m[K][m[K() -> void
+      |              [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:20:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat* fspeed[m[K’ declared here
+   57 |     reTwist([01;36m[Kfloat* fspeed[m[K, float* rspeed, int* mode) : Node("reTwist"), count_(0)
+      |             [01;36m[K~~~~~~~^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:101:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krspeed[m[K’ is not captured
+  101 |               [01;31m[Krspeed[m[K = *navr;
+      |               [01;31m[K^~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:79:14:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   79 |         [this[01;36m[K][m[K() -> void
+      |              [01;36m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:35:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat* rspeed[m[K’ declared here
+   57 |     reTwist(float* fspeed, [01;36m[Kfloat* rspeed[m[K, int* mode) : Node("reTwist"), count_(0)
+      |                            [01;36m[K~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

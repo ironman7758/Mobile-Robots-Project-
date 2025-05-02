@@ -25,6 +25,8 @@ RUN apt update && apt install ros-jazzy-nav2-bringup ros-jazzy-tf2-tools -y
 #Install common gps modules
 RUN apt update && apt install ros-jazzy-gps-msgs ros-jazzy-gps-tools -y
 
+RUN apt update && apt install ros-jazzy-phidgets-spatial -y
+
 
 ##Final setup
 WORKDIR /workspace

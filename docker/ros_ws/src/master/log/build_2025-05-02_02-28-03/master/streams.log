@@ -1,0 +1,44 @@
+[0.018s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[3.049s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreTwist::[01;32m[KreTwist[m[K(float*, float*, int*)[m[K’:
+[3.049s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:60:14:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat**[m[K’ to ‘[01m[Kfloat*[m[K’ in assignment
+[3.049s]    60 |       retf = [01;31m[K&fspeed[m[K;
+[3.049s]       |              [01;31m[K^~~~~~~[m[K
+[3.049s]       |              [01;31m[K|[m[K
+[3.049s]       |              [01;31m[Kfloat**[m[K
+[3.050s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:61:14:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat**[m[K’ to ‘[01m[Kfloat*[m[K’ in assignment
+[3.050s]    61 |       reta = [01;31m[K&rspeed[m[K;
+[3.050s]       |              [01;31m[K^~~~~~~[m[K
+[3.050s]       |              [01;31m[K|[m[K
+[3.050s]       |              [01;31m[Kfloat**[m[K
+[3.055s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[3.056s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:89:22:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kfloat[m[K’)
+[3.056s]    89 |               retf = [01;31m[K*empty[m[K;
+[3.056s]       |                      [01;31m[K^~~~~~[m[K
+[3.056s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:90:22:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kfloat[m[K’)
+[3.056s]    90 |               reta = [01;31m[K*empty[m[K;
+[3.056s]       |                      [01;31m[K^~~~~~[m[K
+[3.056s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:95:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat[m[K’ to ‘[01m[Kfloat*[m[K’ in assignment
+[3.056s]    95 |               retf = [01;31m[K*twistf[m[K;
+[3.056s]       |                      [01;31m[K^~~~~~~[m[K
+[3.056s]       |                      [01;31m[K|[m[K
+[3.057s]       |                      [01;31m[Kfloat[m[K
+[3.057s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:96:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat[m[K’ to ‘[01m[Kfloat*[m[K’ in assignment
+[3.057s]    96 |               reta = [01;31m[K*twistr[m[K;
+[3.057s]       |                      [01;31m[K^~~~~~~[m[K
+[3.057s]       |                      [01;31m[K|[m[K
+[3.057s]       |                      [01;31m[Kfloat[m[K
+[3.057s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:101:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat[m[K’ to ‘[01m[Kfloat*[m[K’ in assignment
+[3.057s]   101 |               retf = [01;31m[K*navf[m[K;
+[3.057s]       |                      [01;31m[K^~~~~[m[K
+[3.057s]       |                      [01;31m[K|[m[K
+[3.057s]       |                      [01;31m[Kfloat[m[K
+[3.057s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:102:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kfloat[m[K’ to ‘[01m[Kfloat*[m[K’ in assignment
+[3.057s]   102 |               reta = [01;31m[K*navr[m[K;
+[3.057s]       |                      [01;31m[K^~~~~[m[K
+[3.058s]       |                      [01;31m[K|[m[K
+[3.058s]       |                      [01;31m[Kfloat[m[K
+[6.911s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+[6.911s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[6.912s] gmake: *** [Makefile:146: all] Error 2
+[6.915s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
