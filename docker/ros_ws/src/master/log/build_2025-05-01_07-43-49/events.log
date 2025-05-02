@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000686] (master) JobQueued: {'identifier': 'master', 'dependencies': OrderedDict()}
+[0.000775] (master) JobStarted: {'identifier': 'master'}
+[0.014597] (master) JobProgress: {'identifier': 'master', 'progress': 'cmake'}
+[0.015614] (master) JobProgress: {'identifier': 'master', 'progress': 'build'}
+[0.015734] (master) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros_ws/src/master/build/master', '--', '-j12', '-l12'], 'cwd': '/workspace/ros_ws/src/master/build/master', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspace', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-be6e2410-8ffc-4a33-9f78-82e8a67347b9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-0975bbe3-5f2b-4ad1-9fb1-e7a43d3d2311.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-76d83bc53b.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X0', 'SHELL': '/bin/[bash]', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspace/ros_ws/src/master/build/master', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099705] (-) TimerEvent: {}
+[0.184773] (master) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o\x1b[0m\n'}
+[0.199888] (-) TimerEvent: {}
+[0.300246] (-) TimerEvent: {}
+[0.400612] (-) TimerEvent: {}
+[0.501084] (-) TimerEvent: {}
+[0.601738] (-) TimerEvent: {}
+[0.702318] (-) TimerEvent: {}
+[0.802779] (-) TimerEvent: {}
+[0.903384] (-) TimerEvent: {}
+[1.003919] (-) TimerEvent: {}
+[1.104564] (-) TimerEvent: {}
+[1.205131] (-) TimerEvent: {}
+[1.305589] (-) TimerEvent: {}
+[1.406353] (-) TimerEvent: {}
+[1.506782] (-) TimerEvent: {}
+[1.607178] (-) TimerEvent: {}
+[1.707493] (-) TimerEvent: {}
+[1.807888] (-) TimerEvent: {}
+[1.908379] (-) TimerEvent: {}
+[2.008689] (-) TimerEvent: {}
+[2.109093] (-) TimerEvent: {}
+[2.209606] (-) TimerEvent: {}
+[2.278426] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KreNav::\x1b[01;32m\x1b[KreNav\x1b[m\x1b[K(float*, float*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.278731] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:109:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktis\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.278799] (master) StderrLine: {'line': b'  109 |       publisher_  = \x1b[01;31m\x1b[Ktis\x1b[m\x1b[K->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);\n'}
+[2.278856] (master) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.278907] (master) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kthis\x1b[m\x1b[K\n'}
+[2.278956] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:109:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.279035] (master) StderrLine: {'line': b'  109 |       publisher_  = tis->create_publisher<geometry_msgs::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K("cmd_vel", 10);\n'}
+[2.279115] (master) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.279428] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:109:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.279764] (master) StderrLine: {'line': b'  109 |       publisher_  = tis->create_publisher<geometry_msgs::msg::Twist>(\x1b[01;35m\x1b[K"cmd_vel"\x1b[m\x1b[K, 10);\n'}
+[2.279919] (master) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.290378] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.290861] (master) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/master/src/theMaster.cpp:218:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kbreak\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.291004] (master) StderrLine: {'line': b'  218 |       printf("emergency stop!!! please restart the node to regain functionality")\n'}
+[2.291114] (master) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.291222] (master) StderrLine: {'line': b'      |                                                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.291359] (master) StderrLine: {'line': b'  219 |       \x1b[32m\x1b[Kbreak\x1b[m\x1b[K;\n'}
+[2.291528] (master) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~\x1b[m\x1b[K                                                                       \n'}
+[2.309820] (-) TimerEvent: {}
+[2.410463] (-) TimerEvent: {}
+[2.511078] (-) TimerEvent: {}
+[2.611694] (-) TimerEvent: {}
+[2.712246] (-) TimerEvent: {}
+[2.812671] (-) TimerEvent: {}
+[2.913177] (-) TimerEvent: {}
+[3.013693] (-) TimerEvent: {}
+[3.114050] (-) TimerEvent: {}
+[3.214379] (-) TimerEvent: {}
+[3.314812] (-) TimerEvent: {}
+[3.415133] (-) TimerEvent: {}
+[3.515558] (-) TimerEvent: {}
+[3.616120] (-) TimerEvent: {}
+[3.716579] (-) TimerEvent: {}
+[3.817045] (-) TimerEvent: {}
+[3.917551] (-) TimerEvent: {}
+[4.018092] (-) TimerEvent: {}
+[4.118501] (-) TimerEvent: {}
+[4.218999] (-) TimerEvent: {}
+[4.319406] (-) TimerEvent: {}
+[4.419864] (-) TimerEvent: {}
+[4.520309] (-) TimerEvent: {}
+[4.620726] (-) TimerEvent: {}
+[4.721105] (-) TimerEvent: {}
+[4.771640] (master) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1\n'}
+[4.772090] (master) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2\n'}
+[4.772504] (master) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.774393] (master) CommandEnded: {'returncode': 2}
+[4.803472] (master) JobEnded: {'identifier': 'master', 'rc': 2}
+[4.814501] (-) EventReactorShutdown: {}

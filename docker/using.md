@@ -15,3 +15,7 @@ ros2 run <packagename> <nodename>
 --specifally:
 ros2 launch teleop_twist_joy teleop-launch.py joy_config:='ps4' joy_vel:="joy_vel"
 ros2 run ariaNode ariaNode -rp /dev/ttyUSB0
+
+
+--launching phigets spatial
+ ros2 launch phidgets_spatial spatial-launch.py

@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[1.713s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:19:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KvMaster[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.713s]    19 |     [01;31m[KvMaster[m[K(bool* manualbutt , bool* autobutt, bool* deadswitch) : Node("vMaster_nodes")
+[1.713s]       |     [01;31m[K^~~~~~~[m[K
+[1.731s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In member function ‘[01m[Kint joyreader::[01;32m[KvMaster[m[K(bool*, bool*, bool*)[m[K’:
+[1.731s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:19:68:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[1.731s]    19 |     vMaster(bool* manualbutt , bool* autobutt, bool* deadswitch) : [01;31m[KNode[m[K("vMaster_nodes")
+[1.731s]       |                                                                    [01;31m[K^~~~[m[K
+[1.732s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:26:33:[m[K [01;31m[Kerror: [m[K‘[01m[KvMaster[m[K’ is not a class, namespace, or enumeration
+[1.732s]    26 |           "joy", 10, std::bind(&[01;31m[KvMaster[m[K::joyCallback, this, std::placeholders::_1)
+[1.732s]       |                                 [01;31m[K^~~~~~~[m[K
+[1.765s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.765s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:111:33:[m[K [01;31m[Kerror: [m[K‘[01m[KvMaster[m[K’ was not declared in this scope
+[1.766s]   111 |   auto JNode = std::make_shared<[01;31m[KvMaster[m[K>(&manualmode, &automode, &trigger);
+[1.766s]       |                                 [01;31m[K^~~~~~~[m[K
+[1.766s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:111:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(bool*, bool*, bool*)[m[K’
+[1.766s]   111 |   auto JNode = [01;31m[Kstd::make_shared<vMaster>(&manualmode, &automode, &trigger)[m[K;
+[1.766s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.766s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[1.766s]                  from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:4[m[K:
+[1.766s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[1.766s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.766s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.766s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.766s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:111:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.766s]   111 |   auto JNode = [01;31m[Kstd::make_shared<vMaster>(&manualmode, &automode, &trigger)[m[K;
+[1.766s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.528s] gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+[3.528s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+[3.528s] gmake: *** [Makefile:146: all] Error 2
+[3.530s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12

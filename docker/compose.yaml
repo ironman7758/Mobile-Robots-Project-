@@ -1,4 +1,30 @@
 services:
+  master:
+    image: mobrobproject:v3 #Name of the image
+    container_name: master #Name of the container
+    network_mode: host
+    #devices: [ "dev/ttyUSB0:/dev/ttyUSB0" ]
+    tty: True
+    stdin_open: True
+    #This container open to run this node
+    command: /bin/bash #ros2 run joy joy_node #&& ros2 run teleop_twist_joy teleop_node
+    #The volumes here (Specifically 'bind') mount existing folders to the container
+    volumes:
+    - type: bind
+      source: /dev
+      target: /dev
+    - type: bind
+      source: ./ros_ws
+      target: /workspace/ros_ws
+    - type: bind
+      source: ./configs
+      target: /workspace/configs
+    #cgroup rules allow devices to be passed into the container
+    device_cgroup_rules:
+    - 'c 188:* rmw'
+    - 'c 189:* rmw'
+    - 'c 13:* rmw'
+    #- 'c 4:* rmw'
   joycon:
     image: mobrobproject:v3 #Name of the image
     container_name: joycon #Name of the container
@@ -34,7 +60,7 @@ services:
     tty: True
     stdin_open: True
     #This container open to run this node
-    command: ros2 run teleop_twist_joy teleop_node
+    command: ros2 launch teleop_twist_joy teleop-launch.py joy_config:='ps4' joy_vel:="joy_vel"
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
     - type: bind
@@ -88,7 +114,7 @@ services:
     tty: True
     stdin_open: True
     #This container open to run this node
-    command: ros2 launch nav2_bringup localization_launch.py  #&& ros2 run teleop_twist_joy teleop_node
+    command: ros2 launch nav2_bringup navigation_launch.py  #&& ros2 run teleop_twist_joy teleop_node
     #The volumes here (Specifically 'bind') mount existing folders to the container
     volumes:
     - type: bind

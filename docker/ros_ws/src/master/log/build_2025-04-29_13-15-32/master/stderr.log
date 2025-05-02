@@ -1,0 +1,19 @@
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:25:20:[m[K [01;35m[Kwarning: [m[Kfixed-point constants are a GCC extension
+   25 |             "joy", [01;35m[K10k[m[K std::bind(&vMaster::joyCallback, this, std::placeholders::_1));
+      |                    [01;35m[K^~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:19:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KvMaster[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   19 |     [01;31m[KvMaster[m[K(bool* manualbutt , bool* autobutt, bool* deadswitch) : Node("vMaster")
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In member function ‘[01m[Kint joyreader::[01;32m[KvMaster[m[K(bool*, bool*, bool*)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:19:68:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   19 |     vMaster(bool* manualbutt , bool* autobutt, bool* deadswitch) : [01;31m[KNode[m[K("vMaster")
+      |                                                                    [01;31m[K^~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:25:20:[m[K [01;31m[Kerror: [m[Kfixed-point types not supported in C++
+   25 |             "joy", [01;31m[K10k[m[K std::bind(&vMaster::joyCallback, this, std::placeholders::_1));
+      |                    [01;31m[K^~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   27 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

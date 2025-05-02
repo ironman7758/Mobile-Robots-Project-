@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[7.875s] [100%] [32m[1mLinking CXX executable master_node[0m
+[8.196s] [100%] Built target master_node
+[8.211s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[8.219s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/master/build/master
+[8.225s] -- Install configuration: ""
+[8.226s] -- Installing: /workspace/ros_ws/src/master/install/master/lib/master/master_node
+[8.231s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/src/master/install/master/lib/master/master_node" to ""
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/ament_prefix_path.sh
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/ament_prefix_path.dsv
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/path.sh
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/path.dsv
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.bash
+[8.232s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.sh
+[8.233s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.zsh
+[8.233s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.dsv
+[8.233s] -- Installing: /workspace/ros_ws/src/master/install/master/share/master/package.dsv
+[8.233s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/packages/master
+[8.233s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/cmake/masterConfig.cmake
+[8.234s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/cmake/masterConfig-version.cmake
+[8.234s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/package.xml
+[8.234s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/master/build/master

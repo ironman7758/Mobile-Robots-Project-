@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreNav::[01;32m[KreNav[m[K(float*, float*)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:109:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktis[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+  109 |       publisher_  = [01;31m[Ktis[m[K->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+      |                     [01;31m[K^~~[m[K
+      |                     [32m[Kthis[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:109:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  109 |       publisher_  = tis->create_publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K("cmd_vel", 10);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:109:70:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  109 |       publisher_  = tis->create_publisher<geometry_msgs::msg::Twist>([01;35m[K"cmd_vel"[m[K, 10);
+      |                                                                      [01;35m[K^~~~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:218:82:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kbreak[m[K’
+  218 |       printf("emergency stop!!! please restart the node to regain functionality")
+      |                                                                                  [01;31m[K^[m[K
+      |                                                                                  [32m[K;[m[K
+  219 |       [32m[Kbreak[m[K;
+      |       [32m[K~~~~~[m[K                                                                       
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

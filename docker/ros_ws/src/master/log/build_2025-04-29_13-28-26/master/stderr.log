@@ -1,0 +1,32 @@
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:19:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KvMaster[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   19 |     [01;31m[KvMaster[m[K(bool* manualbutt , bool* autobutt, bool* deadswitch) : Node("vMaster_nodes")
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In member function ‘[01m[Kint joyreader::[01;32m[KvMaster[m[K(bool*, bool*, bool*)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:19:68:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   19 |     vMaster(bool* manualbutt , bool* autobutt, bool* deadswitch) : [01;31m[KNode[m[K("vMaster_nodes")
+      |                                                                    [01;31m[K^~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:26:33:[m[K [01;31m[Kerror: [m[K‘[01m[KvMaster[m[K’ is not a class, namespace, or enumeration
+   26 |           "joy", 10, std::bind(&[01;31m[KvMaster[m[K::joyCallback, this, std::placeholders::_1)
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:28:7:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   28 |       [01;35m[K}[m[K
+      |       [01;35m[K^[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:110:33:[m[K [01;31m[Kerror: [m[K‘[01m[KvMaster[m[K’ was not declared in this scope
+  110 |   auto JNode = std::make_shared<[01;31m[KvMaster[m[K>(&manualmode, &automode, &trigger);
+      |                                 [01;31m[K^~~~~~~[m[K
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:110:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(bool*, bool*, bool*)[m[K’
+  110 |   auto JNode = [01;31m[Kstd::make_shared<vMaster>(&manualmode, &automode, &trigger)[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:4[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:110:41:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  110 |   auto JNode = [01;31m[Kstd::make_shared<vMaster>(&manualmode, &automode, &trigger)[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/master_node.dir/build.make:76: CMakeFiles/master_node.dir/src/theMaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/master_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

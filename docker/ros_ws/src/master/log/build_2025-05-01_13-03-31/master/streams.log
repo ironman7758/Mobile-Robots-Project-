@@ -1,0 +1,32 @@
+[0.041s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[3.255s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In constructor ‘[01m[KreTwist::[01;32m[KreTwist[m[K(float*, float*, int*)[m[K’:
+[3.255s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:20:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.255s]    57 |     reTwist([01;35m[Kfloat* fspeed[m[K, float* rspeed, int* mode) : Node("reTwist"), count_(0)
+[3.255s]       |             [01;35m[K~~~~~~~^~~~~~[m[K
+[3.255s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:57:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.255s]    57 |     reTwist(float* fspeed, [01;35m[Kfloat* rspeed[m[K, int* mode) : Node("reTwist"), count_(0)
+[3.255s]       |                            [01;35m[K~~~~~~~^~~~~~[m[K
+[14.259s] [100%] [32m[1mLinking CXX executable master_node[0m
+[14.738s] [100%] Built target master_node
+[14.754s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/master/build/master -- -j12 -l12
+[14.764s] Invoking command in '/workspace/ros_ws/src/master/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/master/build/master
+[14.774s] -- Install configuration: ""
+[14.774s] -- Installing: /workspace/ros_ws/src/master/install/master/lib/master/master_node
+[14.782s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/src/master/install/master/lib/master/master_node" to ""
+[14.783s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[14.783s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[14.783s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/ament_prefix_path.sh
+[14.784s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/ament_prefix_path.dsv
+[14.784s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/path.sh
+[14.784s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/environment/path.dsv
+[14.784s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.bash
+[14.784s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.sh
+[14.784s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.zsh
+[14.785s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/local_setup.dsv
+[14.785s] -- Installing: /workspace/ros_ws/src/master/install/master/share/master/package.dsv
+[14.786s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/ament_index/resource_index/packages/master
+[14.787s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/cmake/masterConfig.cmake
+[14.788s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/cmake/masterConfig-version.cmake
+[14.788s] -- Up-to-date: /workspace/ros_ws/src/master/install/master/share/master/package.xml
+[14.789s] Invoked command in '/workspace/ros_ws/src/master/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/master/build/master
