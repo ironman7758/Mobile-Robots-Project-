@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/workspace/ros_ws/build/nav2_sms_behavior/rosidl_generator_py/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_introspection_c.so" "TARGETS" "nav2_sms_behavior_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/nav2_sms_behavior")

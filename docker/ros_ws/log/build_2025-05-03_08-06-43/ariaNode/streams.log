@@ -1,0 +1,65 @@
+[0.070s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/ariaNode -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/ariaNode
+[0.456s] -- The C compiler identification is GNU 13.3.0
+[0.457s] -- The CXX compiler identification is GNU 13.3.0
+[0.457s] -- Detecting C compiler ABI info
+[0.460s] -- Detecting C compiler ABI info - done
+[0.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.462s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.463s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.591s] -- Detecting CXX compile features
+[0.591s] -- Detecting CXX compile features - done
+[0.606s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.881s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.122s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.217s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.256s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.524s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.534s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.714s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.904s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.960s] [0mThe root directory is /opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules[0m
+[1.965s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.082s] WARNING: Package name "ariaNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.181s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.181s] -- Configured cppcheck include dirs: 
+[2.181s] -- Configured cppcheck exclude dirs and/or files: 
+[2.184s] -- Added test 'lint_cmake' to check CMake code style
+[2.186s] -- Added test 'uncrustify' to check C / C++ code style
+[2.186s] -- Configured uncrustify additional arguments: 
+[2.188s] -- Added test 'xmllint' to check XML markup files
+[2.191s] -- Configuring done (2.1s)
+[2.206s] -- Generating done (0.0s)
+[2.213s] -- Build files have been written to: /workspace/ros_ws/build/ariaNode
+[2.231s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/ariaNode -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/ariaNode
+[2.232s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j12 -l12
+[2.305s] [ 50%] [32mBuilding CXX object CMakeFiles/ariaNode.dir/src/ariaNode.cpp.o[0m
+[13.405s] [100%] [32m[1mLinking CXX executable ariaNode[0m
+[13.825s] [100%] Built target ariaNode
+[13.841s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j12 -l12
+[13.843s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode
+[13.851s] -- Install configuration: ""
+[13.852s] -- Installing: /workspace/ros_ws/install/ariaNode/lib/ariaNode/ariaNode
+[13.857s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/ariaNode/lib/ariaNode/ariaNode" to ""
+[13.857s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode
+[13.858s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode
+[13.858s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh
+[13.858s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv
+[13.859s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.sh
+[13.859s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.dsv
+[13.859s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.bash
+[13.859s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.sh
+[13.859s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.zsh
+[13.860s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.dsv
+[13.860s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.dsv
+[13.860s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/packages/ariaNode
+[13.861s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake
+[13.861s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+[13.861s] -- Installing: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.xml
+[13.863s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode

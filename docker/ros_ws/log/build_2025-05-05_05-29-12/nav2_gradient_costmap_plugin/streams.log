@@ -1,0 +1,60 @@
+[0.437s] Invoking command in '/workspace/ros_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_gradient_costmap_plugin
+[0.547s] -- The C compiler identification is GNU 13.3.0
+[0.685s] -- The CXX compiler identification is GNU 13.3.0
+[0.732s] -- Detecting C compiler ABI info
+[0.903s] -- Detecting C compiler ABI info - done
+[0.919s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.919s] -- Detecting C compile features
+[0.920s] -- Detecting C compile features - done
+[0.934s] -- Detecting CXX compiler ABI info
+[1.128s] -- Detecting CXX compiler ABI info - done
+[1.147s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.147s] -- Detecting CXX compile features
+[1.148s] -- Detecting CXX compile features - done
+[1.167s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.519s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.820s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.006s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.050s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.418s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.433s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.657s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.691s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.730s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.926s] -- Found nav2_costmap_2d: 1.3.6 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[3.798s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.800s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.800s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.257s] -- Configuring done (3.8s)
+[4.300s] -- Generating done (0.0s)
+[4.309s] -- Build files have been written to: /workspace/ros_ws/build/nav2_gradient_costmap_plugin
+[4.328s] Invoked command in '/workspace/ros_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_gradient_costmap_plugin -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_gradient_costmap_plugin
+[4.330s] Invoking command in '/workspace/ros_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_gradient_costmap_plugin -- -j12 -l12
+[4.398s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_gradient_costmap_plugin_core.dir/src/gradient_layer.cpp.o[0m
+[11.280s] [100%] [32m[1mLinking CXX shared library libnav2_gradient_costmap_plugin_core.so[0m
+[11.756s] [100%] Built target nav2_gradient_costmap_plugin_core
+[11.775s] Invoked command in '/workspace/ros_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_gradient_costmap_plugin -- -j12 -l12
+[11.778s] Invoking command in '/workspace/ros_ws/build/nav2_gradient_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_gradient_costmap_plugin
+[11.792s] -- Install configuration: ""
+[11.794s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so
+[11.795s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/nav2_gradient_costmap_plugin/lib/libnav2_gradient_costmap_plugin_core.so" to ""
+[11.796s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/gradient_layer.xml
+[11.797s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_gradient_costmap_plugin
+[11.799s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_gradient_costmap_plugin
+[11.800s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.sh
+[11.802s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/ament_prefix_path.dsv
+[11.811s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.sh
+[11.813s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/environment/path.dsv
+[11.815s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.bash
+[11.816s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.sh
+[11.816s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.zsh
+[11.817s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/local_setup.dsv
+[11.817s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.dsv
+[11.821s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/packages/nav2_gradient_costmap_plugin
+[11.821s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_gradient_costmap_plugin
+[11.822s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig.cmake
+[11.822s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/cmake/nav2_gradient_costmap_pluginConfig-version.cmake
+[11.822s] -- Installing: /workspace/ros_ws/install/nav2_gradient_costmap_plugin/share/nav2_gradient_costmap_plugin/package.xml
+[11.822s] Invoked command in '/workspace/ros_ws/build/nav2_gradient_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_gradient_costmap_plugin

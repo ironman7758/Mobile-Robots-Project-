@@ -1,0 +1,16 @@
+/workspace/ros_ws/install/my_package2/lib/my_package2/my_node2
+/workspace/ros_ws/install/my_package2/share/ament_index/resource_index/package_run_dependencies/my_package2
+/workspace/ros_ws/install/my_package2/share/ament_index/resource_index/parent_prefix_path/my_package2
+/workspace/ros_ws/install/my_package2/share/my_package2/environment/ament_prefix_path.sh
+/workspace/ros_ws/install/my_package2/share/my_package2/environment/ament_prefix_path.dsv
+/workspace/ros_ws/install/my_package2/share/my_package2/environment/path.sh
+/workspace/ros_ws/install/my_package2/share/my_package2/environment/path.dsv
+/workspace/ros_ws/install/my_package2/share/my_package2/local_setup.bash
+/workspace/ros_ws/install/my_package2/share/my_package2/local_setup.sh
+/workspace/ros_ws/install/my_package2/share/my_package2/local_setup.zsh
+/workspace/ros_ws/install/my_package2/share/my_package2/local_setup.dsv
+/workspace/ros_ws/install/my_package2/share/my_package2/package.dsv
+/workspace/ros_ws/install/my_package2/share/ament_index/resource_index/packages/my_package2
+/workspace/ros_ws/install/my_package2/share/my_package2/cmake/my_package2Config.cmake
+/workspace/ros_ws/install/my_package2/share/my_package2/cmake/my_package2Config-version.cmake
+/workspace/ros_ws/install/my_package2/share/my_package2/package.xml

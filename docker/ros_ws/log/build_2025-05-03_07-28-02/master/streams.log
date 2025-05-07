@@ -1,0 +1,76 @@
+[0.047s] Invoking command in '/workspace/ros_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/master -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/master
+[0.129s] -- The C compiler identification is GNU 13.3.0
+[0.213s] -- The CXX compiler identification is GNU 13.3.0
+[0.235s] -- Detecting C compiler ABI info
+[0.355s] -- Detecting C compiler ABI info - done
+[0.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.371s] -- Detecting C compile features
+[0.371s] -- Detecting C compile features - done
+[0.384s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.538s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.539s] -- Detecting CXX compile features
+[0.540s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.804s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.032s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.222s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.265s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.539s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.547s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.717s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.888s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.922s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.954s] -- Found teleop_twist_joy: 2.6.2 (/opt/ros/jazzy/share/teleop_twist_joy/cmake)
+[1.964s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.014s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.244s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.244s] -- Configured cppcheck include dirs: 
+[2.244s] -- Configured cppcheck exclude dirs and/or files: 
+[2.248s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.248s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.255s] -- Added test 'lint_cmake' to check CMake code style
+[2.258s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.282s] -- Added test 'uncrustify' to check C / C++ code style
+[2.282s] -- Configured uncrustify additional arguments: 
+[2.286s] -- Added test 'xmllint' to check XML markup files
+[2.288s] -- Configuring done (2.2s)
+[2.303s] -- Generating done (0.0s)
+[2.308s] -- Build files have been written to: /workspace/ros_ws/build/master
+[2.324s] Invoked command in '/workspace/ros_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/master -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/master
+[2.326s] Invoking command in '/workspace/ros_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/master -- -j12 -l12
+[2.383s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[8.871s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[8.871s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:95:15:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[8.871s]    95 |               [01;35m[Kif[m[K(*trigger)
+[8.871s]       |               [01;35m[K^~[m[K
+[8.871s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:103:13:[m[K [01;36m[Knote: [m[Khere
+[8.871s]   103 |             [01;36m[Kcase[m[K 0: //deactivated
+[8.872s]       |             [01;36m[K^~~~[m[K
+[15.458s] [100%] [32m[1mLinking CXX executable master_node[0m
+[15.902s] [100%] Built target master_node
+[15.919s] Invoked command in '/workspace/ros_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/master -- -j12 -l12
+[15.920s] Invoking command in '/workspace/ros_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/master
+[15.933s] -- Install configuration: ""
+[15.934s] -- Installing: /workspace/ros_ws/install/master/lib/master/master_node
+[15.940s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/master/lib/master/master_node" to ""
+[15.940s] -- Installing: /workspace/ros_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[15.941s] -- Installing: /workspace/ros_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[15.941s] -- Installing: /workspace/ros_ws/install/master/share/master/environment/ament_prefix_path.sh
+[15.941s] -- Installing: /workspace/ros_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[15.941s] -- Installing: /workspace/ros_ws/install/master/share/master/environment/path.sh
+[15.941s] -- Installing: /workspace/ros_ws/install/master/share/master/environment/path.dsv
+[15.942s] -- Installing: /workspace/ros_ws/install/master/share/master/local_setup.bash
+[15.942s] -- Installing: /workspace/ros_ws/install/master/share/master/local_setup.sh
+[15.942s] -- Installing: /workspace/ros_ws/install/master/share/master/local_setup.zsh
+[15.942s] -- Installing: /workspace/ros_ws/install/master/share/master/local_setup.dsv
+[15.942s] -- Installing: /workspace/ros_ws/install/master/share/master/package.dsv
+[15.943s] -- Installing: /workspace/ros_ws/install/master/share/ament_index/resource_index/packages/master
+[15.943s] -- Installing: /workspace/ros_ws/install/master/share/master/cmake/masterConfig.cmake
+[15.943s] -- Installing: /workspace/ros_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[15.943s] -- Installing: /workspace/ros_ws/install/master/share/master/package.xml
+[15.945s] Invoked command in '/workspace/ros_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/src/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/master

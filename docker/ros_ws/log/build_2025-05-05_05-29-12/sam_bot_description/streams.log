@@ -1,0 +1,69 @@
+[0.437s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/sam_bot_description
+[0.556s] -- The C compiler identification is GNU 13.3.0
+[0.697s] -- The CXX compiler identification is GNU 13.3.0
+[0.722s] -- Detecting C compiler ABI info
+[0.886s] -- Detecting C compiler ABI info - done
+[0.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.905s] -- Detecting C compile features
+[0.905s] -- Detecting C compile features - done
+[0.919s] -- Detecting CXX compiler ABI info
+[1.107s] -- Detecting CXX compiler ABI info - done
+[1.128s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.128s] -- Detecting CXX compile features
+[1.129s] -- Detecting CXX compile features - done
+[1.136s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.481s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.788s] -- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+[1.796s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.049s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.057s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.057s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.059s] -- Added test 'lint_cmake' to check CMake code style
+[2.061s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.065s] -- Added test 'xmllint' to check XML markup files
+[2.069s] -- Configuring done (1.6s)
+[2.075s] -- Generating done (0.0s)
+[2.077s] -- Build files have been written to: /workspace/ros_ws/build/sam_bot_description
+[2.087s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/sam_bot_description
+[2.090s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/sam_bot_description -- -j12 -l12
+[2.135s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/sam_bot_description -- -j12 -l12
+[2.137s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/sam_bot_description
+[2.150s] -- Install configuration: ""
+[2.150s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src
+[2.151s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description
+[2.152s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf:Zone.Identifier
+[2.153s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf:Zone.Identifier
+[2.154s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[2.154s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf
+[2.154s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch
+[2.154s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py:Zone.Identifier
+[2.154s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[2.155s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz
+[2.155s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz
+[2.155s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz:Zone.Identifier
+[2.155s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config
+[2.155s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[2.156s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml:Zone.Identifier
+[2.156s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml
+[2.156s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml:Zone.Identifier
+[2.157s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[2.157s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml:Zone.Identifier
+[2.157s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world
+[2.157s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf:Zone.Identifier
+[2.158s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[2.158s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[2.158s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[2.158s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[2.159s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[2.159s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[2.159s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[2.160s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[2.160s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[2.160s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[2.161s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[2.161s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[2.161s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[2.161s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[2.161s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[2.162s] -- Installing: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[2.164s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/sam_bot_description

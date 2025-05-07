@@ -1,0 +1,59 @@
+[0.045s] Invoking command in '/workspace/ros_ws/src/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/master -- -j12 -l12
+[0.456s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.755s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.894s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.925s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.222s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.228s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.374s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.517s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.556s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.602s] -- Found teleop_twist_joy: 2.6.2 (/opt/ros/jazzy/share/teleop_twist_joy/cmake)
+[1.615s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.682s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.965s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.965s] -- Configured cppcheck include dirs: 
+[1.965s] -- Configured cppcheck exclude dirs and/or files: 
+[1.971s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.971s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.986s] -- Added test 'lint_cmake' to check CMake code style
+[1.993s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.041s] -- Added test 'uncrustify' to check C / C++ code style
+[2.041s] -- Configured uncrustify additional arguments: 
+[2.046s] -- Added test 'xmllint' to check XML markup files
+[2.052s] -- Configuring done (1.8s)
+[2.088s] -- Generating done (0.0s)
+[2.095s] -- Build files have been written to: /workspace/ros_ws/src/build/master
+[2.152s] [ 50%] [32mBuilding CXX object CMakeFiles/master_node.dir/src/theMaster.cpp.o[0m
+[9.866s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
+[9.867s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:95:15:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+[9.867s]    95 |               [01;35m[Kif[m[K(*trigger)
+[9.867s]       |               [01;35m[K^~[m[K
+[9.867s] [01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:103:13:[m[K [01;36m[Knote: [m[Khere
+[9.867s]   103 |             [01;36m[Kcase[m[K 0: //deactivated
+[9.867s]       |             [01;36m[K^~~~[m[K
+[17.036s] [100%] [32m[1mLinking CXX executable master_node[0m
+[17.565s] [100%] Built target master_node
+[17.580s] Invoked command in '/workspace/ros_ws/src/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/master -- -j12 -l12
+[17.582s] Invoking command in '/workspace/ros_ws/src/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/master
+[17.591s] -- Install configuration: ""
+[17.592s] -- Installing: /workspace/ros_ws/src/install/master/lib/master/master_node
+[17.602s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/src/install/master/lib/master/master_node" to ""
+[17.603s] -- Installing: /workspace/ros_ws/src/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[17.603s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[17.603s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/environment/ament_prefix_path.sh
+[17.603s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/environment/ament_prefix_path.dsv
+[17.604s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/environment/path.sh
+[17.604s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/environment/path.dsv
+[17.604s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/local_setup.bash
+[17.604s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/local_setup.sh
+[17.604s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/local_setup.zsh
+[17.605s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/local_setup.dsv
+[17.606s] -- Installing: /workspace/ros_ws/src/install/master/share/master/package.dsv
+[17.608s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/ament_index/resource_index/packages/master
+[17.609s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/cmake/masterConfig.cmake
+[17.610s] -- Up-to-date: /workspace/ros_ws/src/install/master/share/master/cmake/masterConfig-version.cmake
+[17.610s] -- Installing: /workspace/ros_ws/src/install/master/share/master/package.xml
+[17.611s] Invoked command in '/workspace/ros_ws/src/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/master

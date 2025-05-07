@@ -1,0 +1,52 @@
+[0.528s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/sam_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/sam_bot_description
+[1.056s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.127s] -- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+[1.129s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.465s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.477s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.477s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.478s] -- Added test 'lint_cmake' to check CMake code style
+[1.479s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.493s] -- Added test 'xmllint' to check XML markup files
+[1.504s] -- Configuring done (1.0s)
+[1.524s] -- Generating done (0.0s)
+[1.528s] -- Build files have been written to: /workspace/ros_ws/build/sam_bot_description
+[1.546s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/sam_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/sam_bot_description
+[1.546s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/sam_bot_description -- -j12 -l12
+[1.717s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/sam_bot_description -- -j12 -l12
+[1.720s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/sam_bot_description
+[1.729s] -- Install configuration: ""
+[1.730s] -- Execute custom install script
+[1.730s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf
+[1.745s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf:Zone.Identifier
+[1.762s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[1.776s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf:Zone.Identifier
+[1.794s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[1.808s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py:Zone.Identifier
+[1.829s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz
+[1.845s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz:Zone.Identifier
+[1.861s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml
+[1.879s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml:Zone.Identifier
+[1.895s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[1.913s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml:Zone.Identifier
+[1.926s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[1.939s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml:Zone.Identifier
+[1.955s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[1.967s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf:Zone.Identifier
+[1.981s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[1.993s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[2.012s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[2.026s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[2.039s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[2.053s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[2.064s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[2.076s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[2.090s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[2.107s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[2.123s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[2.139s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[2.154s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[2.168s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[2.183s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[2.201s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/sam_bot_description

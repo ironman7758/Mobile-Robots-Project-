@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "nav2_sms_behavior/action/SendSms_Goal",
+      "fields": [
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "nav2_sms_behavior/action/SendSms_Goal",
+      "hash_string": "RIHS01_0838afc01119465c8342e7b692b662aad80ba1520576a6f417d8383cd9c27674"
+    }
+  ]
+}
