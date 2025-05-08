@@ -35,13 +35,18 @@ RUN apt update && apt install ros-jazzy-ros-gz -y
 #Install camera
 RUN apt update && apt install ros-jazzy-depthai-ros -y
 
-#Install common gps modules
-RUN apt update && apt install ros-jazzy-gps-msgs ros-jazzy-gps-tools -y
+#Install common gps modules 
+RUN apt update && apt install ros-jazzy-gps-msgs ros-jazzy-gps-tools ros-jazzy-slam-toolbox -y
 
 RUN apt update && apt install ros-jazzy-phidgets-spatial -y
 #simulation
 RUN apt install ros-jazzy-turtlebot3 ros-jazzy-turtlebot3-msgs ros-jazzy-turtlebot3-bringup -y
 
+
+###
+# RICH BEAM!
+###
+RUN git clone https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver.git /workspace/richbeam
 ##Final setup
 WORKDIR /workspace
 ENV SHELL=/bin/[bash]
@@ -65,6 +70,7 @@ ADD configs/navsat_transform.launch.py /opt/ros/jazzy/share/robot_localization/l
 #configs
 ADD configs/nav2_params.yaml /opt/ros/jazzy/share/nav2_bringup/params/
 ADD configs/navsat_transform.yaml /opt/ros/jazzy/share/robot_localization/params/
+ADD configs/nmea_serial_driver /opt/ros/jazzy/share/nmea_navsat_driver/config/
 ##########W#A#Y#P#O#I#N#T#######################
 #ADD configs/waypoints.yaml /opt/ros/jazzy/share/
 #################################################
