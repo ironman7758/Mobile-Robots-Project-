@@ -1,0 +1,12 @@
+<package format="3">
+  <name>gps_nav</name>
+  <version>0.1.0</version>
+  <description>GPS Waypoint Navigation using Nav2</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav2_simple_commander</exec_depend>
+</package>
