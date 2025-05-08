@@ -61,7 +61,7 @@ def generate_launch_description():
     # https://github.com/ros/robot_state_publisher/pull/30
     # TODO(orduno) Substitute with `PushNodeRemapping`
     #              https://github.com/ros2/launch_ros/issues/56
-    remappings = [('/tf', 'tf'), ('/tf_static', 'tf_static')]
+    remappings = [('/tf', 'tf'), ('/tf', 'tf')]
 
     # Create our own temporary YAML files that include substitutions
     param_substitutions = {'autostart': autostart}
@@ -189,7 +189,15 @@ def generate_launch_description():
                 output='screen',
                 respawn=use_respawn,
                 respawn_delay=2.0,
-                parameters=[configured_params],
+                parameters=[ ParameterFile(
+                            RewrittenYaml(
+                                source_file=params_file,
+                                root_key=namespace,
+                                param_rewrites=param_substitutions,
+                                convert_types=True,
+                                ),
+                            allow_substs=True,
+                )],
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings,
             ),

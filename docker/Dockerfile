@@ -47,12 +47,19 @@ RUN apt install ros-jazzy-turtlebot3 ros-jazzy-turtlebot3-msgs ros-jazzy-turtleb
 # RICH BEAM!
 ###
 RUN git clone https://github.com/RichbeamTechnology/Lakibeam_ROS2_Driver.git /workspace/richbeam
+WORKDIR /workspace/richbeam
+RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash; colcon build"
+
+RUN apt install ros-jazzy-imu-tools -y
+
 ##Final setup
 WORKDIR /workspace
 ENV SHELL=/bin/[bash]
 ENV ROS_DOMAIN_ID=2 
+#RUN echo "source ros_ws/src/install/setup.bash" >> ~/.bashrc
+#RUN echo "source richbeam/install/setup.bash" >> ~/.bashrc
 
-RUN echo "export DISPLAY=:0.0" >> /etc/bash.bashrc
+RUN echo "export DISPLAY=:1" >> /etc/bash.bashrc
 #VOLUME "$HOME/.Xauthority:/root/.Xauthority:rw"
 # ********************************************************
 # * Anything else you want to do like clean up goes here *  
@@ -70,7 +77,13 @@ ADD configs/navsat_transform.launch.py /opt/ros/jazzy/share/robot_localization/l
 #configs
 ADD configs/nav2_params.yaml /opt/ros/jazzy/share/nav2_bringup/params/
 ADD configs/navsat_transform.yaml /opt/ros/jazzy/share/robot_localization/params/
-ADD configs/nmea_serial_driver /opt/ros/jazzy/share/nmea_navsat_driver/config/
+ADD configs/nmea_serial_driver.yaml /opt/ros/jazzy/share/nmea_navsat_driver/config/
+ADD configs/spatial-launch.py /opt/ros/jazzy/share/phidgets_spatial/launch/
+
+ADD configs/dual_ekf_navsat_example.launch.py /opt/ros/jazzy/share/nmea_navsat_driver/config/
+ADD configs/dual_ekf_navsat_example.yaml /opt/ros/jazzy/share/phidgets_spatial/launch/
+##########W#A#Y#P#O#I#N#T#######################
 ##########W#A#Y#P#O#I#N#T#######################
 #ADD configs/waypoints.yaml /opt/ros/jazzy/share/
 #################################################
+RUN apt install nano

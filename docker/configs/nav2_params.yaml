@@ -325,14 +325,15 @@ waypoint_follower:
     loop_rate: 20
     stop_on_failure: false
     action_server_result_timeout: 900.0
-    waypoint_task_executor_plugin: "wait_at_waypoint"
+    waypoint_task_executor_plugin: "photo_at_waypoint"
     wait_at_waypoint:
-      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+      plugin: "nav2_waypoint_follower::PhotoAtWaypoint"
       enabled: True
-      waypoint_pause_duration: 200
+      camera_image_topic_name: “/camera/rgb/image_raw”
+      save_images_dir: "/workspace/ros_ws/images"
 
 velocity_smoother:
-  ros__parameters:
+  ros__parameters:  
     smoothing_frequency: 20.0
     scale_velocities: False
     feedback: "OPEN_LOOP"
