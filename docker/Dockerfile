@@ -87,3 +87,20 @@ ADD configs/dual_ekf_navsat_example.yaml /opt/ros/jazzy/share/phidgets_spatial/l
 #ADD configs/waypoints.yaml /opt/ros/jazzy/share/
 #################################################
 RUN apt install nano
+
+
+#################################################
+#PYTHON INSTALL
+#################################################
+
+RUN apt update && apt install -y python3 python3-pip
+
+##################################################
+#ADD PYTORCH AND TORCHVISION
+#################################################
+
+RUN apt update && apt install python3-pip -y
+RUN pip3 install --default-timeout=100 \
+    torch torchvision torchaudio \
+    --index-url https://download.pytorch.org/whl/cu118 \
+    --break-system-packages
