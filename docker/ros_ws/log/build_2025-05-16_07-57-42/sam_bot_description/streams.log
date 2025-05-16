@@ -1,0 +1,52 @@
+[0.019s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/sam_bot_description
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.356s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.379s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.379s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.510s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.514s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.515s] -- Added test 'lint_cmake' to check CMake code style
+[0.515s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.517s] -- Added test 'xmllint' to check XML markup files
+[0.521s] -- Configuring done (0.5s)
+[0.527s] -- Generating done (0.0s)
+[0.530s] -- Build files have been written to: /workspace/ros_ws/build/sam_bot_description
+[0.534s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/sam_bot_description
+[0.536s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/sam_bot_description -- -j8 -l8
+[0.994s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/sam_bot_description -- -j8 -l8
+[0.994s] Invoking command in '/workspace/ros_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/sam_bot_description
+[1.032s] -- Install configuration: ""
+[1.032s] -- Execute custom install script
+[1.032s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf
+[1.032s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf:Zone.Identifier
+[1.032s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[1.032s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf:Zone.Identifier
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py:Zone.Identifier
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz:Zone.Identifier
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml:Zone.Identifier
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml:Zone.Identifier
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml:Zone.Identifier
+[1.033s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf:Zone.Identifier
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[1.034s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[1.034s] -- Symlinking: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[1.045s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[1.045s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[1.045s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[1.045s] -- Up-to-date symlink: /workspace/ros_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[1.047s] Invoked command in '/workspace/ros_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/sam_bot_description

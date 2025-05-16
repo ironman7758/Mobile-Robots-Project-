@@ -1,0 +1,2 @@
+[0.077s] Invoking command in '/workspace/ros_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_straightline_planner -- -j8 -l8
+[0.265s] [100%] Built target nav2_straightline_planner_plugin

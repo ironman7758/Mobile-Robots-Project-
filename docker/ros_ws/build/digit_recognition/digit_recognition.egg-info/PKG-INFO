@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: digit-recognition
+Version: 0.0.0
+Summary: MNIST digit recognition node for ROS2
+Maintainer: team2
+Maintainer-email: team2@example.com
+License: Apache License 2.0

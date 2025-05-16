@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000376] (-) JobUnselected: {'identifier': 'ariaNode'}
+[0.000511] (-) JobUnselected: {'identifier': 'coco_detector'}
+[0.000770] (-) JobUnselected: {'identifier': 'master'}
+[0.000792] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.000809] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.000823] (-) JobUnselected: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.000836] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.000845] (-) JobUnselected: {'identifier': 'nav2_pure_pursuit_controller'}
+[0.000854] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.000862] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.000872] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.000882] (-) EventReactorShutdown: {}
