@@ -35,6 +35,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/turtlebot3_waffle_gps.urdf
-urdf/turtlebot3_waffle_gps.urdf:Zone.Identifier
 worlds/sonoma_raceway.world
 worlds/sonoma_raceway.world:Zone.Identifier

@@ -1,4 +1,0 @@
-Invoking command in '/workspace/ros_ws/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_sms_behavior -- -j12 -l12
-Invoked command in '/workspace/ros_ws/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_sms_behavior -- -j12 -l12
-Invoking command in '/workspace/ros_ws/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_sms_behavior
-Invoked command in '/workspace/ros_ws/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_sms_behavior

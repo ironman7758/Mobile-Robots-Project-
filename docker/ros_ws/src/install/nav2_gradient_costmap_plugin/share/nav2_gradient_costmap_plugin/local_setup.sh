@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/build/nav2_gradient_costmap_plugin/ament_cmake_environment_hooks/local_setup.sh

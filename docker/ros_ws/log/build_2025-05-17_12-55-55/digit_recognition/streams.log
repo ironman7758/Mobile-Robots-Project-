@@ -1,0 +1,19 @@
+[2.584s] Invoking command in '/workspace/ros_ws/build/digit_recognition': PYTHONPATH=/workspace/ros_ws/build/digit_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/digit_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros_ws/build/digit_recognition/build --no-deps symlink_data --force
+[3.890s] running develop
+[4.208s] running egg_info
+[4.253s] writing digit_recognition.egg-info/PKG-INFO
+[4.254s] writing dependency_links to digit_recognition.egg-info/dependency_links.txt
+[4.256s] writing entry points to digit_recognition.egg-info/entry_points.txt
+[4.256s] writing requirements to digit_recognition.egg-info/requires.txt
+[4.265s] writing top-level names to digit_recognition.egg-info/top_level.txt
+[4.423s] reading manifest file 'digit_recognition.egg-info/SOURCES.txt'
+[4.423s] writing manifest file 'digit_recognition.egg-info/SOURCES.txt'
+[4.468s] running build_ext
+[4.472s] Creating /workspace/ros_ws/install/digit_recognition/lib/python3.12/site-packages/digit-recognition.egg-link (link to .)
+[4.485s] Installing digit_recognition_node script to /workspace/ros_ws/install/digit_recognition/lib/digit_recognition
+[4.485s] 
+[4.486s] Installed /workspace/ros_ws/build/digit_recognition
+[4.486s] running symlink_data
+[4.486s] symbolically linking /workspace/ros_ws/build/digit_recognition/package.xml -> /workspace/ros_ws/install/digit_recognition/share/digit_recognition
+[4.487s] symbolically linking /workspace/ros_ws/build/digit_recognition/model/mnist_cnn_model.pth -> /workspace/ros_ws/install/digit_recognition/share/digit_recognition/model
+[4.591s] Invoked command in '/workspace/ros_ws/build/digit_recognition' returned '0': PYTHONPATH=/workspace/ros_ws/build/digit_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/install/digit_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /workspace/ros_ws/build/digit_recognition/build --no-deps symlink_data --force

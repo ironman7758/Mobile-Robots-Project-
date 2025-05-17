@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/build/nav2_pure_pursuit_controller/ament_cmake_core/nav2_pure_pursuit_controllerConfig-version.cmake

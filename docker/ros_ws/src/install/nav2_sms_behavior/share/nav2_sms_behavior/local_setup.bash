@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/build/nav2_sms_behavior/ament_cmake_environment_hooks/local_setup.bash

@@ -6,8 +6,8 @@
 
 #include "nav2_sms_behavior/action/detail/send_sms__functions.h"
 #include "nav2_sms_behavior/action/detail/send_sms__type_support.h"
-#include "nav2_sms_behavior/action/detail/send_sms__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "nav2_sms_behavior/action/detail/send_sms__struct.h"
 
 #ifdef __cplusplus
 extern "C"

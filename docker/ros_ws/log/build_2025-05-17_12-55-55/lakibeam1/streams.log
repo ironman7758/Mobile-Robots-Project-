@@ -1,0 +1,55 @@
+[0.342s] Invoking command in '/workspace/ros_ws/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/lakibeam1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/lakibeam1
+[0.805s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.907s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.931s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.005s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.024s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.045s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.329s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.338s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.798s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.154s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.154s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.155s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.156s]   cmake_policy command to set the policy and suppress this warning.
+[2.156s] 
+[2.157s]   CMake variable FLANN_ROOT is set to:
+[2.157s] 
+[2.157s]     /usr
+[2.158s] 
+[2.158s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.158s]   .cmake module might still use it.
+[2.160s] Call Stack (most recent call first):
+[2.162s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.162s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.163s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.164s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.164s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.164s]   CMakeLists.txt:10 (find_package)
+[2.164s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.171s] [0m
+[2.171s] -- Found flann version 1.9.2
+[3.894s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.910s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.918s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[5.340s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.360s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.730s] -- Found Qhull version 8.0.2
+[7.880s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.657s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[8.703s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.831s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.831s] -- Configured cppcheck include dirs: 
+[8.831s] -- Configured cppcheck exclude dirs and/or files: 
+[8.833s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.833s] -- Configured 'flake8' exclude dirs and/or files: 
+[8.835s] -- Added test 'lint_cmake' to check CMake code style
+[8.836s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.843s] -- Added test 'uncrustify' to check C / C++ code style
+[8.844s] -- Configured uncrustify additional arguments: 
+[8.844s] -- Added test 'xmllint' to check XML markup files
+[8.850s] -- Configuring done (8.5s)
+[8.871s] -- Generating done (0.0s)
+[8.877s] -- Build files have been written to: /workspace/ros_ws/build/lakibeam1

@@ -1,0 +1,53 @@
+[0.476s] Invoking command in '/workspace/ros_ws/src/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/master -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/master
+[1.202s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.255s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.267s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.323s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.337s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.361s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.542s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.547s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.781s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.940s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.006s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.035s] -- Found teleop_twist_joy: 2.6.3 (/opt/ros/jazzy/share/teleop_twist_joy/cmake)
+[2.036s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.105s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.586s] -- Configured cppcheck include dirs: 
+[2.589s] -- Configured cppcheck exclude dirs and/or files: 
+[2.606s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.610s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.635s] -- Added test 'lint_cmake' to check CMake code style
+[2.652s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.788s] -- Added test 'uncrustify' to check C / C++ code style
+[2.801s] -- Configured uncrustify additional arguments: 
+[2.849s] -- Added test 'xmllint' to check XML markup files
+[2.849s] -- Configuring done (2.3s)
+[2.936s] -- Generating done (0.0s)
+[2.952s] -- Build files have been written to: /workspace/ros_ws/src/build/master
+[2.991s] Invoked command in '/workspace/ros_ws/src/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/master -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/master
+[2.994s] Invoking command in '/workspace/ros_ws/src/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/master -- -j8 -l8
+[3.331s] [100%] Built target master_node
+[3.405s] Invoked command in '/workspace/ros_ws/src/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/master -- -j8 -l8
+[3.405s] Invoking command in '/workspace/ros_ws/src/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/master
+[5.102s] -- Install configuration: ""
+[5.102s] -- Execute custom install script
+[5.102s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/lib/master/master_node
+[5.102s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/environment/ament_prefix_path.sh
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/environment/ament_prefix_path.dsv
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/environment/path.sh
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/environment/path.dsv
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/local_setup.bash
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/local_setup.sh
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/local_setup.zsh
+[5.103s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/local_setup.dsv
+[5.103s] -- Symlinking: /workspace/ros_ws/src/install/master/share/master/package.dsv
+[5.104s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/ament_index/resource_index/packages/master
+[5.104s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/cmake/masterConfig.cmake
+[5.104s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/cmake/masterConfig-version.cmake
+[5.104s] -- Up-to-date symlink: /workspace/ros_ws/src/install/master/share/master/package.xml
+[5.127s] Invoked command in '/workspace/ros_ws/src/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/master

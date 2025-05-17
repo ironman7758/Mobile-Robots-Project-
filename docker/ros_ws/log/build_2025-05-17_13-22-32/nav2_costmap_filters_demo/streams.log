@@ -1,0 +1,42 @@
+[0.345s] Invoking command in '/workspace/ros_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_costmap_filters_demo
+[0.819s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.004s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.414s] -- Configuring done (1.0s)
+[1.427s] -- Generating done (0.0s)
+[1.430s] -- Build files have been written to: /workspace/ros_ws/build/nav2_costmap_filters_demo
+[1.439s] Invoked command in '/workspace/ros_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_costmap_filters_demo
+[1.439s] Invoking command in '/workspace/ros_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[1.584s] Invoked command in '/workspace/ros_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[1.616s] Invoking command in '/workspace/ros_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_costmap_filters_demo
+[1.665s] -- Install configuration: ""
+[1.669s] -- Execute custom install script
+[1.669s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[1.669s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py:Zone.Identifier
+[1.670s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[1.670s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm:Zone.Identifier
+[1.670s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[1.681s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml:Zone.Identifier
+[1.682s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[1.682s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm:Zone.Identifier
+[1.684s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[1.684s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml:Zone.Identifier
+[1.684s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[1.685s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml:Zone.Identifier
+[1.685s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[1.685s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml:Zone.Identifier
+[1.685s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[1.685s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[1.685s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[1.687s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[1.687s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[1.688s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[1.688s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[1.688s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[1.690s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[1.690s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[1.690s] -- Symlinking: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[1.739s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[1.743s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[1.743s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[1.743s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[1.744s] Invoked command in '/workspace/ros_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_costmap_filters_demo

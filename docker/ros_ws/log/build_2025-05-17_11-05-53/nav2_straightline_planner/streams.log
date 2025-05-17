@@ -1,0 +1,87 @@
+[0.021s] Invoking command in '/workspace/ros_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_straightline_planner -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_straightline_planner
+[0.970s] -- The C compiler identification is GNU 13.3.0
+[0.970s] -- The CXX compiler identification is GNU 13.3.0
+[0.970s] -- Detecting C compiler ABI info
+[0.971s] -- Detecting C compiler ABI info - done
+[0.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.971s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[0.973s] -- Detecting CXX compiler ABI info
+[0.979s] -- Detecting CXX compiler ABI info - done
+[0.979s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.979s] -- Detecting CXX compile features
+[0.987s] -- Detecting CXX compile features - done
+[0.987s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.246s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.641s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.757s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.802s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.087s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.131s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.298s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.327s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.370s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.570s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.664s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.743s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.797s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.997s] -- Found nav2_util: 1.3.6 (/opt/ros/jazzy/share/nav2_util/cmake)
+[3.395s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.395s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.395s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.666s] -- Found nav2_costmap_2d: 1.3.6 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[3.888s] -- Found nav2_core: 1.3.6 (/opt/ros/jazzy/share/nav2_core/cmake)
+[4.060s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.424s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.428s] -- Configured cppcheck include dirs: /workspace/ros_ws/src/nav2_straightline_planner/include
+[4.428s] -- Configured cppcheck exclude dirs and/or files: 
+[4.430s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.430s] -- Configured cpplint exclude dirs and/or files: 
+[4.440s] -- Added test 'lint_cmake' to check CMake code style
+[4.440s] -- Added test 'uncrustify' to check C / C++ code style
+[4.440s] -- Configured uncrustify additional arguments: 
+[4.440s] -- Added test 'xmllint' to check XML markup files
+[4.444s] -- Configuring done (4.4s)
+[4.545s] -- Generating done (0.1s)
+[4.569s] -- Build files have been written to: /workspace/ros_ws/build/nav2_straightline_planner
+[4.700s] Invoked command in '/workspace/ros_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_straightline_planner -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_straightline_planner
+[4.703s] Invoking command in '/workspace/ros_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_straightline_planner -- -j8 -l8
+[5.348s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[13.451s] [100%] [32m[1mLinking CXX shared library libnav2_straightline_planner_plugin.so[0m
+[13.890s] [100%] Built target nav2_straightline_planner_plugin
+[13.910s] Invoked command in '/workspace/ros_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_straightline_planner -- -j8 -l8
+[13.912s] Invoking command in '/workspace/ros_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_straightline_planner
+[13.923s] -- Install configuration: ""
+[13.926s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+[13.928s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so
+[13.931s] -- Set non-toolchain portion of runtime path of "/workspace/ros_ws/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so" to ""
+[13.931s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/include/
+[13.932s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/include//nav2_straightline_planner
+[13.933s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp
+[13.933s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp:Zone.Identifier
+[13.933s] -- Up-to-date: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+[13.933s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh
+[13.934s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv
+[13.935s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner
+[13.937s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner
+[13.939s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh
+[13.940s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv
+[13.941s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh
+[13.942s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv
+[13.943s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash
+[13.944s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh
+[13.945s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh
+[13.946s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv
+[13.947s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv
+[13.947s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner
+[13.948s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner
+[13.949s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.949s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[13.950s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.951s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake
+[13.952s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake
+[13.952s] -- Installing: /workspace/ros_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml
+[13.965s] Invoked command in '/workspace/ros_ws/build/nav2_straightline_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_straightline_planner

@@ -1,0 +1,14 @@
+{
+  "package_name": "nav2_sms_behavior",
+  "output_dir": "/workspace/ros_ws/src/build/nav2_sms_behavior/rosidl_generator_type_description/nav2_sms_behavior",
+  "idl_tuples": [
+    "/workspace/ros_ws/src/build/nav2_sms_behavior/rosidl_adapter/nav2_sms_behavior:action/SendSms.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

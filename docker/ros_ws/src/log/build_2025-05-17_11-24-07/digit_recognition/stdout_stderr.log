@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating digit_recognition.egg-info
+writing digit_recognition.egg-info/PKG-INFO
+writing dependency_links to digit_recognition.egg-info/dependency_links.txt
+writing entry points to digit_recognition.egg-info/entry_points.txt
+writing requirements to digit_recognition.egg-info/requires.txt
+writing top-level names to digit_recognition.egg-info/top_level.txt
+writing manifest file 'digit_recognition.egg-info/SOURCES.txt'
+reading manifest file 'digit_recognition.egg-info/SOURCES.txt'
+writing manifest file 'digit_recognition.egg-info/SOURCES.txt'
+running build_ext
+Creating /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit-recognition.egg-link (link to .)
+Installing digit_recognition_node script to /workspace/ros_ws/src/install/digit_recognition/lib/digit_recognition
+
+Installed /workspace/ros_ws/src/build/digit_recognition
+running symlink_data
+symbolically linking /workspace/ros_ws/src/build/digit_recognition/package.xml -> /workspace/ros_ws/src/install/digit_recognition/share/digit_recognition
+creating /workspace/ros_ws/src/install/digit_recognition/share/digit_recognition/model
+symbolically linking /workspace/ros_ws/src/build/digit_recognition/model/mnist_cnn_model.pth -> /workspace/ros_ws/src/install/digit_recognition/share/digit_recognition/model

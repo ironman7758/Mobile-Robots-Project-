@@ -1,0 +1,177 @@
+[0.030s] Invoking command in '/workspace/ros_ws/src/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/nav2_sms_behavior
+[0.078s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.200s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.785s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.830s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.944s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.984s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.012s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.418s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.431s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.071s] -- Found rclcpp_action: 28.1.9 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.132s] -- Found rclcpp_lifecycle: 28.1.9 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.206s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.242s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.437s] -- Found nav2_util: 1.3.6 (/opt/ros/jazzy/share/nav2_util/cmake)
+[3.233s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.235s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.529s] -- Found nav2_costmap_2d: 1.3.6 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[3.866s] -- Found nav2_core: 1.3.6 (/opt/ros/jazzy/share/nav2_core/cmake)
+[4.016s] -- Found nav2_behaviors: 1.3.6 (/opt/ros/jazzy/share/nav2_behaviors/cmake)
+[4.214s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.268s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.517s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.349s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.077s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.426s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.455s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.458s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.461s] -- Configured cppcheck include dirs: /workspace/ros_ws/src/nav2_sms_behavior/include
+[7.462s] -- Configured cppcheck exclude dirs and/or files: 
+[7.464s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.465s] -- Configured cpplint exclude dirs and/or files: 
+[7.466s] -- Added test 'lint_cmake' to check CMake code style
+[7.469s] -- Added test 'uncrustify' to check C / C++ code style
+[7.469s] -- Configured uncrustify additional arguments: 
+[7.471s] -- Added test 'xmllint' to check XML markup files
+[7.479s] -- Configuring done (7.4s)
+[7.668s] -- Generating done (0.1s)
+[7.704s] -- Build files have been written to: /workspace/ros_ws/src/build/nav2_sms_behavior
+[7.733s] Invoked command in '/workspace/ros_ws/src/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_sms_behavior -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/nav2_sms_behavior
+[7.734s] Invoking command in '/workspace/ros_ws/src/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/nav2_sms_behavior -- -j8 -l8
+[7.880s] [  2%] Built target nav2_sms_behavior__rosidl_generator_type_description
+[7.960s] [  2%] Built target ament_cmake_python_symlink_nav2_sms_behavior
+[8.035s] [ 16%] Built target nav2_sms_behavior__rosidl_generator_c
+[8.518s] running egg_info
+[8.576s] writing nav2_sms_behavior.egg-info/PKG-INFO
+[8.577s] writing dependency_links to nav2_sms_behavior.egg-info/dependency_links.txt
+[8.577s] writing top-level names to nav2_sms_behavior.egg-info/top_level.txt
+[8.695s] reading manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[8.704s] writing manifest file 'nav2_sms_behavior.egg-info/SOURCES.txt'
+[8.782s] [ 16%] Built target ament_cmake_python_build_nav2_sms_behavior_egg
+[8.862s] [ 24%] Built target nav2_sms_behavior__rosidl_typesupport_c
+[8.900s] [ 32%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_c
+[8.958s] [ 40%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_c
+[9.024s] [ 43%] Built target nav2_sms_behavior__cpp
+[9.102s] [ 51%] Built target nav2_sms_behavior__rosidl_typesupport_cpp
+[9.147s] [ 59%] Built target nav2_sms_behavior__rosidl_typesupport_introspection_cpp
+[9.219s] [ 67%] Built target nav2_sms_behavior_plugin
+[9.279s] [ 75%] Built target nav2_sms_behavior__rosidl_typesupport_fastrtps_cpp
+[9.314s] [ 75%] Built target nav2_sms_behavior
+[9.353s] [ 78%] Built target nav2_sms_behavior__py
+[9.407s] [ 83%] Built target nav2_sms_behavior__rosidl_generator_py
+[9.459s] [ 89%] Built target nav2_sms_behavior_s__rosidl_typesupport_fastrtps_c
+[9.501s] [ 94%] Built target nav2_sms_behavior_s__rosidl_typesupport_c
+[9.562s] [100%] Built target nav2_sms_behavior_s__rosidl_typesupport_introspection_c
+[9.581s] Invoked command in '/workspace/ros_ws/src/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/nav2_sms_behavior -- -j8 -l8
+[9.584s] Invoking command in '/workspace/ros_ws/src/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/nav2_sms_behavior
+[9.595s] -- Install configuration: ""
+[9.596s] -- Execute custom install script
+[9.596s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/rosidl_interfaces/nav2_sms_behavior
+[9.600s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/action/SendSms.json
+[9.602s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__functions.h
+[9.607s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__struct.h
+[9.607s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__type_support.h
+[9.607s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/send_sms.h
+[9.608s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/msg/rosidl_generator_c__visibility_control.h
+[9.608s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/library_path.sh
+[9.609s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/library_path.dsv
+[9.609s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__rosidl_typesupport_fastrtps_c.h
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__builder.hpp
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__struct.hpp
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__traits.hpp
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__type_support.hpp
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/send_sms.hpp
+[9.610s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.611s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__rosidl_typesupport_fastrtps_cpp.hpp
+[9.615s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.615s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__rosidl_typesupport_introspection_c.h
+[9.615s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include/nav2_sms_behavior/nav2_sms_behavior/action/detail/send_sms__rosidl_typesupport_introspection_cpp.hpp
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/pythonpath.sh
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/pythonpath.dsv
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior-1.0.0-py3.12.egg-info/PKG-INFO
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior-1.0.0-py3.12.egg-info/SOURCES.txt
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior-1.0.0-py3.12.egg-info/dependency_links.txt
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior-1.0.0-py3.12.egg-info/top_level.txt
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/__init__.py
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_c.c
+[9.616s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/_nav2_sms_behavior_s.ep.rosidl_typesupport_introspection_c.c
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/action/__init__.py
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/action/_send_sms.py
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/action/_send_sms_s.c
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_c.so
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_fastrtps_c.so
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_introspection_c.so
+[9.617s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_fastrtps_c.so
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_introspection_c.so
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/nav2_sms_behavior_s__rosidl_typesupport_c.so
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/action/SendSms.idl
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/action/SendSms.action
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior//behavior_plugin.xml
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior_plugin.so
+[9.618s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include//nav2_sms_behavior/send_sms.hpp
+[9.619s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include//nav2_sms_behavior/send_sms.hpp:Zone.Identifier
+[9.619s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include//nav2_sms_behavior/twilio.hpp
+[9.619s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include//nav2_sms_behavior/twilio.hpp:Zone.Identifier
+[9.619s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include//nav2_sms_behavior/type_conversion.hpp
+[9.619s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/include//nav2_sms_behavior/type_conversion.hpp:Zone.Identifier
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/behavior_plugin.xml
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/package_run_dependencies/nav2_sms_behavior
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/parent_prefix_path/nav2_sms_behavior
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/ament_prefix_path.sh
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/ament_prefix_path.dsv
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/path.sh
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/environment/path.dsv
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/local_setup.bash
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/local_setup.sh
+[9.620s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/local_setup.zsh
+[9.621s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/local_setup.dsv
+[9.621s] -- Symlinking: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/package.dsv
+[9.634s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/packages/nav2_sms_behavior
+[9.634s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_sms_behavior
+[9.634s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/rosidl_cmake-extras.cmake
+[9.634s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.634s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.634s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/ament_cmake_export_libraries-extras.cmake
+[9.636s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/ament_cmake_export_targets-extras.cmake
+[9.637s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.637s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.638s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behaviorConfig.cmake
+[9.638s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behaviorConfig-version.cmake
+[9.639s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/package.xml
+[9.639s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_generator_c.so
+[9.640s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_typesupport_fastrtps_c.so
+[9.641s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_typesupport_fastrtps_cpp.so
+[9.642s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_typesupport_introspection_c.so
+[9.642s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_typesupport_c.so
+[9.643s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_typesupport_introspection_cpp.so
+[9.645s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_typesupport_cpp.so
+[9.694s] Listing '/workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior'...
+[9.695s] Compiling '/workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/__init__.py'...
+[9.695s] Listing '/workspace/ros_ws/src/install/nav2_sms_behavior/lib/python3.12/site-packages/nav2_sms_behavior/action'...
+[9.704s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/lib/libnav2_sms_behavior__rosidl_generator_py.so
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_generator_cExport.cmake
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_generator_cExport-noconfig.cmake
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_typesupport_fastrtps_cExport.cmake
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_generator_cppExport.cmake
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.707s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_introspection_cExport.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_cExport.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_cExport-noconfig.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_introspection_cppExport.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_cppExport.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/nav2_sms_behavior__rosidl_typesupport_cppExport-noconfig.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_generator_pyExport.cmake
+[9.708s] -- Up-to-date: /workspace/ros_ws/src/install/nav2_sms_behavior/share/nav2_sms_behavior/cmake/export_nav2_sms_behavior__rosidl_generator_pyExport-noconfig.cmake
+[9.713s] Invoked command in '/workspace/ros_ws/src/build/nav2_sms_behavior' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/nav2_sms_behavior

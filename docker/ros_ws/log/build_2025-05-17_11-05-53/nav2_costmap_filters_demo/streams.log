@@ -1,0 +1,56 @@
+[0.227s] Invoking command in '/workspace/ros_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_costmap_filters_demo
+[0.603s] -- The C compiler identification is GNU 13.3.0
+[0.603s] -- The CXX compiler identification is GNU 13.3.0
+[0.604s] -- Detecting C compiler ABI info
+[0.620s] -- Detecting C compiler ABI info - done
+[0.632s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.633s] -- Detecting C compile features
+[0.633s] -- Detecting C compile features - done
+[0.656s] -- Detecting CXX compiler ABI info
+[0.922s] -- Detecting CXX compiler ABI info - done
+[0.956s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.957s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.970s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.324s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.912s] -- Configuring done (1.7s)
+[1.915s] -- Generating done (0.0s)
+[1.917s] -- Build files have been written to: /workspace/ros_ws/build/nav2_costmap_filters_demo
+[1.924s] Invoked command in '/workspace/ros_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/nav2_costmap_filters_demo
+[1.926s] Invoking command in '/workspace/ros_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[2.707s] Invoked command in '/workspace/ros_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[2.730s] Invoking command in '/workspace/ros_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_costmap_filters_demo
+[2.766s] -- Install configuration: ""
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py:Zone.Identifier
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml:Zone.Identifier
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm:Zone.Identifier
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm:Zone.Identifier
+[2.766s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml:Zone.Identifier
+[2.767s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[2.767s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params
+[2.768s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[2.768s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml:Zone.Identifier
+[2.768s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[2.768s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml:Zone.Identifier
+[2.769s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[2.769s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[2.769s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[2.769s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[2.770s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[2.770s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[2.772s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[2.772s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[2.772s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[2.772s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[2.784s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[2.784s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[2.784s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[2.784s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[2.784s] -- Installing: /workspace/ros_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[2.800s] Invoked command in '/workspace/ros_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_costmap_filters_demo

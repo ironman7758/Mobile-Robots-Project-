@@ -1,7 +1,0 @@
-[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:[m[K In lambda function:
-[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:95:15:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
-   95 |               [01;35m[Kif[m[K(*trigger)
-      |               [01;35m[K^~[m[K
-[01m[K/workspace/ros_ws/src/master/src/theMaster.cpp:103:13:[m[K [01;36m[Knote: [m[Khere
-  103 |             [01;36m[Kcase[m[K 0: //deactivated
-      |             [01;36m[K^~~~[m[K

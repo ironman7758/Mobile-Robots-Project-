@@ -1,0 +1,194 @@
+[0.523s] Invoking command in '/workspace/ros_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/lakibeam1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/lakibeam1
+[1.128s] -- The C compiler identification is GNU 13.3.0
+[1.129s] -- The CXX compiler identification is GNU 13.3.0
+[1.130s] -- Detecting C compiler ABI info
+[1.173s] -- Detecting C compiler ABI info - done
+[1.269s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.269s] -- Detecting C compile features
+[1.273s] -- Detecting C compile features - done
+[1.314s] -- Detecting CXX compiler ABI info
+[1.909s] -- Detecting CXX compiler ABI info - done
+[1.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.956s] -- Detecting CXX compile features
+[1.967s] -- Detecting CXX compile features - done
+[1.998s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.901s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.235s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.546s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.853s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.982s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.145s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.165s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.803s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.900s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.002s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.304s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[6.897s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[6.898s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[6.902s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[6.903s]   cmake_policy command to set the policy and suppress this warning.
+[6.905s] 
+[6.905s]   CMake variable FLANN_ROOT is set to:
+[6.905s] 
+[6.905s]     /usr
+[6.905s] 
+[6.905s]   For compatibility, find_package is ignoring the variable, but code in a
+[6.906s]   .cmake module might still use it.
+[6.906s] Call Stack (most recent call first):
+[6.906s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[6.906s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[6.906s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[6.906s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[6.906s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[6.906s]   CMakeLists.txt:10 (find_package)
+[6.906s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.906s] [0m
+[6.926s] -- Found flann version 1.9.2
+[8.157s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[8.158s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[11.999s] -- Checking for module 'libusb-1.0'
+[12.043s] --   Found libusb-1.0, version 1.0.27
+[12.136s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[12.139s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[12.358s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[12.373s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[12.400s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[12.447s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[13.709s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[13.728s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.077s] -- Found Qhull version 8.0.2
+[16.169s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.071s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[17.073s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[17.078s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[17.079s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[17.083s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[17.086s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[17.088s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[17.092s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[17.107s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[17.116s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[17.117s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[17.142s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[17.153s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[17.175s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[17.188s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[17.193s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[17.197s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[17.202s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[17.206s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[17.207s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[17.208s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[17.209s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[17.209s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[17.210s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[17.210s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[17.227s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[17.498s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  
+[17.519s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[17.863s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.864s] -- Configured cppcheck include dirs: 
+[17.864s] -- Configured cppcheck exclude dirs and/or files: 
+[17.872s] -- Added test 'flake8' to check Python code syntax and style conventions
+[17.872s] -- Configured 'flake8' exclude dirs and/or files: 
+[17.883s] -- Added test 'lint_cmake' to check CMake code style
+[17.889s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[17.901s] -- Added test 'uncrustify' to check C / C++ code style
+[17.902s] -- Configured uncrustify additional arguments: 
+[17.903s] -- Added test 'xmllint' to check XML markup files
+[17.914s] -- Configuring done (17.4s)
+[17.954s] -- Generating done (0.0s)
+[17.991s] -- Build files have been written to: /workspace/ros_ws/src/build/lakibeam1
+[18.057s] Invoked command in '/workspace/ros_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/lakibeam1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/lakibeam1
+[18.060s] Invoking command in '/workspace/ros_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/lakibeam1 -- -j8 -l8
+[18.224s] [ 33%] [32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/lakibeam1_scan.cpp.o[0m
+[26.797s] [ 66%] [32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/remote.cpp.o[0m
+[30.474s] In file included from [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:4[m[K:
+[30.475s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:102:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.475s]   102 |     : public std::[01;35m[Kiterator[m[K<std::random_access_iterator_tag
+[30.476s]       |                   [01;35m[K^~~~~~~~[m[K
+[30.477s] In file included from [01m[K/usr/include/c++/13/bits/stl_construct.h:61[m[K,
+[30.478s]                  from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[30.478s]                  from [01m[K/usr/include/c++/13/memory:66[m[K,
+[30.478s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[30.478s]                  from [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:2[m[K:
+[30.478s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.478s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[30.479s]       |                                  [01;36m[K^~~~~~~~[m[K
+[30.479s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:110:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[30.479s]   110 |     typedef std::[01;35m[Kiterator[m[K<std::random_access_iterator_tag,ValueType> BaseType;
+[30.479s]       |                  [01;35m[K^~~~~~~~[m[K
+[30.479s] [01m[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[30.479s]   127 |     struct _GLIBCXX17_DEPRECATED [01;36m[Kiterator[m[K
+[30.479s]       |                                  [01;36m[K^~~~~~~~[m[K
+[30.518s] [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:[m[K In function ‘[01m[Ksize_t[01;32m[K dummy_callback[m[K(void*, size_t, size_t, void*)[m[K’:
+[30.519s] [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:16:36:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[30.519s]    16 | static size_t dummy_callback([01;35m[Kvoid *buffer[m[K, size_t size, size_t nmemb, void *userp)
+[30.519s]       |                              [01;35m[K~~~~~~^~~~~~[m[K
+[30.519s] [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:16:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuserp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[30.519s]    16 | static size_t dummy_callback(void *buffer, size_t size, size_t nmemb, [01;35m[Kvoid *userp[m[K)
+[30.520s]       |                                                                       [01;35m[K~~~~~~^~~~~[m[K
+[31.359s] /workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h: In instantiation of ‘[01m[Kvoid rapidjson::GenericValue<Encoding, Allocator>::[01;32m[KSetObjectRaw[m[K(Member*, rapidjson::SizeType, Allocator&) [35m[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; Member = rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >; rapidjson::SizeType = unsigned int][m[K[m[K’:
+[31.360s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2363:55:[m[K   required from ‘[01m[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KEndObject[m[K(rapidjson::SizeType) [35m[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int][m[K[m[K’
+[31.361s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1736:40:[m[K   required from ‘[01m[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::[01;32m[KTransit[m[K(IterativeParsingState, Token, IterativeParsingState, InputStream&, Handler&) [35m[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.363s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1832:58:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::[01;32m[KIterativeParse[m[K(InputStream&, Handler&) [35m[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.364s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:487:46:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::[01;32m[KParse[m[K(InputStream&, Handler&) [35m[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.364s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2159:57:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParseStream[m[K(InputStream&) [35m[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.364s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2224:55:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParse[m[K(const typename SourceEncoding::Ch*) [35m[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char][m[K[m[K’
+[31.364s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2233:43:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParse[m[K(const Ch*) [35m[K[with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char][m[K[m[K’
+[31.365s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2240:41:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParse[m[K(const Ch*) [35m[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char][m[K[m[K’
+[31.365s] [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:76:16:[m[K   required from here
+[31.365s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:1952:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member[m[K’ {aka ‘[01m[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >[m[K’} with no trivial copy-assignment; use copy-assignment instead [[01;35m[K-Wclass-memaccess[m[K]
+[31.365s]  1952 |             [01;35m[Kstd::memcpy(m, members, count * sizeof(Member))[m[K;
+[31.365s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.366s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:71:8:[m[K [01;36m[Knote: [m[K‘[01m[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member[m[K’ {aka ‘[01m[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >[m[K’} declared here
+[31.366s]    71 | struct [01;36m[KGenericMember[m[K {
+[31.366s]       |        [01;36m[K^~~~~~~~~~~~~[m[K
+[31.366s] /workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h: In instantiation of ‘[01m[Kvoid rapidjson::GenericValue<Encoding, Allocator>::[01;32m[KSetArrayRaw[m[K(rapidjson::GenericValue<Encoding, Allocator>*, rapidjson::SizeType, Allocator&) [35m[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::SizeType = unsigned int][m[K[m[K’:
+[31.366s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2371:54:[m[K   required from ‘[01m[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KEndArray[m[K(rapidjson::SizeType) [35m[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int][m[K[m[K’
+[31.366s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1766:39:[m[K   required from ‘[01m[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::[01;32m[KTransit[m[K(IterativeParsingState, Token, IterativeParsingState, InputStream&, Handler&) [35m[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.366s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1832:58:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::[01;32m[KIterativeParse[m[K(InputStream&, Handler&) [35m[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.366s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:487:46:[m[K   required from ‘[01m[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::[01;32m[KParse[m[K(InputStream&, Handler&) [35m[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.366s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2159:57:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParseStream[m[K(InputStream&) [35m[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator][m[K[m[K’
+[31.370s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2224:55:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParse[m[K(const typename SourceEncoding::Ch*) [35m[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char][m[K[m[K’
+[31.371s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2233:43:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParse[m[K(const Ch*) [35m[K[with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char][m[K[m[K’
+[31.371s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2240:41:[m[K   required from ‘[01m[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::[01;32m[KParse[m[K(const Ch*) [35m[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char][m[K[m[K’
+[31.371s] [01m[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:76:16:[m[K   required from here
+[31.372s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:1939:24:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid*[01;32m[K memcpy[m[K(void*, const void*, size_t)[m[K’ writing to an object of type ‘[01m[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ with no trivial copy-assignment; use copy-assignment or copy-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+[31.373s]  1939 |             [01;35m[Kstd::memcpy(e, values, count * sizeof(GenericValue))[m[K;
+[31.373s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[31.373s] [01m[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:540:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >[m[K’ declared here
+[31.374s]   540 | class [01;36m[KGenericValue[m[K {
+[31.374s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[31.864s] [100%] [32m[1mLinking CXX executable lakibeam1_scan_node[0m
+[32.242s] [100%] Built target lakibeam1_scan_node
+[32.266s] Invoked command in '/workspace/ros_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/lakibeam1 -- -j8 -l8
+[32.267s] Invoking command in '/workspace/ros_ws/src/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/lakibeam1
+[32.283s] -- Install configuration: ""
+[32.283s] -- Execute custom install script
+[32.286s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1
+[32.298s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1
+[32.328s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh
+[32.344s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv
+[32.364s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/environment/path.sh
+[32.400s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/environment/path.dsv
+[32.417s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/local_setup.bash
+[32.441s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/local_setup.sh
+[32.455s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/local_setup.zsh
+[32.471s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/local_setup.dsv
+[32.497s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/package.dsv
+[32.500s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1
+[32.515s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake
+[32.530s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake
+[32.546s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/package.xml
+[32.568s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node
+[32.583s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py
+[32.599s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py
+[32.617s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py
+[32.631s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py
+[32.650s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz
+[32.682s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz
+[32.684s] -- Symlinking: /workspace/ros_ws/src/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz
+[32.704s] Invoked command in '/workspace/ros_ws/src/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/lakibeam1

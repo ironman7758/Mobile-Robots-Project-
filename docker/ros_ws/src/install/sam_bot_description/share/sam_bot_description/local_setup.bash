@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/build/sam_bot_description/ament_cmake_environment_hooks/local_setup.bash

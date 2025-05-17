@@ -1,0 +1,51 @@
+[0.050s] Invoking command in '/workspace/ros_ws/src/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/nav2_pure_pursuit_controller
+[0.164s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.011s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.041s] -- Found nav2_common: 1.3.6 (/opt/ros/jazzy/share/nav2_common/cmake)
+[1.044s] -- Found nav2_core: 1.3.6 (/opt/ros/jazzy/share/nav2_core/cmake)
+[1.201s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.266s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.399s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.696s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.703s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.939s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.939s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.438s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.843s] -- Configuring done (4.7s)
+[5.135s] -- Generating done (0.2s)
+[5.165s] -- Build files have been written to: /workspace/ros_ws/src/build/nav2_pure_pursuit_controller
+[5.258s] Invoked command in '/workspace/ros_ws/src/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/nav2_pure_pursuit_controller
+[5.262s] Invoking command in '/workspace/ros_ws/src/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/nav2_pure_pursuit_controller -- -j8 -l8
+[5.559s] [100%] Built target nav2_pure_pursuit_controller
+[5.584s] Invoked command in '/workspace/ros_ws/src/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/nav2_pure_pursuit_controller -- -j8 -l8
+[5.586s] Invoking command in '/workspace/ros_ws/src/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/nav2_pure_pursuit_controller
+[5.599s] -- Install configuration: "Release"
+[5.599s] -- Execute custom install script
+[5.599s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/lib/libnav2_pure_pursuit_controller.so
+[5.599s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/include//nav2_pure_pursuit_controller/pure_pursuit_controller.hpp
+[5.600s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/include//nav2_pure_pursuit_controller/pure_pursuit_controller.hpp:Zone.Identifier
+[5.601s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/library_path.sh
+[5.605s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/library_path.dsv
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller//nav2_pure_pursuit_controller.xml
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_pure_pursuit_controller
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_pure_pursuit_controller
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/ament_prefix_path.sh
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/path.sh
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/path.dsv
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.bash
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.sh
+[5.606s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.zsh
+[5.607s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.dsv
+[5.608s] -- Symlinking: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.dsv
+[5.625s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_pure_pursuit_controller
+[5.625s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_pure_pursuit_controller
+[5.626s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.628s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[5.628s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.628s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/nav2_pure_pursuit_controllerConfig.cmake
+[5.628s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/nav2_pure_pursuit_controllerConfig-version.cmake
+[5.628s] -- Up-to-date symlink: /workspace/ros_ws/src/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.xml
+[5.636s] Invoked command in '/workspace/ros_ws/src/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/nav2_pure_pursuit_controller

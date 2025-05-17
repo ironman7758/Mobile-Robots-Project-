@@ -1,0 +1,31 @@
+[0.454s] Invoking command in '/workspace/ros_ws/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_pure_pursuit_controller -- -j8 -l8
+[0.995s] [100%] Built target nav2_pure_pursuit_controller
+[1.026s] Invoked command in '/workspace/ros_ws/build/nav2_pure_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_pure_pursuit_controller -- -j8 -l8
+[1.027s] Invoking command in '/workspace/ros_ws/build/nav2_pure_pursuit_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/nav2_pure_pursuit_controller
+[1.059s] -- Install configuration: "Release"
+[1.059s] -- Execute custom install script
+[1.059s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/lib/libnav2_pure_pursuit_controller.so
+[1.059s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/include//nav2_pure_pursuit_controller/pure_pursuit_controller.hpp
+[1.059s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/include//nav2_pure_pursuit_controller/pure_pursuit_controller.hpp:Zone.Identifier
+[1.060s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/library_path.sh
+[1.060s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/library_path.dsv
+[1.061s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller//nav2_pure_pursuit_controller.xml
+[1.062s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_pure_pursuit_controller
+[1.062s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_pure_pursuit_controller
+[1.063s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/ament_prefix_path.sh
+[1.063s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[1.064s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/path.sh
+[1.064s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/environment/path.dsv
+[1.065s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.bash
+[1.065s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.sh
+[1.066s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.zsh
+[1.066s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/local_setup.dsv
+[1.066s] -- Symlinking: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.dsv
+[1.112s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_pure_pursuit_controller
+[1.113s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_pure_pursuit_controller
+[1.118s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.119s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.132s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.133s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/nav2_pure_pursuit_controllerConfig.cmake
+[1.144s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/cmake/nav2_pure_pursuit_controllerConfig-version.cmake
+[1.144s] -- Up-to-date symlink: /workspace/ros_ws/install/nav2_pure_pursuit_controller/share/nav2_pure_pursuit_controller/package.xml

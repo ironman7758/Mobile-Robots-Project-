@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-734a9a1e6a7dfcb35b50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_gradient_costmap_plugin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_gradient_costmap_plugin_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_gradient_costmap_plugin_core-824f14ae6c656c2e70b3.json",
+					"name" : "nav2_gradient_costmap_plugin_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_gradient_costmap_plugin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_gradient_costmap_plugin_uninstall-36a761fa28b621ec8a4d.json",
+					"name" : "nav2_gradient_costmap_plugin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fcabb2dc4b950fdfd8da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/ros_ws/src/build/nav2_gradient_costmap_plugin",
+		"source" : "/workspace/ros_ws/src/nav2_gradient_costmap_plugin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

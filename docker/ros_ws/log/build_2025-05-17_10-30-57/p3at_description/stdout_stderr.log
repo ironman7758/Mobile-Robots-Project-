@@ -1,0 +1,118 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/ros_ws/build/p3at_description
+-- Install configuration: ""
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/launch
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/launch/display.launch.py
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/launch/ekf_launch.py
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/axle.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/top.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/hokuyo.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/kinect.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/right_hubcap.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/kinect.tga
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/hokuyo_convex.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/tampa1_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/suporte_kinect_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/suporte_base_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/suporte_depth_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/hokuyo1.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/wheel.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/back_sonar.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/suporte_armControl_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/suporte_base_mesh2.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/arm_control_box_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/tampa2_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/back_sonar_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/left_hubcap_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/tampa4_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/tampa3_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/left_hubcap.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/axle.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/top.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/front_sonar.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/right_hubcap.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/top.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/entries
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/wheel.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/right_hubcap.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/chassis.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/top.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/axle.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/back_sonar.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/front_sonar.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/left_hubcap.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/text-base/Coordinates.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/all-wcprops
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/wheel.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/right_hubcap.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/chassis.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/top.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/axle.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/back_sonar.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/front_sonar.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/.svn/prop-base/left_hubcap.stl.svn-base
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/wheel.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/back_sonar.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/chassis.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/axle.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/right_hubcap.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/back_sonar.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/left_hubcap.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/front_sonar.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/Coordinates
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/wheel.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/chassis.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/p3at_meshes/left_hubcap.stl
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/front_sonar.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/suporte_monitor_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/tv_mesh.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/Coordinates
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/meshes/chassis.dae
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/urdf
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/urdf/pioneer.urdf.xacro
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/urdf/pioneer1.urdf
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/world
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/world/empty.sdf
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/rviz
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/rviz/display.rviz
+-- Installing: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/package_run_dependencies/p3at_description
+-- Installing: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/parent_prefix_path/p3at_description
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/ament_prefix_path.sh
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/ament_prefix_path.dsv
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/path.sh
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/path.dsv
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.bash
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.sh
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.zsh
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.dsv
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/package.dsv
+-- Installing: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/packages/p3at_description
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/cmake/p3at_descriptionConfig.cmake
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/cmake/p3at_descriptionConfig-version.cmake
+-- Installing: /workspace/ros_ws/install/p3at_description/share/p3at_description/package.xml

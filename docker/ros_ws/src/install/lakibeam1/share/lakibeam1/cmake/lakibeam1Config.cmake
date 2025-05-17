@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/build/lakibeam1/ament_cmake_core/lakibeam1Config.cmake

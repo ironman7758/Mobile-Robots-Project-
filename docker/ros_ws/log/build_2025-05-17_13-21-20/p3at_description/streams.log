@@ -1,0 +1,166 @@
+[0.017s] Invoking command in '/workspace/ros_ws/build/p3at_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/p3at_description -- -j8 -l8
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.290s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.296s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.422s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.423s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.424s] -- Added test 'lint_cmake' to check CMake code style
+[0.427s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.433s] -- Added test 'xmllint' to check XML markup files
+[0.435s] -- Configuring done (0.4s)
+[0.439s] -- Generating done (0.0s)
+[0.440s] -- Build files have been written to: /workspace/ros_ws/build/p3at_description
+[0.472s] Invoked command in '/workspace/ros_ws/build/p3at_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/p3at_description -- -j8 -l8
+[0.483s] Invoking command in '/workspace/ros_ws/build/p3at_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/p3at_description
+[0.495s] -- Install configuration: ""
+[0.495s] -- Execute custom install script
+[0.496s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.496s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.496s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.496s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.496s] Call Stack (most recent call first):
+[0.496s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.496s]   cmake_install.cmake:46 (include)
+[0.496s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.496s] [0m
+[0.496s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/build/.built_by
+[0.496s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/build/COLCON_IGNORE
+[0.496s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/display.launch.py
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/ekf_launch.py
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/.colcon_install_layout
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/COLCON_IGNORE
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/_local_setup_util_ps1.py
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/_local_setup_util_sh.py
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.bash
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.ps1
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.sh
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.zsh
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.bash
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.ps1
+[0.497s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.sh
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.zsh
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/COLCON_IGNORE
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/build_2025-05-17_10-45-05/events.log
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/build_2025-05-17_10-45-05/logger_all.log
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/latest/events.log
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/latest/logger_all.log
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/latest_build/events.log
+[0.498s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//launch/log/latest_build/logger_all.log
+[0.499s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/Coordinates
+[0.499s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/arm_control_box_mesh.dae
+[0.499s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/axle.dae
+[0.499s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/back_sonar.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/back_sonar_mesh.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/chassis.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/front_sonar.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/hokuyo.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/hokuyo1.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/hokuyo_convex.stl
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/kinect.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/kinect.tga
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/left_hubcap.dae
+[0.500s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/left_hubcap_mesh.dae
+[0.501s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/all-wcprops
+[0.501s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/entries
+[0.501s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/axle.stl.svn-base
+[0.501s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/back_sonar.stl.svn-base
+[0.501s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/chassis.stl.svn-base
+[0.501s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/front_sonar.stl.svn-base
+[0.502s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/left_hubcap.stl.svn-base
+[0.502s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/right_hubcap.stl.svn-base
+[0.503s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/top.stl.svn-base
+[0.503s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/wheel.stl.svn-base
+[0.503s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/Coordinates.svn-base
+[0.503s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/axle.stl.svn-base
+[0.503s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/back_sonar.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/chassis.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/front_sonar.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/left_hubcap.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/right_hubcap.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/top.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/wheel.stl.svn-base
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/Coordinates
+[0.504s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/axle.dae
+[0.505s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/axle.stl
+[0.505s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/back_sonar.dae
+[0.505s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/back_sonar.stl
+[0.507s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/chassis.dae
+[0.507s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/chassis.stl
+[0.507s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/front_sonar.dae
+[0.507s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/front_sonar.stl
+[0.507s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/left_hubcap.dae
+[0.508s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/left_hubcap.stl
+[0.509s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/right_hubcap.dae
+[0.509s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/right_hubcap.stl
+[0.509s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/top.dae
+[0.509s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/top.stl
+[0.509s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/wheel.dae
+[0.509s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/wheel.stl
+[0.510s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/right_hubcap.dae
+[0.510s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_armControl_mesh.dae
+[0.511s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_base_mesh.dae
+[0.512s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_base_mesh2.dae
+[0.512s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_depth_mesh.dae
+[0.512s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_kinect_mesh.dae
+[0.512s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_monitor_mesh.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/tampa1_mesh.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/tampa2_mesh.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/tampa3_mesh.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/tampa4_mesh.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/top.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/tv_mesh.dae
+[0.513s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//meshes/wheel.dae
+[0.513s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.513s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.513s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.513s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.513s] Call Stack (most recent call first):
+[0.513s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.514s]   cmake_install.cmake:46 (include)
+[0.514s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.514s] [0m
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/build/.built_by
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/build/COLCON_IGNORE
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/.colcon_install_layout
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/COLCON_IGNORE
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/_local_setup_util_ps1.py
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/_local_setup_util_sh.py
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.bash
+[0.514s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.ps1
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.sh
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.zsh
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.bash
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.ps1
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.sh
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.zsh
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/COLCON_IGNORE
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/build_2025-05-17_11-15-30/events.log
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/build_2025-05-17_11-15-30/logger_all.log
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest/events.log
+[0.515s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest/logger_all.log
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest_build/events.log
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest_build/logger_all.log
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/pioneer.urdf
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/pioneer.urdf.xacro
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//urdf/pioneer1.urdf
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//world/empty.sdf
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//rviz/display.rviz
+[0.516s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//rviz/navigation.rviz
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//config/ekf.yaml
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share//config/mapper_params_online_async.yaml
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/package_run_dependencies/p3at_description
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/parent_prefix_path/p3at_description
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/ament_prefix_path.sh
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/ament_prefix_path.dsv
+[0.517s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/path.sh
+[0.518s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/path.dsv
+[0.518s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.bash
+[0.518s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.sh
+[0.518s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.zsh
+[0.518s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.dsv
+[0.518s] -- Symlinking: /workspace/ros_ws/install/p3at_description/share/p3at_description/package.dsv
+[0.537s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/packages/p3at_description
+[0.537s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/cmake/p3at_descriptionConfig.cmake
+[0.537s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/cmake/p3at_descriptionConfig-version.cmake
+[0.537s] -- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/package.xml
+[0.539s] Invoked command in '/workspace/ros_ws/build/p3at_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/p3at_description

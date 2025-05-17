@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/digit_recognition/digit_recognition.egg-info/PKG-INFO
+../build/digit_recognition/digit_recognition.egg-info/SOURCES.txt
+../build/digit_recognition/digit_recognition.egg-info/dependency_links.txt
+../build/digit_recognition/digit_recognition.egg-info/entry_points.txt
+../build/digit_recognition/digit_recognition.egg-info/requires.txt
+../build/digit_recognition/digit_recognition.egg-info/top_level.txt
+../build/digit_recognition/digit_recognition.egg-info/zip-safe
+digit_recognition/__init__.py
+digit_recognition/digit_recognition_node.py
+digit_recognition/model.py
+model/mnist_cnn_model.pth
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

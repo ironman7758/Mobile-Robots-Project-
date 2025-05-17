@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000908] (-) JobUnselected: {'identifier': 'ariaNode'}
+[0.001086] (-) JobUnselected: {'identifier': 'digit_recognition'}
+[0.001113] (-) JobUnselected: {'identifier': 'master'}
+[0.001132] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.001263] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.001285] (-) JobUnselected: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.001302] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.001320] (-) JobUnselected: {'identifier': 'nav2_pure_pursuit_controller'}
+[0.001454] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.001472] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.001489] (-) JobUnselected: {'identifier': 'p3at_description'}
+[0.001506] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.001652] (lakibeam1) JobQueued: {'identifier': 'lakibeam1', 'dependencies': OrderedDict()}
+[0.002102] (lakibeam1) JobStarted: {'identifier': 'lakibeam1'}
+[0.024230] (lakibeam1) JobProgress: {'identifier': 'lakibeam1', 'progress': 'cmake'}
+[0.025790] (lakibeam1) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros_ws/src/lakibeam1', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/lakibeam1'], 'cwd': '/workspace/ros_ws/build/lakibeam1', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pioneer-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/ros_ws/install/nav2_straightline_planner/lib:/workspace/ros_ws/install/nav2_sms_behavior/lib:/workspace/ros_ws/install/nav2_pure_pursuit_controller/lib:/workspace/ros_ws/install/nav2_gradient_costmap_plugin/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/p3at_description:/workspace/ros_ws/install/nav2_straightline_planner:/workspace/ros_ws/install/nav2_sms_behavior:/workspace/ros_ws/install/nav2_pure_pursuit_controller:/workspace/ros_ws/install/nav2_gradient_costmap_plugin:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/nav2_costmap_filters_demo:/workspace/ros_ws/install/my_package2:/workspace/ros_ws/install/master:/workspace/ros_ws/install/digit_recognition:/workspace/ros_ws/install/coco_detector:/workspace/ros_ws/install/ariaNode:/opt/ros/jazzy', 'SHELL': '/bin/[bash]', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros_ws/build/lakibeam1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/ros_ws/install/nav2_sms_behavior/lib/python3.12/site-packages:/workspace/ros_ws/build/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:/workspace/ros_ws/build/digit_recognition:/workspace/ros_ws/install/digit_recognition/lib/python3.12/site-packages:/workspace/ros_ws/install/coco_detector/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/p3at_description:/workspace/ros_ws/install/nav2_straightline_planner:/workspace/ros_ws/install/nav2_sms_behavior:/workspace/ros_ws/install/nav2_pure_pursuit_controller:/workspace/ros_ws/install/nav2_gradient_costmap_plugin:/workspace/ros_ws/install/nav2_costmap_filters_demo:/workspace/ros_ws/install/my_package2:/workspace/ros_ws/install/master:/workspace/ros_ws/install/ariaNode:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/workspace/ros_ws/install/coco_detector:/opt/ros/jazzy'}), 'shell': False}
+[0.100220] (-) TimerEvent: {}
+[0.113288] (lakibeam1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.191578] (lakibeam1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.200317] (-) TimerEvent: {}
+[0.215974] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300433] (-) TimerEvent: {}
+[0.344670] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.363949] (lakibeam1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.364209] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.364317] (lakibeam1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.375145] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400592] (-) TimerEvent: {}
+[0.502381] (-) TimerEvent: {}
+[0.522130] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.538791] (lakibeam1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.544109] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.544307] (lakibeam1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.547284] (lakibeam1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.602489] (-) TimerEvent: {}
+[0.703446] (-) TimerEvent: {}
+[0.772199] (lakibeam1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.805369] (-) TimerEvent: {}
+[0.869268] (lakibeam1) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.905488] (-) TimerEvent: {}
+[0.973753] (lakibeam1) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.005592] (-) TimerEvent: {}
+[1.053602] (lakibeam1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.079514] (lakibeam1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.106122] (-) TimerEvent: {}
+[1.112593] (lakibeam1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.145856] (lakibeam1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.207803] (-) TimerEvent: {}
+[1.279451] (lakibeam1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.290756] (lakibeam1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.307912] (-) TimerEvent: {}
+[1.409592] (-) TimerEvent: {}
+[1.444695] (lakibeam1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.469774] (lakibeam1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.503739] (lakibeam1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.509684] (-) TimerEvent: {}
+[1.611170] (-) TimerEvent: {}
+[1.642429] (lakibeam1) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[1.711382] (-) TimerEvent: {}
+[1.812232] (-) TimerEvent: {}
+[1.890732] (lakibeam1) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[1.890974] (lakibeam1) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[1.891084] (lakibeam1) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[1.891180] (lakibeam1) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[1.891266] (lakibeam1) StderrLine: {'line': b'\n'}
+[1.891325] (lakibeam1) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[1.891384] (lakibeam1) StderrLine: {'line': b'\n'}
+[1.891440] (lakibeam1) StderrLine: {'line': b'    /usr\n'}
+[1.891496] (lakibeam1) StderrLine: {'line': b'\n'}
+[1.891588] (lakibeam1) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[1.891677] (lakibeam1) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[1.891765] (lakibeam1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.891844] (lakibeam1) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[1.891921] (lakibeam1) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[1.891997] (lakibeam1) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[1.892078] (lakibeam1) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[1.892161] (lakibeam1) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[1.892244] (lakibeam1) StderrLine: {'line': b'  CMakeLists.txt:10 (find_package)\n'}
+[1.892339] (lakibeam1) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.892433] (lakibeam1) StderrLine: {'line': b'\x1b[0m\n'}
+[1.892524] (lakibeam1) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.912829] (-) TimerEvent: {}
+[2.013179] (-) TimerEvent: {}
+[2.113585] (-) TimerEvent: {}
+[2.215566] (-) TimerEvent: {}
+[2.319193] (-) TimerEvent: {}
+[2.364700] (lakibeam1) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.365709] (lakibeam1) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[2.419299] (-) TimerEvent: {}
+[2.520080] (-) TimerEvent: {}
+[2.620713] (-) TimerEvent: {}
+[2.720999] (-) TimerEvent: {}
+[2.821351] (-) TimerEvent: {}
+[2.922884] (-) TimerEvent: {}
+[3.023178] (-) TimerEvent: {}
+[3.124233] (-) TimerEvent: {}
+[3.224841] (-) TimerEvent: {}
+[3.325391] (-) TimerEvent: {}
+[3.426772] (-) TimerEvent: {}
+[3.527280] (-) TimerEvent: {}
+[3.628758] (-) TimerEvent: {}
+[3.729083] (-) TimerEvent: {}
+[3.829466] (-) TimerEvent: {}
+[3.929964] (-) TimerEvent: {}
+[4.031606] (-) TimerEvent: {}
+[4.131899] (-) TimerEvent: {}
+[4.223667] (lakibeam1) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[4.232008] (-) TimerEvent: {}
+[4.253548] (lakibeam1) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[4.322460] (lakibeam1) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[4.324951] (lakibeam1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.332314] (-) TimerEvent: {}
+[4.429401] (lakibeam1) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.432400] (-) TimerEvent: {}
+[4.433143] (lakibeam1) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[4.451251] (lakibeam1) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[4.470217] (lakibeam1) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[4.532497] (-) TimerEvent: {}
+[4.633201] (-) TimerEvent: {}
+[4.733715] (-) TimerEvent: {}
+[4.834384] (-) TimerEvent: {}
+[4.936278] (-) TimerEvent: {}
+[5.037769] (-) TimerEvent: {}
+[5.048795] (lakibeam1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.059670] (lakibeam1) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.137876] (-) TimerEvent: {}
+[5.238198] (-) TimerEvent: {}
+[5.338626] (-) TimerEvent: {}
+[5.442256] (-) TimerEvent: {}
+[5.543087] (-) TimerEvent: {}
+[5.644369] (-) TimerEvent: {}
+[5.649687] (lakibeam1) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[5.744447] (-) TimerEvent: {}
+[5.844806] (-) TimerEvent: {}
+[5.945119] (-) TimerEvent: {}
+[6.045637] (-) TimerEvent: {}
+[6.145958] (-) TimerEvent: {}
+[6.246226] (-) TimerEvent: {}
+[6.251873] (lakibeam1) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.348744] (-) TimerEvent: {}
+[6.449197] (-) TimerEvent: {}
+[6.552114] (-) TimerEvent: {}
+[6.652638] (-) TimerEvent: {}
+[6.753191] (-) TimerEvent: {}
+[6.833150] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[6.835239] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[6.837550] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[6.837819] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[6.842803] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[6.843006] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[6.843108] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[6.843207] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[6.843304] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[6.844281] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[6.845892] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[6.847208] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[6.848758] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[6.852560] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[6.853863] (-) TimerEvent: {}
+[6.854152] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[6.854303] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[6.856543] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[6.857002] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[6.861819] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[6.862095] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[6.862235] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[6.862385] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[6.862989] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[6.864549] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[6.866051] (lakibeam1) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[6.876688] (lakibeam1) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[6.954233] (-) TimerEvent: {}
+[7.030976] (lakibeam1) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  \n'}
+[7.035803] (lakibeam1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[7.054382] (-) TimerEvent: {}
+[7.154661] (-) TimerEvent: {}
+[7.241692] (lakibeam1) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.242113] (lakibeam1) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.242230] (lakibeam1) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.244736] (lakibeam1) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.245074] (lakibeam1) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[7.251598] (lakibeam1) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.252130] (lakibeam1) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.257019] (-) TimerEvent: {}
+[7.260816] (lakibeam1) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.263436] (lakibeam1) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.263719] (lakibeam1) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.274604] (lakibeam1) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[7.300726] (lakibeam1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.306526] (lakibeam1) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros_ws/build/lakibeam1\n'}
+[7.357125] (-) TimerEvent: {}
+[7.373477] (lakibeam1) CommandEnded: {'returncode': 0}
+[7.374427] (lakibeam1) JobProgress: {'identifier': 'lakibeam1', 'progress': 'build'}
+[7.376724] (lakibeam1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros_ws/build/lakibeam1', '--', '-j8', '-l8'], 'cwd': '/workspace/ros_ws/build/lakibeam1', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pioneer-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/ros_ws/install/nav2_straightline_planner/lib:/workspace/ros_ws/install/nav2_sms_behavior/lib:/workspace/ros_ws/install/nav2_pure_pursuit_controller/lib:/workspace/ros_ws/install/nav2_gradient_costmap_plugin/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/p3at_description:/workspace/ros_ws/install/nav2_straightline_planner:/workspace/ros_ws/install/nav2_sms_behavior:/workspace/ros_ws/install/nav2_pure_pursuit_controller:/workspace/ros_ws/install/nav2_gradient_costmap_plugin:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/nav2_costmap_filters_demo:/workspace/ros_ws/install/my_package2:/workspace/ros_ws/install/master:/workspace/ros_ws/install/digit_recognition:/workspace/ros_ws/install/coco_detector:/workspace/ros_ws/install/ariaNode:/opt/ros/jazzy', 'SHELL': '/bin/[bash]', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros_ws/build/lakibeam1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/ros_ws/install/nav2_sms_behavior/lib/python3.12/site-packages:/workspace/ros_ws/build/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:/workspace/ros_ws/build/digit_recognition:/workspace/ros_ws/install/digit_recognition/lib/python3.12/site-packages:/workspace/ros_ws/install/coco_detector/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/p3at_description:/workspace/ros_ws/install/nav2_straightline_planner:/workspace/ros_ws/install/nav2_sms_behavior:/workspace/ros_ws/install/nav2_pure_pursuit_controller:/workspace/ros_ws/install/nav2_gradient_costmap_plugin:/workspace/ros_ws/install/nav2_costmap_filters_demo:/workspace/ros_ws/install/my_package2:/workspace/ros_ws/install/master:/workspace/ros_ws/install/ariaNode:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/workspace/ros_ws/install/coco_detector:/opt/ros/jazzy'}), 'shell': False}
+[7.457229] (-) TimerEvent: {}
+[7.481994] (lakibeam1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/lakibeam1_scan.cpp.o\x1b[0m\n'}
+[7.562712] (-) TimerEvent: {}
+[7.663039] (-) TimerEvent: {}
+[7.763492] (-) TimerEvent: {}
+[7.864438] (-) TimerEvent: {}
+[7.964911] (-) TimerEvent: {}
+[8.065453] (-) TimerEvent: {}
+[8.165724] (-) TimerEvent: {}
+[8.266725] (-) TimerEvent: {}
+[8.368947] (-) TimerEvent: {}
+[8.469571] (-) TimerEvent: {}
+[8.570231] (-) TimerEvent: {}
+[8.670884] (-) TimerEvent: {}
+[8.771498] (-) TimerEvent: {}
+[8.872729] (-) TimerEvent: {}
+[8.973009] (-) TimerEvent: {}
+[9.074241] (-) TimerEvent: {}
+[9.174867] (-) TimerEvent: {}
+[9.275239] (-) TimerEvent: {}
+[9.375680] (-) TimerEvent: {}
+[9.476056] (-) TimerEvent: {}
+[9.576491] (-) TimerEvent: {}
+[9.677308] (-) TimerEvent: {}
+[9.778714] (-) TimerEvent: {}
+[9.879008] (-) TimerEvent: {}
+[9.979320] (-) TimerEvent: {}
+[10.081688] (-) TimerEvent: {}
+[10.184844] (-) TimerEvent: {}
+[10.285458] (-) TimerEvent: {}
+[10.385965] (-) TimerEvent: {}
+[10.487742] (-) TimerEvent: {}
+[10.588318] (-) TimerEvent: {}
+[10.689492] (-) TimerEvent: {}
+[10.790062] (-) TimerEvent: {}
+[10.890573] (-) TimerEvent: {}
+[10.991055] (-) TimerEvent: {}
+[11.092902] (-) TimerEvent: {}
+[11.193227] (-) TimerEvent: {}
+[11.293553] (-) TimerEvent: {}
+[11.394143] (-) TimerEvent: {}
+[11.494658] (-) TimerEvent: {}
+[11.596123] (-) TimerEvent: {}
+[11.698451] (-) TimerEvent: {}
+[11.798977] (-) TimerEvent: {}
+[11.900703] (-) TimerEvent: {}
+[12.001146] (-) TimerEvent: {}
+[12.103752] (-) TimerEvent: {}
+[12.204123] (-) TimerEvent: {}
+[12.304600] (-) TimerEvent: {}
+[12.406881] (-) TimerEvent: {}
+[12.508749] (-) TimerEvent: {}
+[12.609312] (-) TimerEvent: {}
+[12.710166] (-) TimerEvent: {}
+[12.813450] (-) TimerEvent: {}
+[12.895694] (lakibeam1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lakibeam1_scan_node.dir/src/remote.cpp.o\x1b[0m\n'}
+[12.913557] (-) TimerEvent: {}
+[13.014108] (-) TimerEvent: {}
+[13.115737] (-) TimerEvent: {}
+[13.216334] (-) TimerEvent: {}
+[13.316850] (-) TimerEvent: {}
+[13.417725] (-) TimerEvent: {}
+[13.518923] (-) TimerEvent: {}
+[13.619226] (-) TimerEvent: {}
+[13.719558] (-) TimerEvent: {}
+[13.819938] (-) TimerEvent: {}
+[13.920276] (-) TimerEvent: {}
+[14.023859] (-) TimerEvent: {}
+[14.124638] (-) TimerEvent: {}
+[14.224970] (-) TimerEvent: {}
+[14.326949] (-) TimerEvent: {}
+[14.427822] (-) TimerEvent: {}
+[14.528087] (-) TimerEvent: {}
+[14.628920] (-) TimerEvent: {}
+[14.730207] (-) TimerEvent: {}
+[14.833915] (-) TimerEvent: {}
+[14.934436] (-) TimerEvent: {}
+[15.034725] (-) TimerEvent: {}
+[15.134998] (-) TimerEvent: {}
+[15.235311] (-) TimerEvent: {}
+[15.336258] (-) TimerEvent: {}
+[15.436704] (-) TimerEvent: {}
+[15.504243] (lakibeam1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:4\x1b[m\x1b[K:\n'}
+[15.504530] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:102:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[15.504680] (lakibeam1) StderrLine: {'line': b'  102 |     : public std::\x1b[01;35m\x1b[Kiterator\x1b[m\x1b[K<std::random_access_iterator_tag\n'}
+[15.504803] (lakibeam1) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.504911] (lakibeam1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_construct.h:61\x1b[m\x1b[K,\n'}
+[15.505017] (lakibeam1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/stl_tempbuf.h:61\x1b[m\x1b[K,\n'}
+[15.505122] (lakibeam1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:66\x1b[m\x1b[K,\n'}
+[15.506032] (lakibeam1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[15.506103] (lakibeam1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:2\x1b[m\x1b[K:\n'}
+[15.506174] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[15.506232] (lakibeam1) StderrLine: {'line': b'  127 |     struct _GLIBCXX17_DEPRECATED \x1b[01;36m\x1b[Kiterator\x1b[m\x1b[K\n'}
+[15.506289] (lakibeam1) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.506345] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:110:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[15.506405] (lakibeam1) StderrLine: {'line': b'  110 |     typedef std::\x1b[01;35m\x1b[Kiterator\x1b[m\x1b[K<std::random_access_iterator_tag,ValueType> BaseType;\n'}
+[15.506479] (lakibeam1) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.506573] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_iterator_base_types.h:127:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[15.506659] (lakibeam1) StderrLine: {'line': b'  127 |     struct _GLIBCXX17_DEPRECATED \x1b[01;36m\x1b[Kiterator\x1b[m\x1b[K\n'}
+[15.506740] (lakibeam1) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.531856] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[01;32m\x1b[K dummy_callback\x1b[m\x1b[K(void*, size_t, size_t, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.532746] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:16:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.533396] (lakibeam1) StderrLine: {'line': b'   16 | static size_t dummy_callback(\x1b[01;35m\x1b[Kvoid *buffer\x1b[m\x1b[K, size_t size, size_t nmemb, void *userp)\n'}
+[15.533744] (lakibeam1) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[15.533840] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:16:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuserp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.533936] (lakibeam1) StderrLine: {'line': b'   16 | static size_t dummy_callback(void *buffer, size_t size, size_t nmemb, \x1b[01;35m\x1b[Kvoid *userp\x1b[m\x1b[K)\n'}
+[15.534032] (lakibeam1) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[15.536805] (-) TimerEvent: {}
+[15.637482] (-) TimerEvent: {}
+[15.741752] (-) TimerEvent: {}
+[15.842391] (-) TimerEvent: {}
+[15.942718] (-) TimerEvent: {}
+[16.045767] (-) TimerEvent: {}
+[16.146230] (-) TimerEvent: {}
+[16.206443] (lakibeam1) StderrLine: {'line': b'/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rapidjson::GenericValue<Encoding, Allocator>::\x1b[01;32m\x1b[KSetObjectRaw\x1b[m\x1b[K(Member*, rapidjson::SizeType, Allocator&) \x1b[35m\x1b[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; Member = rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.207568] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2363:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KEndObject\x1b[m\x1b[K(rapidjson::SizeType) \x1b[35m\x1b[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208174] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1736:40:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::\x1b[01;32m\x1b[KTransit\x1b[m\x1b[K(IterativeParsingState, Token, IterativeParsingState, InputStream&, Handler&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208291] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1832:58:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::\x1b[01;32m\x1b[KIterativeParse\x1b[m\x1b[K(InputStream&, Handler&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208406] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:487:46:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(InputStream&, Handler&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208512] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2159:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParseStream\x1b[m\x1b[K(InputStream&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208630] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2224:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(const typename SourceEncoding::Ch*) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208755] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2233:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(const Ch*) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208874] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2240:41:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(const Ch*) \x1b[35m\x1b[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.208987] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:76:16:\x1b[m\x1b[K   required from here\n'}
+[16.209085] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:1952:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memcpy\x1b[m\x1b[K(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 writing to an object of type \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >\x1b[m\x1b[K\xe2\x80\x99} with no trivial copy-assignment; use copy-assignment instead [\x1b[01;35m\x1b[K-Wclass-memaccess\x1b[m\x1b[K]\n'}
+[16.209190] (lakibeam1) StderrLine: {'line': b' 1952 |             \x1b[01;35m\x1b[Kstd::memcpy(m, members, count * sizeof(Member))\x1b[m\x1b[K;\n'}
+[16.209286] (lakibeam1) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.209379] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:71:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericValue<rapidjson::UTF8<> >::Member\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rapidjson::GenericMember<rapidjson::UTF8<>, rapidjson::MemoryPoolAllocator<> >\x1b[m\x1b[K\xe2\x80\x99} declared here\n'}
+[16.209484] (lakibeam1) StderrLine: {'line': b'   71 | struct \x1b[01;36m\x1b[KGenericMember\x1b[m\x1b[K {\n'}
+[16.209587] (lakibeam1) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.209706] (lakibeam1) StderrLine: {'line': b'/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rapidjson::GenericValue<Encoding, Allocator>::\x1b[01;32m\x1b[KSetArrayRaw\x1b[m\x1b[K(rapidjson::GenericValue<Encoding, Allocator>*, rapidjson::SizeType, Allocator&) \x1b[35m\x1b[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.209811] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2371:54:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KEndArray\x1b[m\x1b[K(rapidjson::SizeType) \x1b[35m\x1b[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; rapidjson::SizeType = unsigned int]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.209910] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1766:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::IterativeParsingState rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::\x1b[01;32m\x1b[KTransit\x1b[m\x1b[K(IterativeParsingState, Token, IterativeParsingState, InputStream&, Handler&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210024] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:1832:58:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::\x1b[01;32m\x1b[KIterativeParse\x1b[m\x1b[K(InputStream&, Handler&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210125] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/reader.h:487:46:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::ParseResult rapidjson::GenericReader<SourceEncoding, TargetEncoding, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(InputStream&, Handler&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Handler = rapidjson::GenericDocument<rapidjson::UTF8<> >; SourceEncoding = rapidjson::UTF8<>; TargetEncoding = rapidjson::UTF8<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210235] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2159:57:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParseStream\x1b[m\x1b[K(InputStream&) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; InputStream = rapidjson::GenericStringStream<rapidjson::UTF8<> >; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210335] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2224:55:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(const typename SourceEncoding::Ch*) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; SourceEncoding = rapidjson::UTF8<>; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; typename SourceEncoding::Ch = char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210434] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2233:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(const Ch*) \x1b[35m\x1b[K[with unsigned int parseFlags = 0; Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210532] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:2240:41:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krapidjson::GenericDocument<Encoding, Allocator, StackAllocator>& rapidjson::GenericDocument<Encoding, Allocator, StackAllocator>::\x1b[01;32m\x1b[KParse\x1b[m\x1b[K(const Ch*) \x1b[35m\x1b[K[with Encoding = rapidjson::UTF8<>; Allocator = rapidjson::MemoryPoolAllocator<>; StackAllocator = rapidjson::CrtAllocator; Ch = char]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.210633] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/remote.cpp:76:16:\x1b[m\x1b[K   required from here\n'}
+[16.210744] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:1939:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid*\x1b[01;32m\x1b[K memcpy\x1b[m\x1b[K(void*, const void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 writing to an object of type \xe2\x80\x98\x1b[01m\x1b[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >\x1b[m\x1b[K\xe2\x80\x99 with no trivial copy-assignment; use copy-assignment or copy-initialization instead [\x1b[01;35m\x1b[K-Wclass-memaccess\x1b[m\x1b[K]\n'}
+[16.210848] (lakibeam1) StderrLine: {'line': b' 1939 |             \x1b[01;35m\x1b[Kstd::memcpy(e, values, count * sizeof(GenericValue))\x1b[m\x1b[K;\n'}
+[16.210932] (lakibeam1) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.211008] (lakibeam1) StderrLine: {'line': b'\x1b[01m\x1b[K/workspace/ros_ws/src/lakibeam1/src/../thirdparty/rapidjson/document.h:540:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rapidjson::GenericValue<rapidjson::UTF8<> >\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[16.211093] (lakibeam1) StderrLine: {'line': b'  540 | class \x1b[01;36m\x1b[KGenericValue\x1b[m\x1b[K {\n'}
+[16.211183] (lakibeam1) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.246334] (-) TimerEvent: {}
+[16.347062] (-) TimerEvent: {}
+[16.451214] (-) TimerEvent: {}
+[16.551828] (-) TimerEvent: {}
+[16.604989] (lakibeam1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lakibeam1_scan_node\x1b[0m\n'}
+[16.652076] (-) TimerEvent: {}
+[16.752712] (-) TimerEvent: {}
+[16.854128] (-) TimerEvent: {}
+[16.930464] (lakibeam1) StdoutLine: {'line': b'[100%] Built target lakibeam1_scan_node\n'}
+[16.949306] (lakibeam1) CommandEnded: {'returncode': 0}
+[16.952389] (lakibeam1) JobProgress: {'identifier': 'lakibeam1', 'progress': 'install'}
+[16.954257] (-) TimerEvent: {}
+[16.966231] (lakibeam1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros_ws/build/lakibeam1'], 'cwd': '/workspace/ros_ws/build/lakibeam1', 'env': OrderedDict({'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pioneer-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/workspace/ros_ws/install/nav2_straightline_planner/lib:/workspace/ros_ws/install/nav2_sms_behavior/lib:/workspace/ros_ws/install/nav2_pure_pursuit_controller/lib:/workspace/ros_ws/install/nav2_gradient_costmap_plugin/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/ros_ws/install', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/p3at_description:/workspace/ros_ws/install/nav2_straightline_planner:/workspace/ros_ws/install/nav2_sms_behavior:/workspace/ros_ws/install/nav2_pure_pursuit_controller:/workspace/ros_ws/install/nav2_gradient_costmap_plugin:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/nav2_costmap_filters_demo:/workspace/ros_ws/install/my_package2:/workspace/ros_ws/install/master:/workspace/ros_ws/install/digit_recognition:/workspace/ros_ws/install/coco_detector:/workspace/ros_ws/install/ariaNode:/opt/ros/jazzy', 'SHELL': '/bin/[bash]', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros_ws/build/lakibeam1', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/ros_ws/install/nav2_sms_behavior/lib/python3.12/site-packages:/workspace/ros_ws/build/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo/lib/python3.12/site-packages:/workspace/ros_ws/build/digit_recognition:/workspace/ros_ws/install/digit_recognition/lib/python3.12/site-packages:/workspace/ros_ws/install/coco_detector/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/ros_ws/install/sam_bot_description:/workspace/ros_ws/install/p3at_description:/workspace/ros_ws/install/nav2_straightline_planner:/workspace/ros_ws/install/nav2_sms_behavior:/workspace/ros_ws/install/nav2_pure_pursuit_controller:/workspace/ros_ws/install/nav2_gradient_costmap_plugin:/workspace/ros_ws/install/nav2_costmap_filters_demo:/workspace/ros_ws/install/my_package2:/workspace/ros_ws/install/master:/workspace/ros_ws/install/ariaNode:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/workspace/ros_ws/install/coco_detector:/opt/ros/jazzy'}), 'shell': False}
+[16.978592] (lakibeam1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.979548] (lakibeam1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.980245] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1\n'}
+[16.996247] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1\n'}
+[17.008043] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh\n'}
+[17.028552] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv\n'}
+[17.040534] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/path.sh\n'}
+[17.054361] (-) TimerEvent: {}
+[17.056130] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/path.dsv\n'}
+[17.068036] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.bash\n'}
+[17.083564] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.sh\n'}
+[17.097392] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.zsh\n'}
+[17.120549] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.dsv\n'}
+[17.132942] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/package.dsv\n'}
+[17.153810] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1\n'}
+[17.154434] (-) TimerEvent: {}
+[17.171750] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake\n'}
+[17.182724] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake\n'}
+[17.197064] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/package.xml\n'}
+[17.210499] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node\n'}
+[17.223729] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py\n'}
+[17.239713] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py\n'}
+[17.256402] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py\n'}
+[17.256624] (-) TimerEvent: {}
+[17.270130] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py\n'}
+[17.284763] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz\n'}
+[17.296144] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz\n'}
+[17.304633] (lakibeam1) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz\n'}
+[17.325917] (lakibeam1) CommandEnded: {'returncode': 0}
+[17.351323] (lakibeam1) JobEnded: {'identifier': 'lakibeam1', 'rc': 0}
+[17.356445] (-) EventReactorShutdown: {}

@@ -1,0 +1,41 @@
+[0.243s] Invoking command in '/workspace/ros_ws/build/my_package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/my_package2 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/my_package2
+[0.665s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.699s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.719s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.870s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.871s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/ros_ws/src/my_package2/include>
+[0.872s] -- Configured cppcheck exclude dirs and/or files: 
+[0.875s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.875s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.877s] -- Added test 'lint_cmake' to check CMake code style
+[0.884s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.898s] -- Added test 'uncrustify' to check C / C++ code style
+[0.899s] -- Configured uncrustify additional arguments: 
+[0.899s] -- Added test 'xmllint' to check XML markup files
+[0.899s] -- Configuring done (0.6s)
+[0.907s] -- Generating done (0.0s)
+[0.908s] -- Build files have been written to: /workspace/ros_ws/build/my_package2
+[0.911s] Invoked command in '/workspace/ros_ws/build/my_package2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/my_package2 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/my_package2
+[0.912s] Invoking command in '/workspace/ros_ws/build/my_package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/my_package2 -- -j8 -l8
+[1.072s] [100%] Built target my_node2
+[1.128s] Invoked command in '/workspace/ros_ws/build/my_package2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/my_package2 -- -j8 -l8
+[1.128s] Invoking command in '/workspace/ros_ws/build/my_package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/my_package2
+[1.187s] -- Install configuration: ""
+[1.192s] -- Execute custom install script
+[1.192s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/lib/my_package2/my_node2
+[1.196s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/ament_index/resource_index/package_run_dependencies/my_package2
+[1.197s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/ament_index/resource_index/parent_prefix_path/my_package2
+[1.199s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/environment/ament_prefix_path.sh
+[1.199s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/environment/ament_prefix_path.dsv
+[1.199s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/environment/path.sh
+[1.199s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/environment/path.dsv
+[1.200s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/local_setup.bash
+[1.200s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/local_setup.sh
+[1.201s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/local_setup.zsh
+[1.201s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/local_setup.dsv
+[1.201s] -- Symlinking: /workspace/ros_ws/install/my_package2/share/my_package2/package.dsv
+[1.252s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/ament_index/resource_index/packages/my_package2
+[1.252s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/cmake/my_package2Config.cmake
+[1.252s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/cmake/my_package2Config-version.cmake
+[1.252s] -- Up-to-date symlink: /workspace/ros_ws/install/my_package2/share/my_package2/package.xml
+[1.253s] Invoked command in '/workspace/ros_ws/build/my_package2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/my_package2

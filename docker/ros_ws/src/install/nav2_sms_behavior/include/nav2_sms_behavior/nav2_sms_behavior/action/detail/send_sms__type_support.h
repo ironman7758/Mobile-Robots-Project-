@@ -1,0 +1,1 @@
+/workspace/ros_ws/src/build/nav2_sms_behavior/rosidl_generator_c/nav2_sms_behavior/action/detail/send_sms__type_support.h

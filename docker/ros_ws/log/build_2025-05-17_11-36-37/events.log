@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000610] (-) JobUnselected: {'identifier': 'ariaNode'}
+[0.000968] (-) JobUnselected: {'identifier': 'digit_recognition'}
+[0.001015] (-) JobUnselected: {'identifier': 'lakibeam1'}
+[0.001038] (-) JobUnselected: {'identifier': 'master'}
+[0.001062] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.001078] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.001094] (-) JobUnselected: {'identifier': 'nav2_gps_waypoint_follower_demo'}
+[0.001567] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.001593] (-) JobUnselected: {'identifier': 'nav2_pure_pursuit_controller'}
+[0.001611] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.001628] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.001644] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.001664] (p3at_description) JobQueued: {'identifier': 'p3at_description', 'dependencies': OrderedDict()}
+[0.001687] (p3at_description) JobStarted: {'identifier': 'p3at_description'}
+[0.018097] (p3at_description) JobProgress: {'identifier': 'p3at_description', 'progress': 'cmake'}
+[0.019294] (p3at_description) JobProgress: {'identifier': 'p3at_description', 'progress': 'build'}
+[0.020156] (p3at_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros_ws/build/p3at_description', '--', '-j8', '-l8'], 'cwd': '/workspace/ros_ws/build/p3at_description', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': ':/share/p3at_description', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pioneer-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src/p3at_description', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/[bash]', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros_ws/build/p3at_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.071690] (p3at_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100017] (-) TimerEvent: {}
+[0.209523] (-) TimerEvent: {}
+[0.310236] (-) TimerEvent: {}
+[0.410539] (-) TimerEvent: {}
+[0.442815] (p3at_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.455104] (p3at_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.510792] (-) TimerEvent: {}
+[0.611388] (-) TimerEvent: {}
+[0.679239] (p3at_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.680126] (p3at_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[0.680261] (p3at_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.680352] (p3at_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.696725] (p3at_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.700598] (p3at_description) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.706942] (p3at_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.712156] (p3at_description) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros_ws/build/p3at_description\n'}
+[0.712485] (-) TimerEvent: {}
+[0.790999] (p3at_description) CommandEnded: {'returncode': 0}
+[0.792415] (p3at_description) JobProgress: {'identifier': 'p3at_description', 'progress': 'install'}
+[0.813252] (-) TimerEvent: {}
+[0.814184] (p3at_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros_ws/build/p3at_description'], 'cwd': '/workspace/ros_ws/build/p3at_description', 'env': OrderedDict({'GZ_SIM_RESOURCE_PATH': ':/share/p3at_description', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'pioneer-NUC11PHi7', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/ros_ws/src/p3at_description', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '2', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/[bash]', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/ros_ws/build/p3at_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.837474] (p3at_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.842100] (p3at_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.842446] (p3at_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[0.842565] (p3at_description) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[0.842650] (p3at_description) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[0.848496] (p3at_description) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.848699] (p3at_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.848799] (p3at_description) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[0.848885] (p3at_description) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[0.848968] (p3at_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.849060] (p3at_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.855870] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/build/.built_by\n'}
+[0.870228] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/build/COLCON_IGNORE\n'}
+[0.890629] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/display.launch.py\n'}
+[0.911173] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/ekf_launch.py\n'}
+[0.913348] (-) TimerEvent: {}
+[0.933103] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/.colcon_install_layout\n'}
+[0.952462] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/COLCON_IGNORE\n'}
+[0.980945] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/_local_setup_util_ps1.py\n'}
+[0.998437] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/_local_setup_util_sh.py\n'}
+[1.013469] (-) TimerEvent: {}
+[1.016124] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.bash\n'}
+[1.044102] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.ps1\n'}
+[1.065699] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.sh\n'}
+[1.078761] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/local_setup.zsh\n'}
+[1.093542] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.bash\n'}
+[1.111368] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.ps1\n'}
+[1.113523] (-) TimerEvent: {}
+[1.138358] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.sh\n'}
+[1.156777] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/install/setup.zsh\n'}
+[1.181718] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/COLCON_IGNORE\n'}
+[1.195996] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/build_2025-05-17_10-45-05/events.log\n'}
+[1.210706] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/build_2025-05-17_10-45-05/logger_all.log\n'}
+[1.214103] (-) TimerEvent: {}
+[1.225760] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/latest/events.log\n'}
+[1.251988] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/latest/logger_all.log\n'}
+[1.274431] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/latest_build/events.log\n'}
+[1.296099] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//launch/log/latest_build/logger_all.log\n'}
+[1.316018] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/Coordinates\n'}
+[1.316290] (-) TimerEvent: {}
+[1.339217] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/arm_control_box_mesh.dae\n'}
+[1.354836] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/axle.dae\n'}
+[1.381063] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/back_sonar.dae\n'}
+[1.408877] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/back_sonar_mesh.dae\n'}
+[1.416450] (-) TimerEvent: {}
+[1.424885] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/chassis.dae\n'}
+[1.437928] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/front_sonar.dae\n'}
+[1.455572] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/hokuyo.dae\n'}
+[1.472186] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/hokuyo1.dae\n'}
+[1.499519] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/hokuyo_convex.stl\n'}
+[1.501343] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/kinect.dae\n'}
+[1.516697] (-) TimerEvent: {}
+[1.525966] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/kinect.tga\n'}
+[1.547390] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/left_hubcap.dae\n'}
+[1.566893] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/left_hubcap_mesh.dae\n'}
+[1.582472] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/all-wcprops\n'}
+[1.597051] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/entries\n'}
+[1.612089] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/axle.stl.svn-base\n'}
+[1.617054] (-) TimerEvent: {}
+[1.628650] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/back_sonar.stl.svn-base\n'}
+[1.654466] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/chassis.stl.svn-base\n'}
+[1.672577] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/front_sonar.stl.svn-base\n'}
+[1.689852] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/left_hubcap.stl.svn-base\n'}
+[1.705207] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/right_hubcap.stl.svn-base\n'}
+[1.719173] (-) TimerEvent: {}
+[1.719759] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/top.stl.svn-base\n'}
+[1.749020] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/prop-base/wheel.stl.svn-base\n'}
+[1.762853] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/Coordinates.svn-base\n'}
+[1.778267] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/axle.stl.svn-base\n'}
+[1.807465] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/back_sonar.stl.svn-base\n'}
+[1.820079] (-) TimerEvent: {}
+[1.829634] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/chassis.stl.svn-base\n'}
+[1.846938] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/front_sonar.stl.svn-base\n'}
+[1.876689] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/left_hubcap.stl.svn-base\n'}
+[1.884354] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/right_hubcap.stl.svn-base\n'}
+[1.897601] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/top.stl.svn-base\n'}
+[1.920544] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/.svn/text-base/wheel.stl.svn-base\n'}
+[1.922096] (-) TimerEvent: {}
+[1.939014] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/Coordinates\n'}
+[1.955239] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/axle.dae\n'}
+[1.978180] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/axle.stl\n'}
+[1.997702] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/back_sonar.dae\n'}
+[2.019738] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/back_sonar.stl\n'}
+[2.024258] (-) TimerEvent: {}
+[2.037800] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/chassis.dae\n'}
+[2.058062] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/chassis.stl\n'}
+[2.076397] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/front_sonar.dae\n'}
+[2.089435] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/front_sonar.stl\n'}
+[2.108881] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/left_hubcap.dae\n'}
+[2.125104] (-) TimerEvent: {}
+[2.133060] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/left_hubcap.stl\n'}
+[2.190132] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/right_hubcap.dae\n'}
+[2.224144] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/right_hubcap.stl\n'}
+[2.225216] (-) TimerEvent: {}
+[2.263499] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/top.dae\n'}
+[2.278036] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/top.stl\n'}
+[2.295990] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/wheel.dae\n'}
+[2.314331] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/p3at_meshes/wheel.stl\n'}
+[2.325347] (-) TimerEvent: {}
+[2.331103] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/right_hubcap.dae\n'}
+[2.348079] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_armControl_mesh.dae\n'}
+[2.372200] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_base_mesh.dae\n'}
+[2.386760] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_base_mesh2.dae\n'}
+[2.404590] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_depth_mesh.dae\n'}
+[2.421430] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_kinect_mesh.dae\n'}
+[2.425538] (-) TimerEvent: {}
+[2.455419] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/suporte_monitor_mesh.dae\n'}
+[2.473523] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/tampa1_mesh.dae\n'}
+[2.491510] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/tampa2_mesh.dae\n'}
+[2.503468] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/tampa3_mesh.dae\n'}
+[2.525745] (-) TimerEvent: {}
+[2.526944] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/tampa4_mesh.dae\n'}
+[2.559318] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/top.dae\n'}
+[2.577712] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/tv_mesh.dae\n'}
+[2.605928] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//meshes/wheel.dae\n'}
+[2.622003] (p3at_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[2.622268] (p3at_description) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[2.622394] (p3at_description) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[2.622488] (p3at_description) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.622590] (p3at_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.622692] (p3at_description) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)\n'}
+[2.622807] (p3at_description) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[2.622896] (p3at_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.622985] (p3at_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.623449] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/build/.built_by\n'}
+[2.625794] (-) TimerEvent: {}
+[2.649905] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/build/COLCON_IGNORE\n'}
+[2.666897] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/.colcon_install_layout\n'}
+[2.681183] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/COLCON_IGNORE\n'}
+[2.705519] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/_local_setup_util_ps1.py\n'}
+[2.725952] (-) TimerEvent: {}
+[2.729918] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/_local_setup_util_sh.py\n'}
+[2.748585] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.bash\n'}
+[2.778022] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.ps1\n'}
+[2.794129] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.sh\n'}
+[2.810845] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/local_setup.zsh\n'}
+[2.826073] (-) TimerEvent: {}
+[2.833218] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.bash\n'}
+[2.852707] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.ps1\n'}
+[2.883109] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.sh\n'}
+[2.899277] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/install/setup.zsh\n'}
+[2.916759] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/COLCON_IGNORE\n'}
+[2.926176] (-) TimerEvent: {}
+[2.931778] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/build_2025-05-17_11-15-30/events.log\n'}
+[2.953868] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/build_2025-05-17_11-15-30/logger_all.log\n'}
+[2.970123] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest/events.log\n'}
+[2.985205] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest/logger_all.log\n'}
+[3.001814] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest_build/events.log\n'}
+[3.018379] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/log/latest_build/logger_all.log\n'}
+[3.028341] (-) TimerEvent: {}
+[3.035353] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/pioneer.urdf\n'}
+[3.049637] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/pioneer.urdf.xacro\n'}
+[3.066666] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//urdf/pioneer1.urdf\n'}
+[3.098144] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//world/empty.sdf\n'}
+[3.119275] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//rviz/display.rviz\n'}
+[3.128451] (-) TimerEvent: {}
+[3.136238] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share//config/ekf.yaml\n'}
+[3.161926] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/package_run_dependencies/p3at_description\n'}
+[3.162402] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/parent_prefix_path/p3at_description\n'}
+[3.163073] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/ament_prefix_path.sh\n'}
+[3.163276] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/ament_prefix_path.dsv\n'}
+[3.163458] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/path.sh\n'}
+[3.163658] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/environment/path.dsv\n'}
+[3.163793] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.bash\n'}
+[3.164756] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.sh\n'}
+[3.165692] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.zsh\n'}
+[3.166099] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/local_setup.dsv\n'}
+[3.166204] (p3at_description) StdoutLine: {'line': b'-- Symlinking: /workspace/ros_ws/install/p3at_description/share/p3at_description/package.dsv\n'}
+[3.186462] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/ament_index/resource_index/packages/p3at_description\n'}
+[3.187157] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/cmake/p3at_descriptionConfig.cmake\n'}
+[3.187265] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/cmake/p3at_descriptionConfig-version.cmake\n'}
+[3.187368] (p3at_description) StdoutLine: {'line': b'-- Up-to-date symlink: /workspace/ros_ws/install/p3at_description/share/p3at_description/package.xml\n'}
+[3.189144] (p3at_description) CommandEnded: {'returncode': 0}
+[3.215671] (p3at_description) JobEnded: {'identifier': 'p3at_description', 'rc': 0}
+[3.217938] (-) EventReactorShutdown: {}

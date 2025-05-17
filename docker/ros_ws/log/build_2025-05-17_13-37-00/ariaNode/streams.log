@@ -1,0 +1,23 @@
+[0.286s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j8 -l8
+[1.797s] [100%] Built target ariaNode
+[1.819s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j8 -l8
+[1.856s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode
+[1.884s] -- Install configuration: ""
+[1.884s] -- Execute custom install script
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/lib/ariaNode/ariaNode
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.sh
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.dsv
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.bash
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.sh
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.zsh
+[1.885s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.dsv
+[1.886s] -- Symlinking: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.dsv
+[1.932s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/packages/ariaNode
+[1.933s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake
+[1.933s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+[1.933s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.xml
+[2.034s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode

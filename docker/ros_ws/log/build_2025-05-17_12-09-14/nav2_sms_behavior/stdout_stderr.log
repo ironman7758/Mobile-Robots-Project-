@@ -1,0 +1,5 @@
+[  2%] Built target nav2_sms_behavior__rosidl_generator_type_description
+failed to create symbolic link '/workspace/ros_ws/build/nav2_sms_behavior/ament_cmake_python/nav2_sms_behavior/nav2_sms_behavior' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_nav2_sms_behavior.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_nav2_sms_behavior] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:454: CMakeFiles/ament_cmake_python_symlink_nav2_sms_behavior.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

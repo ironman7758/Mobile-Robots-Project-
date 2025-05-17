@@ -1,0 +1,55 @@
+[0.493s] Invoking command in '/workspace/ros_ws/src/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_costmap_filters_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/nav2_costmap_filters_demo
+[1.099s] -- The C compiler identification is GNU 13.3.0
+[1.104s] -- The CXX compiler identification is GNU 13.3.0
+[1.104s] -- Detecting C compiler ABI info
+[1.156s] -- Detecting C compiler ABI info - done
+[1.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.261s] -- Detecting C compile features
+[1.262s] -- Detecting C compile features - done
+[1.290s] -- Detecting CXX compiler ABI info
+[1.862s] -- Detecting CXX compiler ABI info - done
+[1.887s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.887s] -- Detecting CXX compile features
+[1.888s] -- Detecting CXX compile features - done
+[1.909s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.693s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.823s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.354s] -- Configuring done (2.8s)
+[3.367s] -- Generating done (0.0s)
+[3.375s] -- Build files have been written to: /workspace/ros_ws/src/build/nav2_costmap_filters_demo
+[3.395s] Invoked command in '/workspace/ros_ws/src/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/nav2_costmap_filters_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/src/install/nav2_costmap_filters_demo
+[3.396s] Invoking command in '/workspace/ros_ws/src/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/nav2_costmap_filters_demo -- -j8 -l8
+[3.657s] Invoked command in '/workspace/ros_ws/src/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/src/build/nav2_costmap_filters_demo -- -j8 -l8
+[3.659s] Invoking command in '/workspace/ros_ws/src/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/nav2_costmap_filters_demo
+[4.951s] -- Install configuration: ""
+[4.952s] -- Execute custom install script
+[4.952s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[4.952s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py:Zone.Identifier
+[4.952s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[4.956s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm:Zone.Identifier
+[4.956s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[4.956s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml:Zone.Identifier
+[4.957s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[4.957s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm:Zone.Identifier
+[4.957s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[4.957s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml:Zone.Identifier
+[4.957s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml:Zone.Identifier
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml:Zone.Identifier
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[4.958s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[4.975s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[5.010s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[5.049s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[5.088s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[5.126s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[5.186s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[5.244s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[5.266s] -- Symlinking: /workspace/ros_ws/src/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[5.342s] Invoked command in '/workspace/ros_ws/src/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/src/build/nav2_costmap_filters_demo

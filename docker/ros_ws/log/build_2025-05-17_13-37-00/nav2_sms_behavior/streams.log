@@ -1,0 +1,7 @@
+[0.445s] Invoking command in '/workspace/ros_ws/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_sms_behavior -- -j8 -l8
+[0.966s] [  2%] Built target nav2_sms_behavior__rosidl_generator_type_description
+[0.975s] failed to create symbolic link '/workspace/ros_ws/build/nav2_sms_behavior/ament_cmake_python/nav2_sms_behavior/nav2_sms_behavior' because existing path cannot be removed: Is a directory
+[0.975s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_nav2_sms_behavior.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_nav2_sms_behavior] Error 1
+[0.976s] gmake[1]: *** [CMakeFiles/Makefile2:454: CMakeFiles/ament_cmake_python_symlink_nav2_sms_behavior.dir/all] Error 2
+[0.979s] gmake: *** [Makefile:146: all] Error 2
+[1.017s] Invoked command in '/workspace/ros_ws/build/nav2_sms_behavior' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/nav2_sms_behavior -- -j8 -l8

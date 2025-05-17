@@ -1,0 +1,86 @@
+[0.422s] Invoking command in '/workspace/ros_ws/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/lakibeam1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/lakibeam1
+[0.455s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.004s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.019s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.071s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.091s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.253s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.258s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.489s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.785s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.046s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[2.046s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.047s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.048s]   cmake_policy command to set the policy and suppress this warning.
+[2.049s] 
+[2.050s]   CMake variable FLANN_ROOT is set to:
+[2.051s] 
+[2.052s]     /usr
+[2.052s] 
+[2.053s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.055s]   .cmake module might still use it.
+[2.056s] Call Stack (most recent call first):
+[2.056s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[2.057s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[2.058s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[2.058s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[2.059s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[2.059s]   CMakeLists.txt:10 (find_package)
+[2.064s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.065s] [0m
+[2.068s] -- Found flann version 1.9.2
+[3.419s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.464s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.492s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[5.689s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.723s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.141s] -- Found Qhull version 8.0.2
+[8.584s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.672s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[9.733s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.956s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.956s] -- Configured cppcheck include dirs: 
+[9.957s] -- Configured cppcheck exclude dirs and/or files: 
+[9.966s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.967s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.970s] -- Added test 'lint_cmake' to check CMake code style
+[9.972s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.984s] -- Added test 'uncrustify' to check C / C++ code style
+[9.985s] -- Configured uncrustify additional arguments: 
+[9.987s] -- Added test 'xmllint' to check XML markup files
+[9.992s] -- Configuring done (9.5s)
+[10.043s] -- Generating done (0.0s)
+[10.057s] -- Build files have been written to: /workspace/ros_ws/build/lakibeam1
+[10.107s] Invoked command in '/workspace/ros_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/lakibeam1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/lakibeam1
+[10.107s] Invoking command in '/workspace/ros_ws/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/lakibeam1 -- -j8 -l8
+[10.268s] [100%] Built target lakibeam1_scan_node
+[10.309s] Invoked command in '/workspace/ros_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/lakibeam1 -- -j8 -l8
+[10.312s] Invoking command in '/workspace/ros_ws/build/lakibeam1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/lakibeam1
+[10.345s] -- Install configuration: ""
+[10.346s] -- Execute custom install script
+[10.348s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/ament_index/resource_index/package_run_dependencies/lakibeam1
+[10.348s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/ament_index/resource_index/parent_prefix_path/lakibeam1
+[10.348s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.sh
+[10.351s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/ament_prefix_path.dsv
+[10.351s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/path.sh
+[10.351s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/environment/path.dsv
+[10.351s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.bash
+[10.351s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.sh
+[10.351s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.zsh
+[10.352s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/local_setup.dsv
+[10.358s] -- Symlinking: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/package.dsv
+[10.367s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/ament_index/resource_index/packages/lakibeam1
+[10.367s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config.cmake
+[10.367s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/cmake/lakibeam1Config-version.cmake
+[10.367s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/package.xml
+[10.367s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/lib/lakibeam1/lakibeam1_scan_node
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan.launch.py
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar.launch.py
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_dual_lidar_view.launch.py
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/launch/lakibeam1_scan_view.launch.py
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan.rviz
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/rviz/lakibeam1_scan_dual.rviz
+[10.371s] -- Up-to-date symlink: /workspace/ros_ws/install/lakibeam1/share/lakibeam1/rviz/rviz_scan.rviz
+[10.390s] Invoked command in '/workspace/ros_ws/build/lakibeam1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/lakibeam1

@@ -1,0 +1,23 @@
+[0.918s] Invoking command in '/workspace/ros_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/master -- -j8 -l8
+[1.684s] [100%] Built target master_node
+[1.749s] Invoked command in '/workspace/ros_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/master -- -j8 -l8
+[1.751s] Invoking command in '/workspace/ros_ws/build/master': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/master
+[1.796s] -- Install configuration: ""
+[1.819s] -- Execute custom install script
+[1.819s] -- Up-to-date symlink: /workspace/ros_ws/install/master/lib/master/master_node
+[1.820s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/ament_index/resource_index/package_run_dependencies/master
+[1.820s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/ament_index/resource_index/parent_prefix_path/master
+[1.820s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/environment/ament_prefix_path.sh
+[1.820s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/environment/ament_prefix_path.dsv
+[1.820s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/environment/path.sh
+[1.835s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/environment/path.dsv
+[1.836s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/local_setup.bash
+[1.836s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/local_setup.sh
+[1.837s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/local_setup.zsh
+[1.837s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/local_setup.dsv
+[1.837s] -- Symlinking: /workspace/ros_ws/install/master/share/master/package.dsv
+[1.855s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/ament_index/resource_index/packages/master
+[1.855s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/cmake/masterConfig.cmake
+[1.855s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/cmake/masterConfig-version.cmake
+[1.856s] -- Up-to-date symlink: /workspace/ros_ws/install/master/share/master/package.xml
+[2.014s] Invoked command in '/workspace/ros_ws/build/master' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/master

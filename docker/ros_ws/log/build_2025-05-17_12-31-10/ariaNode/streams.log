@@ -1,0 +1,23 @@
+[0.090s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j8 -l8
+[0.837s] [100%] Built target ariaNode
+[0.842s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j8 -l8
+[0.869s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode
+[0.910s] -- Install configuration: ""
+[0.910s] -- Execute custom install script
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/lib/ariaNode/ariaNode
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.sh
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.dsv
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.bash
+[0.910s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.sh
+[0.911s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.zsh
+[0.911s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.dsv
+[0.911s] -- Symlinking: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.dsv
+[0.950s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/packages/ariaNode
+[0.950s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake
+[0.951s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+[0.952s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.xml
+[0.961s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros_ws/install/nav2_gps_waypoint_follower_demo:/workspace/ros_ws/install/digit_recognition:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode

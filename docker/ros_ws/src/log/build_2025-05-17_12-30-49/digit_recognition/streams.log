@@ -1,0 +1,39 @@
+[3.195s] Invoking command in '/workspace/ros_ws/src/build/digit_recognition': PYTHONPATH=/workspace/ros_ws/src/build/digit_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros_ws/src/build/digit_recognition/build
+[4.309s] running develop
+[5.007s] Removing /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit-recognition.egg-link (link to .)
+[5.213s] Invoked command in '/workspace/ros_ws/src/build/digit_recognition' returned '0': PYTHONPATH=/workspace/ros_ws/src/build/digit_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/ros_ws/src/build/digit_recognition/build
+[5.215s] Invoking command in '/workspace/ros_ws/src/digit_recognition': PYTHONPATH=/workspace/ros_ws/src/build/digit_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/digit_recognition build --build-base /workspace/ros_ws/src/build/digit_recognition/build install --record /workspace/ros_ws/src/build/digit_recognition/install.log --single-version-externally-managed install_data --force
+[6.368s] running egg_info
+[6.432s] writing ../build/digit_recognition/digit_recognition.egg-info/PKG-INFO
+[6.436s] writing dependency_links to ../build/digit_recognition/digit_recognition.egg-info/dependency_links.txt
+[6.437s] writing entry points to ../build/digit_recognition/digit_recognition.egg-info/entry_points.txt
+[6.437s] writing requirements to ../build/digit_recognition/digit_recognition.egg-info/requires.txt
+[6.437s] writing top-level names to ../build/digit_recognition/digit_recognition.egg-info/top_level.txt
+[6.607s] reading manifest file '../build/digit_recognition/digit_recognition.egg-info/SOURCES.txt'
+[6.610s] writing manifest file '../build/digit_recognition/digit_recognition.egg-info/SOURCES.txt'
+[6.612s] running build
+[6.613s] running build_py
+[6.613s] creating /workspace/ros_ws/src/build/digit_recognition/build
+[6.613s] creating /workspace/ros_ws/src/build/digit_recognition/build/lib
+[6.613s] creating /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition
+[6.613s] copying digit_recognition/__init__.py -> /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition
+[6.613s] copying digit_recognition/model.py -> /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition
+[6.628s] copying digit_recognition/digit_recognition_node.py -> /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition
+[6.630s] running install
+[6.678s] running install_lib
+[6.801s] creating /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition
+[6.806s] copying /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition/__init__.py -> /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition
+[6.806s] copying /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition/model.py -> /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition
+[6.806s] copying /workspace/ros_ws/src/build/digit_recognition/build/lib/digit_recognition/digit_recognition_node.py -> /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition
+[6.807s] byte-compiling /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition/__init__.py to __init__.cpython-312.pyc
+[6.809s] byte-compiling /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition/model.py to model.cpython-312.pyc
+[6.819s] byte-compiling /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition/digit_recognition_node.py to digit_recognition_node.cpython-312.pyc
+[6.819s] running install_data
+[6.821s] copying package.xml -> /workspace/ros_ws/src/install/digit_recognition/share/digit_recognition
+[6.822s] copying model/mnist_cnn_model.pth -> /workspace/ros_ws/src/install/digit_recognition/share/digit_recognition/model
+[6.829s] running install_egg_info
+[7.017s] Copying ../build/digit_recognition/digit_recognition.egg-info to /workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages/digit_recognition-0.0.0-py3.12.egg-info
+[7.021s] running install_scripts
+[7.537s] Installing digit_recognition_node script to /workspace/ros_ws/src/install/digit_recognition/lib/digit_recognition
+[7.537s] writing list of installed files to '/workspace/ros_ws/src/build/digit_recognition/install.log'
+[7.825s] Invoked command in '/workspace/ros_ws/src/digit_recognition' returned '0': PYTHONPATH=/workspace/ros_ws/src/build/digit_recognition/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros_ws/src/install/digit_recognition/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/digit_recognition build --build-base /workspace/ros_ws/src/build/digit_recognition/build install --record /workspace/ros_ws/src/build/digit_recognition/install.log --single-version-externally-managed install_data --force

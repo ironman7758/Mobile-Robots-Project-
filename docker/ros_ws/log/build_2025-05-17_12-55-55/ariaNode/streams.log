@@ -1,0 +1,49 @@
+[0.056s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/ariaNode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/ariaNode
+[0.815s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.815s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.815s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.815s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.815s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.815s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.815s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.816s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.902s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.022s] [0mThe root directory is /opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules[0m
+[1.023s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.428s] WARNING: Package name "ariaNode" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.541s] -- Configured cppcheck include dirs: 
+[1.541s] -- Configured cppcheck exclude dirs and/or files: 
+[1.544s] -- Added test 'lint_cmake' to check CMake code style
+[1.545s] -- Added test 'uncrustify' to check C / C++ code style
+[1.545s] -- Configured uncrustify additional arguments: 
+[1.548s] -- Added test 'xmllint' to check XML markup files
+[1.553s] -- Configuring done (1.5s)
+[1.607s] -- Generating done (0.0s)
+[1.618s] -- Build files have been written to: /workspace/ros_ws/build/ariaNode
+[1.638s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /workspace/ros_ws/src/ariaNode -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/ariaNode
+[1.641s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j8 -l8
+[1.913s] [100%] Built target ariaNode
+[1.938s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /workspace/ros_ws/build/ariaNode -- -j8 -l8
+[1.941s] Invoking command in '/workspace/ros_ws/build/ariaNode': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode
+[1.989s] -- Install configuration: ""
+[1.990s] -- Execute custom install script
+[1.994s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/lib/ariaNode/ariaNode
+[1.994s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/package_run_dependencies/ariaNode
+[1.995s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/parent_prefix_path/ariaNode
+[1.995s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.sh
+[1.995s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/ament_prefix_path.dsv
+[1.997s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.sh
+[1.997s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/environment/path.dsv
+[1.997s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.bash
+[1.997s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.sh
+[1.997s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.zsh
+[1.998s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/local_setup.dsv
+[1.998s] -- Symlinking: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.dsv
+[2.017s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ament_index/resource_index/packages/ariaNode
+[2.018s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig.cmake
+[2.018s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/cmake/ariaNodeConfig-version.cmake
+[2.018s] -- Up-to-date symlink: /workspace/ros_ws/install/ariaNode/share/ariaNode/package.xml
+[2.021s] Invoked command in '/workspace/ros_ws/build/ariaNode' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /workspace/ros_ws/build/ariaNode
