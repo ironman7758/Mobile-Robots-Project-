@@ -1,1 +1,4 @@
 /ROS2_sim
+docker/ros_ws/log
+docker/ros_ws/install
+docker/ros_ws/src/build
