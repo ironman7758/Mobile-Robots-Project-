@@ -7,10 +7,12 @@ setup.py
 ../../build/digit_recognition/digit_recognition.egg-info/entry_points.txt
 ../../build/digit_recognition/digit_recognition.egg-info/requires.txt
 ../../build/digit_recognition/digit_recognition.egg-info/top_level.txt
-../../build/digit_recognition/digit_recognition.egg-info/zip-safe
 digit_recognition/__init__.py
+digit_recognition/color_detection_node.py
 digit_recognition/digit_recognition_node.py
 digit_recognition/model.py
+digit_recognition/train_mnist.py
+digit_recognition/train_mnist_raw.py
 digit_recognition/model/mnist_cnn_model.pth
 test/test_copyright.py
 test/test_flake8.py

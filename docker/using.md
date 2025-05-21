@@ -46,7 +46,7 @@ colcon build
 source install/setup.bash
 
 export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:$(ros2 pkg prefix p3at_description)/share 
-c  # Add your package’s share directory to Gazebo’s resource path
+# Add your package’s share directory to Gazebo’s resource path
 
 
 export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ros2_ws/src/gazebo_ws-jazzy/src/p3at_description/models
@@ -66,8 +66,7 @@ Terminal 3:
   $(ros2 pkg prefix p3at_description)/share/p3at_description/rviz/display.rviz
 
 
- ros2 launch slam_toolbox online_async_launch.py   slam_params_file:=/workspace/ros_ws/src/p3at_description/config/mapper_par
-ams_online_async.yaml   use_sim_time:=false autostart:=true
+ros2 launch slam_toolbox online_async_launch.py  slam_params_file:=/workspace/ros_ws/src/p3at_description/config/mapper_params_online_async.yaml use_sim_time:=false autostart:=true
 
 
   -------
@@ -94,8 +93,6 @@ ros2 run digit_recognition digit_recognition_node \
     -r /camera/image_raw:=/image
 
 
-
-
 3. in seperate terminals
 
 ros2 run image_tools showimage --ros-args -r image:=/digit_thresh
@@ -104,5 +101,28 @@ ros2 topic echo /digit_classification_result
 
 
 
+# FOR Color Detection 
 
 
+
+cd /workspace/ros_ws
+colcon build --packages-select digit_recognition
+source install/setup.bash
+
+ros2 run digit_recognition color_detection_node
+
+
+
+cd /workspace/ros_ws
+colcon build --packages-select digit_recognition
+source install/setup.bash
+
+ros2 run digit_recognition color_detection_node \
+  --ros-args -r /camera/image_raw:=/image
+
+
+
+
+
+
+ros2 run tf2_tools view_frames
