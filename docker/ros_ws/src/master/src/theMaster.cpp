@@ -33,10 +33,13 @@ class joyreader : public rclcpp::Node
     void joyCallback(const sensor_msgs::msg::Joy::SharedPtr msg)
     {
       bool obutton = (bool) msg->buttons[1];
+      //printf("got O\n");
       bool xbutton = (bool) msg->buttons[0];
+      //printf("got O\n");
       bool lbumper = (bool) msg->buttons[4];
+      //printf("got Lbuump\n");
       bool tributton = (bool) msg->buttons[2];
-
+      //printf("got Tri\n");
       *mbutt = obutton;
       *abutt = xbutton;
       *dswch = lbumper;
@@ -86,25 +89,22 @@ class reTwist : public rclcpp::Node
           switch(*m)
           {
             case 1: //manual mode
-              message.linear.x = *twistf; 
-              message.angular.z = *twistr;
-              retf = twistf; 
-              reta = twistr;
+              message.linear.x = twistf; 
+              message.angular.z = twistr;
+              printf("manual output\n");
               break;
             case 2: //automatic mode
               if(*trigger)
               {
-                message.linear.x = *navf;
-                message.angular.z = *navr;
-                retf = navf; 
-                reta = navr;
+                message.linear.x = navf;
+                message.angular.z = navr;
+                printf("auto output\n");
                 break;
               }
-            case 0: //deactivated
+            default: //deactivated
               message.linear.x = empty;
               message.angular.z = empty;
-              *retf = empty;
-              *reta = empty;
+              printf("no output\n");
               break; 
           }
           this->publisher_ ->publish(message);
@@ -117,16 +117,16 @@ class reTwist : public rclcpp::Node
       double linearSpeed = msg->linear.x;
       double angularSpeed = msg->angular.z;
       
-      *twistf = linearSpeed;
-      *twistr = angularSpeed;
+      twistf = linearSpeed;
+      twistr = angularSpeed;
     }
     void navCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
     {
       double linearSpeed = msg->linear.x;
       double angularSpeed = msg->angular.z;
       
-      *twistf = linearSpeed;
-      *twistr = angularSpeed;
+      twistf = linearSpeed;
+      twistr = angularSpeed;
     }
 
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr twistVelSub;
@@ -140,10 +140,10 @@ class reTwist : public rclcpp::Node
     float* reta;
     bool* trigger;
 
-    float* twistf;
-    float* twistr;
-    float* navf;
-    float* navr;
+    float twistf;
+    float twistr;
+    float navf;
+    float navr;
     int* m;
 };
 
@@ -161,11 +161,12 @@ int main(int argc, char ** argv)
   bool manualbutton;
   bool autobutton;
 
-  int mode;
+  int mode = 0;
 
   bool manualmode = false;
   bool automode = false;
   bool trigger = false;
+  bool trig2 = false;
   bool stop = false;
 
   float fS = 0.0;
@@ -181,13 +182,14 @@ int main(int argc, char ** argv)
   //Make sure auto doesn't turn off when button is not depressed
   
 
-  auto MoveNode = std::make_shared<reTwist>(&fS, &rS, &mode, &trigger);
+  auto MoveNode = std::make_shared<reTwist>(&fS, &rS, &mode, &trig2);
   printf("reTwist is up\n");
 
   //rclcpp::spin(VNode);
   while(active)
   {
-
+    trig2 = trigger; 
+    //printf("setting trig2\n");
     rclcpp::spin_some(MoveNode);
 
     //check the buttons again
@@ -197,18 +199,20 @@ int main(int argc, char ** argv)
       manualmode = true;
       automode = false;
       printf("manual mode activated!!\n");
+      mode = 1;
     }
     else if (autobutton && !automode)
     {
       automode = true;
       manualmode = false;
       printf("automatic mode activated!!\n");
+      mode = 2;
     }
 
     if (stop)
     {
       printf("emergency stop!!! please restart the node to regain functionality");
-      break;
+      mode = 0;
     }
   }
 

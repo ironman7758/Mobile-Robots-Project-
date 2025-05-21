@@ -11,7 +11,7 @@ setup.py
 digit_recognition/__init__.py
 digit_recognition/digit_recognition_node.py
 digit_recognition/model.py
-model/mnist_cnn_model.pth
+digit_recognition/model/mnist_cnn_model.pth
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

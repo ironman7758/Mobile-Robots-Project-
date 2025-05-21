@@ -1,14 +1,26 @@
 from setuptools import setup, find_packages
-import os
-from glob import glob
 
 package_name = 'digit_recognition'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=find_packages(include=[package_name, package_name + '.*']),
-    install_requires=['setuptools'],
+    package_data={
+        # include the trained model file
+        package_name: ['model/*.pth'],
+    },
+    install_requires=[
+        'setuptools',
+        'torch',
+        'torchvision',
+        'opencv-python',
+        'numpy',
+        'cv_bridge',
+        'rclpy',
+        'sensor_msgs',
+        'std_msgs',
+    ],
     zip_safe=True,
     maintainer='team2',
     maintainer_email='team2@example.com',
@@ -17,12 +29,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            # Inference node
             'digit_recognition_node = digit_recognition.digit_recognition_node:main',
+            # Training script
+            'train_mnist = digit_recognition.train_mnist:main',
         ],
     },
-    data_files=[
-        ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'model'),
-         glob('model/*.pth')),
-    ],
 )

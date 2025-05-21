@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "launch" "meshes" "urdf" "world" "rviz" "config" "DESTINATION" "share/")
-ament_cmake_symlink_install_directory("/workspace/ros_ws/src/p3at_description" DIRECTORY "launch" "meshes" "urdf" "world" "rviz" "config" "DESTINATION" "share/")
+# install(DIRECTORY "launch" "meshes" "urdf" "world" "rviz" "config" "DESTINATION" "share/p3at_description")
+ament_cmake_symlink_install_directory("/workspace/ros_ws/src/p3at_description" DIRECTORY "launch" "meshes" "urdf" "world" "rviz" "config" "DESTINATION" "share/p3at_description")
 
 # install(FILES "/workspace/ros_ws/build/p3at_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/p3at_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/workspace/ros_ws/src/p3at_description" FILES "/workspace/ros_ws/build/p3at_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/p3at_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

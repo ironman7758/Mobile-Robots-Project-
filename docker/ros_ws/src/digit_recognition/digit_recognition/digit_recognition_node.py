@@ -69,7 +69,7 @@ class DigitRecognitionNode(Node):
 
         # 4) INSIDE PAPER → CLEAN DIGIT MASK
         paper_gray = gray[y:y+h, x:x+w]
-
+        
         # A) Blur + Otsu threshold
         blur = cv2.GaussianBlur(paper_gray, (3,3), 0)
         _, mask_d = cv2.threshold(
@@ -92,7 +92,8 @@ class DigitRecognitionNode(Node):
         self.digit_mask_pub.publish(self.bridge.cv2_to_imgmsg(mask_d, 'mono8'))
 
         # D) Find largest digit contour
-        dcnts,_ = cv2.findContours(mask_d, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        dcnts,_ = cv2.findContours(mask_d, cv2.RETR_EXTER
+        NAL, cv2.CHAIN_APPROX_SIMPLE)
         if not dcnts:
             return
         dx,dy,dw,dh = cv2.boundingRect(max(dcnts, key=cv2.contourArea))
@@ -109,7 +110,8 @@ class DigitRecognitionNode(Node):
                       (0,255,0), 2)
 
         # 5) Prepare 28×28 ROI for CNN (with proper normalization)
-        digit_roi = mask_d[y2:y3, x2:x3]
+        #digit_roi = mask_d[y2:y3, x2:x3]
+        digit_roi = mask_p[y2:y3, x2:x3]
         size      = max(x3-x2, y3-y2)
         bx        = (size - (x3-x2))//2
         by        = (size - (y3-y2))//2
