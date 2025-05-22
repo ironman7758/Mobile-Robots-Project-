@@ -16,8 +16,15 @@ source /opt/ros/jazzy/setup.bash
 ros2 run <packagename> <nodename>
 --specifally:
 ros2 launch teleop_twist_joy teleop-launch.py joy_config:='ps4' joy_vel:="joy_vel"
+
+
+
+cd /workspace/ros_ws
+source install/setup.bash
 ros2 run ariaNode ariaNode -rp /dev/ttyUSB0
 
+cd /workspace/ros_ws
+source install/setup.bash
 ros2 run master master_node 
 
 --launching phigets spatial
