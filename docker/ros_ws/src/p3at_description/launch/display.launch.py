@@ -99,18 +99,26 @@ def generate_launch_description():
     # )
 
 
-    # Static transforms
-    static_map_to_odom = Node(
-        package='tf2_ros', executable='static_transform_publisher',
-        name='map_to_odom', output='screen',
-        arguments=['0','0','0','0','0','0','1','map','odom']
-    )
+    # # Static transforms
+    # static_map_to_odom = Node(
+    #     package='tf2_ros', executable='static_transform_publisher',
+    #     name='map_to_odom', output='screen',
+    #     arguments=['0','0','0','0','0','0','1','map','odom']
+    # )
 
+    '''
     static_odom_to_base_link = Node(
         package='tf2_ros', executable='static_transform_publisher',
         name='odom_to_base_link', output='screen',
         arguments=['0','0','0','0','0','0','1','odom','base_link']
     )
+    '''
+    
+
+
+
+
+
 
     laser_broadcaster = Node(
         package='tf2_ros', executable='static_transform_publisher',
@@ -148,8 +156,8 @@ def generate_launch_description():
         joint_state_pub,
         ros_gz_bridge,
         robot_localization_node,
-        static_map_to_odom,
-        static_odom_to_base_link,
+        # static_map_to_odom,
+        #static_odom_to_base_link,
         laser_broadcaster,
         sdf_world,
         spawn_entity,

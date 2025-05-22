@@ -25,7 +25,7 @@ ros2 run master master_node
 
 
  ---Extra to make sure display works!:
- export DISPLAY=:0.0
+ export DISPLAY=:0.0 
 
 
  -----------
