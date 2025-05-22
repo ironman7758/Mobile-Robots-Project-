@@ -52,6 +52,25 @@ RUN /bin/bash -c "source /opt/ros/jazzy/setup.bash; colcon build"
 
 RUN apt install ros-jazzy-imu-tools -y
 
+
+
+#################################################
+#PYTHON INSTALL
+#################################################
+
+RUN apt update && apt install -y python3 python3-pip
+
+##################################################
+#ADD PYTORCH AND TORCHVISION
+#################################################
+
+RUN apt update && apt install python3-pip -y
+RUN pip3 install --default-timeout=200 \
+    torch torchvision torchaudio \
+    --index-url https://download.pytorch.org/whl/cu118 \
+    --break-system-packages
+
+
 ##Final setup
 WORKDIR /workspace
 ENV SHELL=/bin/[bash]
@@ -89,18 +108,3 @@ ADD configs/dual_ekf_navsat_example.yaml /opt/ros/jazzy/share/phidgets_spatial/l
 RUN apt install nano
 
 
-#################################################
-#PYTHON INSTALL
-#################################################
-
-RUN apt update && apt install -y python3 python3-pip
-
-##################################################
-#ADD PYTORCH AND TORCHVISION
-#################################################
-
-RUN apt update && apt install python3-pip -y
-RUN pip3 install --default-timeout=100 \
-    torch torchvision torchaudio \
-    --index-url https://download.pytorch.org/whl/cu118 \
-    --break-system-packages

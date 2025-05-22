@@ -18,6 +18,7 @@ ros2 run <packagename> <nodename>
 ros2 launch teleop_twist_joy teleop-launch.py joy_config:='ps4' joy_vel:="joy_vel"
 ros2 run ariaNode ariaNode -rp /dev/ttyUSB0
 
+ros2 run master master_node 
 
 --launching phigets spatial
  ros2 launch phidgets_spatial spatial-launch.py
@@ -54,7 +55,7 @@ echo $GAZEBO_MODEL_PATH # Add your models directory to Gazebo’s model path
 
 
 
-ros2 launch p3at_description display.launch.py rviz:=false use_sim_time:=false # Launch your robot description in RViz/Gazebo
+ros2 launch p3at_description display.launch.py rviz:=true use_sim_time:=false # Launch your robot description in RViz/Gazebo
 
 Terminal 2:
 ros2 launch nav2_bringup navigation_launch.py \
@@ -69,28 +70,36 @@ Terminal 3:
 ros2 launch slam_toolbox online_async_launch.py  slam_params_file:=/workspace/ros_ws/src/p3at_description/config/mapper_params_online_async.yaml use_sim_time:=false autostart:=true
 
 
+
   -------
 
   # CAMERA SETUP
 
 Run Number Detection Node:
 
-1. 
-ros2 run image_transport republish raw raw \
-  --ros-args \
-    -r in:=/camera/rgb/image_raw \
-    -r out:=/image
+  1. 
+  ros2 run image_transport republish raw raw \
+    --ros-args \
+      -r in:=/camera/rgb/image_raw \
+      -r out:=/image
 
 
-2. 
+  2. 
 
-cd /workspace/ros_ws
-colcon build --packages-select digit_recognition
-source install/setup.bash
+    cd /workspace/ros_ws
+    colcon build --packages-select digit_recognition
+    source install/setup.bash
+
+    ros2 run digit_recognition digit_recognition_node \
+      --ros-args \
+        -r /camera/image_raw:=/image
+
+  
+#UPDATED
 
 ros2 run digit_recognition digit_recognition_node \
-  --ros-args \
-    -r /camera/image_raw:=/image
+  --ros-args -r /camera/image_raw:=/image
+
 
 
 3. in seperate terminals
@@ -126,3 +135,5 @@ ros2 run digit_recognition color_detection_node \
 
 
 ros2 run tf2_tools view_frames
+
+ros2 launch imu_filter_madgwick imu_filter.launch.py

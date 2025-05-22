@@ -29,12 +29,12 @@ class ColorDetectionNode(Node):
         self.bridge = CvBridge()
 
         # HSV thresholds
-        self.yellow_lower = np.array([10, 100, 100])
-        self.yellow_upper = np.array([40, 255, 255])
-        self.red_lower1   = np.array([0, 100, 100])
-        self.red_upper1   = np.array([5, 255, 255])
-        self.red_lower2   = np.array([160, 100, 100])
-        self.red_upper2   = np.array([179, 255, 255])
+        self.yellow_lower = np.array([40, 100, 100])
+        self.yellow_upper = np.array([50, 255, 255])
+        self.red_lower1   = np.array([0, 100,   100])
+        self.red_upper1   = np.array([15, 255, 255])
+        #self.red_lower2   = np.array([160, 100, 100])
+        #self.red_upper2   = np.array([179, 255, 255])
 
         # Cool-down
         self.last_save     = 0.0
@@ -63,7 +63,7 @@ class ColorDetectionNode(Node):
         yellow_mask = cv2.inRange(hsv, self.yellow_lower, self.yellow_upper)
         red_mask    = cv2.bitwise_or(
             cv2.inRange(hsv, self.red_lower1, self.red_upper1),
-            cv2.inRange(hsv, self.red_lower2, self.red_upper2)
+            #cv2.inRange(hsv, self.red_lower2, self.red_upper2)
         )
 
         # Morphology to clean up noise

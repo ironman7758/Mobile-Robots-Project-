@@ -86,6 +86,19 @@ def generate_launch_description():
         ]
     )
 
+
+    # slam_toolbox = Node(
+    #     package='slam_toolbox',
+    #     executable='ekf_node',
+    #     name='ekf_node',
+    #     output='screen',
+    #     parameters=[
+    #         os.path.join(pkg_share, 'config', 'ekf.yaml'),
+    #         {'use_sim_time': LaunchConfiguration('use_sim_time')}
+    #     ]
+    # )
+
+
     # Static transforms
     static_map_to_odom = Node(
         package='tf2_ros', executable='static_transform_publisher',
