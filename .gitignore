@@ -2,3 +2,4 @@
 docker/ros_ws/log
 docker/ros_ws/install
 docker/ros_ws/src/build
+docker/ros_ws/src/lakibeam1
