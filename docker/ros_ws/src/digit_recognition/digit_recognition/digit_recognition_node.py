@@ -132,14 +132,29 @@ class DigitRecognitionNode(Node):
         S   = max(x3-x2, y3-y2)
         bx  = (S - (x3-x2)) // 2
         by  = (S - (y3-y2)) // 2
+        
+        
         sq  = cv2.copyMakeBorder(roi, by, S - (y3-y2) - by,
                                  bx, S - (x3-x2) - bx,
                                  cv2.BORDER_CONSTANT, 0)
-        img28 = cv2.resize(sq, (28, 28)).astype(np.float32) / 255.0
+        img28 = cv2.resize(sq, (20, 20)).astype(np.float32) / 255.0
+        img28 = cv2.copyMakeBorder(img28, 4, 4, 4, 4, cv2.BORDER_CONSTANT, value=0)
         img28 = (img28 - 0.5) / 0.5
+       
+        
+        img28 = cv2.GaussianBlur(img28, (5,5), 0)
+        #img28 = cv2.GaussianBlur(img28, (5,5), 0)
+        #img28 = cv2.GaussianBlur(img28, (5,5), 0)
+
+        # mask = np.zeros(img28.shape[:2], dtype="uint8")
+        # cv2.rectangle(img28, (0, 90), (290, 450), 255, -1)
+        # img28 = cv2.bitwise_and(img28, img28, mask=mask)
+        
+
         self.roi.publish(self.bridge.cv2_to_imgmsg(
             (((img28*0.5)+0.5)*255).astype(np.uint8), 'mono8'))
         
+
         # 5) ───────── inference ─────────
         t = torch.from_numpy(img28).unsqueeze(0).unsqueeze(0)
         with torch.no_grad():
