@@ -17,6 +17,46 @@ ros2 run <packagename> <nodename>
 --specifally:
 
 
+# CAMERA SETUP
+
+# Run Number Detection Node:
+
+  # republish node
+
+    ros2 run image_transport republish raw raw \
+    --ros-args \
+      -r in:=/camera/rgb/image_raw \
+      -r out:=/image
+ 
+  # digit detection
+
+    cd /workspace/ros_ws
+    colcon build --packages-select digit_recognition
+    source install/setup.bash
+ 
+    ros2 run digit_recognition digit_recognition_node \
+      --ros-args \
+        -r /camera/image_raw:=/image
+ 
+# FOR Color Detection 
+
+# Running color detection node
+cd /workspace/ros_ws
+colcon build --packages-select digit_recognition
+source install/setup.bash
+ 
+ros2 run digit_recognition color_detection_node
+
+# Running color detection node and remap
+cd /workspace/ros_ws
+colcon build --packages-select digit_recognition
+source install/setup.bash
+ 
+ros2 run digit_recognition color_detection_node \
+  --ros-args -r /camera/image_raw:=/image
+ 
+
+
 # SLAM SETUP + MANUAL DRIVE: or Full setup for part 2
 
 # RUNNING CONTROLLER
@@ -44,7 +84,7 @@ ros2 launch lakibeam1 lakibeam1_scan.launch.py
 
 # Running Gazebo + topics
 
-cd ~/ros_ws
+cd /workspace/ros_ws
 colcon build
 source install/setup.bash
 
@@ -76,45 +116,7 @@ rviz2
   $(ros2 pkg prefix p3at_description)/share/p3at_description/rviz/display.rviz
 
 
-# CAMERA SETUP
 
-# Run Number Detection Node:
-
-  # republish node
-
-  ros2 run image_transport republish raw raw \                      
-    --ros-args \
-      -r in:=/camera/rgb/image_raw \
-      -r out:=/image
- 
-  # digit detection
-
-    cd /workspace/ros_ws
-    colcon build --packages-select digit_recognition           # 
-    source install/setup.bash
-
-    ros2 run digit_recognition digit_recognition_node \
-      --ros-args \
-        -r /camera/image_raw:=/image
-
-
-# FOR Color Detection 
-
-# Running color detection node
-cd /workspace/ros_ws
-colcon build --packages-select digit_recognition
-source install/setup.bash
-
-ros2 run digit_recognition color_detection_node
-
-
-# Running color detection node and remap
-cd /workspace/ros_ws
-colcon build --packages-select digit_recognition
-source install/setup.bash
-
-ros2 run digit_recognition color_detection_node \
-  --ros-args -r /camera/image_raw:=/image
 
 
 

@@ -30,10 +30,10 @@ class ColorDetectionNode(Node):
         self.bridge = CvBridge()
 
         # HSV thresholds
-        self.yellow_lower = np.array([40, 100, 100])
+        self.yellow_lower = np.array([20, 100, 100])
         self.yellow_upper = np.array([50, 255, 255])
-        self.red_lower1   = np.array([0,   100, 100])
-        self.red_upper1   = np.array([15,  255, 255])
+        self.red_lower1   = np.array([0,   120, 120])   
+        self.red_upper1   = np.array([10,  255, 255])
 
         # Cool-down interval
         self.last_save     = 0.0
