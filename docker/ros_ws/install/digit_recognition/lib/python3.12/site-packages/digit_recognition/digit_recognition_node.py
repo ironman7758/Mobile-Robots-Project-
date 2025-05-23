@@ -131,8 +131,11 @@ class DigitRecognitionNode(Node):
         img28 = cv2.copyMakeBorder(img20,4,4,4,4,cv2.BORDER_CONSTANT,value=0).astype(np.float32)
         img28 = (img28-0.5)/0.5
         img28 = cv2.GaussianBlur(img28,(3,3),0)
+        #img28 = cv2.threshold(img28,127,255,cv2.THRESH_BINARY)
         self.roi.publish(self.bridge.cv2_to_imgmsg(((img28*0.5+0.5)*255).astype(np.uint8),'mono8'))
 
+        #self.roi.publish(self.bridge.cv2_to_imgmsg(((img28)).astype(np.uint8),'mono8'))
+        
         # 5) Inference
         t = torch.from_numpy(img28).unsqueeze(0).unsqueeze(0)
         with torch.no_grad():

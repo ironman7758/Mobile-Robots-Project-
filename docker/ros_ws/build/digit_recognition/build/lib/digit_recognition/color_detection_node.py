@@ -37,7 +37,7 @@ class ColorDetectionNode(Node):
 
         # Cool-down interval
         self.last_save     = 0.0
-        self.save_interval = 5.0  # seconds
+        self.save_interval = 10.0  # seconds
 
         # Output folder (package/detections)
         base_dir = os.path.dirname(__file__)
